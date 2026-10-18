@@ -1,0 +1,239 @@
+{
+  "Features": "ArmyRules",
+  "Factions": [
+    {
+      "Name": "Sentinels",
+      "FactionKeyword": "Sentinels",
+      "Category": "Fracture",
+      "MainColor": "#315C91",
+      "DarkColor": "#6FA4D9"
+    },
+    {
+      "Name": "Marauders",
+      "FactionKeyword": "Marauders",
+      "Category": "Fracture",
+      "MainColor": "#6C792E",
+      "DarkColor": "#A5B65A"
+    },
+    {
+      "Name": "The Endless",
+      "FactionKeyword": "The Endless",
+      "Category": "Fracture",
+      "MainColor": "#25694D",
+      "DarkColor": "#60B38B"
+    },
+    {
+      "Name": "The Swarm",
+      "FactionKeyword": "The Swarm",
+      "Category": "Fracture",
+      "MainColor": "#703D81",
+      "DarkColor": "#B77FC8"
+    },
+    {
+      "Name": "Voidborn Corsairs",
+      "FactionKeyword": "Voidborn Corsairs",
+      "Category": "Fracture",
+      "MainColor": "#286E7A",
+      "DarkColor": "#62B4C4"
+    }
+  ],
+  "CoreAbilities": [
+    {
+      "Regex": "^Agile$",
+      "Description": "This vehicle may make an additional 45 degree pivot during either their Move or Advance action."
+    },
+    {
+      "Regex": "^Flying$",
+      "Description": "Models with this rule are not affected by intervening terrain or models when they move, so long as they finish their move in an allowed position. These models ignore any penalties for changing height levels."
+    },
+    {
+      "Regex": "^Heavy\\ Armour\\ (?<value>\\d+)$",
+      "Description": "Reduce the piercing value of attacks made against this model by {value} to a minimum of 0."
+    },
+    {
+      "Regex": "^Large$",
+      "Description": "This model counts as 2 models for calculating how many models a Transport can carry."
+    },
+    {
+      "Regex": "^Non\\-Scoring$",
+      "Description": "This unit cannot perform the Secure action."
+    },
+    {
+      "Regex": "^Platform\\ (?<value>\\d+)$",
+      "Description": "When taking an attack action this model may make attacks with {value} weapons it is equipped with instead of 1."
+    },
+    {
+      "Regex": "^Resilient$",
+      "Description": "This model may re-roll any failed Defence Rolls."
+    },
+    {
+      "Regex": "^Rugged$",
+      "Description": "This model ignores the penalty for travelling through rough terrain."
+    },
+    {
+      "Regex": "^Shields$",
+      "Description": "While this model has it's full Hit Points it may re-roll failed attempts to Counter Damage."
+    },
+    {
+      "Regex": "^Skilled$",
+      "Description": "This model may re-roll any failed Attack Rolls."
+    },
+    {
+      "Regex": "^Steady$",
+      "Description": "This model ignores the Heavy special rule."
+    },
+    {
+      "Regex": "^Stealth\\ (?<value>\\d+)$",
+      "Description": "Attacks against this model from more than {value} inches away suffer -1 to their attack rolls."
+    },
+    {
+      "Regex": "^Support$",
+      "Description": "Models with this rule do not need to be deployed on the first turn and may instead be held in reserve in subsequent turns. These models must be deployed in the second or third turn."
+    },
+    {
+      "Regex": "^Transport\\ (?<value>\\d+)$",
+      "Description": "A vehicle with capacity for {value} models. Other Vehicles and Transports cannot embark; Large models count as two. A whole unit within 1 inch may Embark if it fits; remove it to reserve. An embarked unit with Command Points remaining may activate to Disembark, using the transport as its Entry Point and deploying up to its Movement in inches away. It cannot Move or Advance in that activation; unplaceable models are destroyed. Units may start the game embarked. If the transport is destroyed, place passengers as close as possible in formation and reduce them to 0 Command Points; unplaceable models are destroyed. Vehicle rules also apply. See Cadence Advanced Rules: Vehicles and Transports for full details."
+    },
+    {
+      "Regex": "^Weak\\ Spot\\ (?<value>[^)]+)$",
+      "Description": "Against attacks which originate in the named arc {value}, this model has -1 to its Counter Rolls."
+    },
+    {
+      "Regex": "^Vehicle$",
+      "Description": "Vehicles move directly forward or backward. During a Move or Advance action they may pivot up to twice, each by up to 45 degrees, with at least 1 inch of movement between pivots. Vehicles cannot cross another model’s base, and friendly models cannot cross theirs. Climbable terrain is impassable, and terrain Cover gives no benefit. Vehicles ignore Heavy; attacks against them treat obscured line of sight as clear. Unless stated otherwise they have Platform 2 (attack with two weapons) and Weak Spot Rear (-1 to Counter Rolls against attacks from the rear). See Cadence Advanced Rules: Vehicles and Transports for full details."
+    },
+    {
+      "Regex": "^Cowardly$",
+      "Description": "This unit has -1 to all Morale tests."
+    },
+    {
+      "Regex": "^Heroic$",
+      "Description": "This unit may re-roll failed morale tests."
+    },
+    {
+      "Regex": "^Unbreakable$",
+      "Description": "This unit automatically passes morale tests."
+    },
+    {
+      "Regex": "^Reanimation(?: \\(1 Cmd\\))?$",
+      "Description": "Ability (1 Command Point): This model chooses a friendly Warrior Host or Protean Adapt unit within 3 inches and rolls a d6. On a roll of a 3+ the unit may restore a lost hit point to one of its models, or if there are no models with reduced hit points, it may restore 1 destroyed model to the unit with 1 hit point remaining. This model must be placed in formation and within 3 inches of this unit."
+    },
+    {
+      "Regex": "^Regeneration$",
+      "Description": "At the end of its activation this model may roll a d6, on a roll of 6+ this model recovers 1 lost hit point."
+    },
+    {
+      "Regex": "^Swarm\\ Leader$",
+      "Description": "Friendly models within 6 inches of this model automatically pass Morale Tests."
+    },
+    {
+      "Regex": "^Psionic\\ Field$",
+      "Description": "This model always passes a Defence Roll on a physical roll of a 6 regardless of modifiers."
+    }
+  ],
+  "WeaponAbilities": [
+    {
+      "Regex": "^Accurate$",
+      "Description": "When making an attack with this weapon your attack roll has a +1 modifier."
+    },
+    {
+      "Regex": "^Arc\\ (?<value>[^)]+)$",
+      "Description": "Attacks with this weapon can only target models in the named arc ({value})."
+    },
+    {
+      "Regex": "^Assault$",
+      "Description": "This weapon does not suffer from the Rush Penalty or Close Range Penalty or when making attacks."
+    },
+    {
+      "Regex": "^Blast\\ (?<value>\\d+)$",
+      "Description": "If this weapon has at least one successful hit then it also counts as doing {value} hits to every other model, enemy or friendly, within 2 inches of the center of the original targets base."
+    },
+    {
+      "Regex": "^Destructive\\ (?<value>\\d+)$",
+      "Description": "Each failed Defence Roll against this weapon causes {value} damage instead of 1."
+    },
+    {
+      "Regex": "^Fixed$",
+      "Description": "Attacks with this weapon can only target models that lie directly in the path of this model's forward facing."
+    },
+    {
+      "Regex": "^Grenade$",
+      "Description": "Only 1 model in a unit may use a weapon with this rule per Attack Action. This weapon may not target a model closer than 3 inches."
+    },
+    {
+      "Regex": "^Heavy$",
+      "Description": "A unit must spend an additional Command Point to use this weapon."
+    },
+    {
+      "Regex": "^Inaccurate$",
+      "Description": "When making an attack with this weapon your Skill counts as 6+."
+    },
+    {
+      "Regex": "^Indirect$",
+      "Description": "Attacks with this weapon count an obscured line of sight as clear. This supercedes the Stealth special rule."
+    },
+    {
+      "Regex": "^One[ -]Use$",
+      "Description": "This weapon may only be used once per battle."
+    },
+    {
+      "Regex": "^Rapid\\ Fire\\ (?<value>\\d+)$",
+      "Description": "This weapon may make {value} additional attacks at no additional Command Point cost. After each attack you may choose the same model as the target for the next attack or another model within 1 inch of the original."
+    },
+    {
+      "Regex": "^Rending\\ (?<value>\\d+)$",
+      "Description": "When an attack with this weapon hits with a roll of 6, it counts as doing {value} additional hits."
+    },
+    {
+      "Regex": "^Shred$",
+      "Description": "Rolls to Counter Damage have a -1 modifier against weapons with this rule."
+    },
+    {
+      "Regex": "^Torrent$",
+      "Description": "An attack with this weapon hits on any attack roll that is not a 1."
+    },
+    {
+      "Regex": "^Volatile$",
+      "Description": "Any attack roll that rolls a 1 counts as hitting the model that made the attack."
+    },
+    {
+      "Regex": "^Volley$",
+      "Description": "Each attack roll that rolls a 6 allows the attacker to roll an additional attack roll, these additional rolls do not generate additional rolls."
+    },
+    {
+      "Regex": "^Long\\ Shot$",
+      "Description": "This weapon may add 8 inches to it's Range but if it does it reduces it's Attacks to 1."
+    },
+    {
+      "Regex": "^Overcharge$",
+      "Description": "This weapon may add 1 to it's Attacks attribute, if it does so any Attack Roll of 1 counts as hitting the attacking model instead."
+    },
+    {
+      "Regex": "^Entropy$",
+      "Description": "Any unit that loses a wound to this weapon also loses up to 2 Command Points."
+    }
+  ],
+  "BattleSizeDefinitions": [
+    {
+      "PointsTotal": 500,
+      "DetachmentPoints": 0,
+      "EnhancementLimit": 0,
+      "UnitLimit": 0,
+      "Name": "500 points"
+    },
+    {
+      "PointsTotal": 1000,
+      "DetachmentPoints": 0,
+      "EnhancementLimit": 0,
+      "UnitLimit": 0,
+      "Name": "1000 points"
+    },
+    {
+      "PointsTotal": 2000,
+      "DetachmentPoints": 0,
+      "EnhancementLimit": 0,
+      "UnitLimit": 0,
+      "Name": "2000 points"
+    }
+  ]
+}

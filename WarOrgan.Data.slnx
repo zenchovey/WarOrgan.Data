@@ -1,0 +1,9 @@
+<Solution>
+  <Folder Name="/Solution Items/">
+    <File Path="Directory.Build.props" />
+    <File Path="LICENSE" />
+    <File Path="README.md" />
+  </Folder>
+  <Project Path="WarOrgan.Data.BuildDataset/WarOrgan.Data.BuildDataset.csproj" />
+  <Project Path="WarOrgan.Data.Model/WarOrgan.Data.Model.csproj" />
+</Solution>

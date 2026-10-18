@@ -1,0 +1,3218 @@
+{
+  "Name": "The Endless",
+  "Units": [
+    {
+      "Id": "LORD ASCENDANT",
+      "DisplayName": "Lord Ascendant",
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "ModelName": "Lord Ascendant",
+            "Limit": {
+              "Min": 1,
+              "Max": 1
+            },
+            "StatlineRef": "Lord Ascendant",
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "particle caster",
+                  "particle caster 2"
+                ],
+                "Options": [
+                  {
+                    "Options": [
+                      {
+                        "Items": [
+                          "rending claws"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "neural disintegrator"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "voidlight blade"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "particle flayer"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "particle rifle"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "particle reaper"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "shock rifle"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "nexian blade"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "nexian glaives"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "particle beam emitter"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "heavy particle reaper"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "shock cannon"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "disruptor array"
+                        ]
+                      }
+                    ],
+                    "Replaces": [
+                      "particle caster"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      {
+                        "Items": [
+                          "rending claws 2"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "neural disintegrator 2"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "voidlight blade 2"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "particle flayer 2"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "particle rifle 2"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "particle reaper 2"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "shock rifle 2"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "nexian blade 2"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "nexian glaives 2"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "particle beam emitter 2"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "heavy particle reaper 2"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "shock cannon 2"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "disruptor array 2"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "transdimensional disruptor"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "necroflux gauntlet"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "entropic resonator"
+                        ]
+                      }
+                    ],
+                    "Replaces": [
+                      "particle caster 2"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      {
+                        "Items": [
+                          "cloak of ancients"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "resurrection shard"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "cloak of ancients",
+                          "resurrection shard"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": [
+          {
+            "Key": "particle caster",
+            "DisplayName": "Particle Caster",
+            "Cost": 1
+          },
+          {
+            "Key": "rending claws",
+            "DisplayName": "Rending Claws",
+            "Cost": 1
+          },
+          {
+            "Key": "neural disintegrator",
+            "DisplayName": "Neural Disintegrator",
+            "Cost": 4
+          },
+          {
+            "Key": "voidlight blade",
+            "DisplayName": "Voidlight Blade",
+            "Cost": 15
+          },
+          {
+            "Key": "particle flayer",
+            "DisplayName": "Particle Flayer",
+            "Cost": 3
+          },
+          {
+            "Key": "particle rifle",
+            "DisplayName": "Particle Rifle",
+            "Cost": 3
+          },
+          {
+            "Key": "particle reaper",
+            "DisplayName": "Particle Reaper",
+            "Cost": 6
+          },
+          {
+            "Key": "shock rifle",
+            "DisplayName": "Shock Rifle",
+            "Cost": 6
+          },
+          {
+            "Key": "nexian blade",
+            "DisplayName": "Nexian Blade",
+            "Cost": 5
+          },
+          {
+            "Key": "nexian glaives",
+            "DisplayName": "Nexian Glaives",
+            "Cost": 7
+          },
+          {
+            "Key": "particle beam emitter",
+            "DisplayName": "Particle Beam Emitter",
+            "Cost": 18
+          },
+          {
+            "Key": "heavy particle reaper",
+            "DisplayName": "Heavy Particle Reaper",
+            "Cost": 10
+          },
+          {
+            "Key": "shock cannon",
+            "DisplayName": "Shock Cannon",
+            "Cost": 10
+          },
+          {
+            "Key": "disruptor array",
+            "DisplayName": "Disruptor Array",
+            "Cost": 15
+          },
+          {
+            "Key": "transdimensional disruptor",
+            "DisplayName": "Transdimensional Disruptor",
+            "Cost": 30
+          },
+          {
+            "Key": "necroflux gauntlet",
+            "DisplayName": "Necroflux Gauntlet",
+            "Cost": 18
+          },
+          {
+            "Key": "entropic resonator",
+            "DisplayName": "Entropic Resonator",
+            "Cost": 6
+          },
+          {
+            "Key": "cloak of ancients",
+            "DisplayName": "Cloak of Ancients",
+            "Cost": 4,
+            "GrantsAbilities": [
+              "Cloak of Ancients"
+            ]
+          },
+          {
+            "Key": "resurrection shard",
+            "DisplayName": "Resurrection Shard",
+            "Cost": 22,
+            "GrantsAbilities": [
+              "Resurrection Shard"
+            ]
+          },
+          {
+            "Key": "particle caster 2",
+            "DisplayName": "Particle Caster",
+            "Cost": 1,
+            "GrantsWeapons": [
+              "particle caster"
+            ]
+          },
+          {
+            "Key": "rending claws 2",
+            "DisplayName": "Rending Claws",
+            "Cost": 1,
+            "GrantsWeapons": [
+              "rending claws"
+            ]
+          },
+          {
+            "Key": "neural disintegrator 2",
+            "DisplayName": "Neural Disintegrator",
+            "Cost": 4,
+            "GrantsWeapons": [
+              "neural disintegrator"
+            ]
+          },
+          {
+            "Key": "voidlight blade 2",
+            "DisplayName": "Voidlight Blade",
+            "Cost": 15,
+            "GrantsWeapons": [
+              "voidlight blade"
+            ]
+          },
+          {
+            "Key": "particle flayer 2",
+            "DisplayName": "Particle Flayer",
+            "Cost": 3,
+            "GrantsWeapons": [
+              "particle flayer"
+            ]
+          },
+          {
+            "Key": "particle rifle 2",
+            "DisplayName": "Particle Rifle",
+            "Cost": 3,
+            "GrantsWeapons": [
+              "particle rifle"
+            ]
+          },
+          {
+            "Key": "particle reaper 2",
+            "DisplayName": "Particle Reaper",
+            "Cost": 6,
+            "GrantsWeapons": [
+              "particle reaper"
+            ]
+          },
+          {
+            "Key": "shock rifle 2",
+            "DisplayName": "Shock Rifle",
+            "Cost": 6,
+            "GrantsWeapons": [
+              "shock rifle"
+            ]
+          },
+          {
+            "Key": "nexian blade 2",
+            "DisplayName": "Nexian Blade",
+            "Cost": 5,
+            "GrantsWeapons": [
+              "nexian blade"
+            ]
+          },
+          {
+            "Key": "nexian glaives 2",
+            "DisplayName": "Nexian Glaives",
+            "Cost": 7,
+            "GrantsWeapons": [
+              "nexian glaives"
+            ]
+          },
+          {
+            "Key": "particle beam emitter 2",
+            "DisplayName": "Particle Beam Emitter",
+            "Cost": 18,
+            "GrantsWeapons": [
+              "particle beam emitter"
+            ]
+          },
+          {
+            "Key": "heavy particle reaper 2",
+            "DisplayName": "Heavy Particle Reaper",
+            "Cost": 10,
+            "GrantsWeapons": [
+              "heavy particle reaper"
+            ]
+          },
+          {
+            "Key": "shock cannon 2",
+            "DisplayName": "Shock Cannon",
+            "Cost": 10,
+            "GrantsWeapons": [
+              "shock cannon"
+            ]
+          },
+          {
+            "Key": "disruptor array 2",
+            "DisplayName": "Disruptor Array",
+            "Cost": 15,
+            "GrantsWeapons": [
+              "disruptor array"
+            ]
+          }
+        ]
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Cloak of Ancients",
+          "Text": "One use. At the end of its activation, this model may make a free move action."
+        },
+        {
+          "Title": "Resurrection Shard",
+          "Text": "One use. This model may select a friendly Warrior Host or Protean Adapt unit within 6 inches. That unit restores any damaged models to their full hit points and up to 5 destroyed models return with their full hit points."
+        }
+      ],
+      "Infos": [
+        {
+          "Title": "Unit Composition",
+          "Text": "A Lord Ascendant unit consists of 1 Lord Ascendant. You may only include one Lord Ascendant or Lord Ascendant on Command Ark unit in your army."
+        },
+        {
+          "Title": "Weapons and Equipment",
+          "Text": "A Lord Ascendant may select 2 weapons: 1-2 from either the Standard Sidearms, Specialist Sidearms, Standard Weapons or Specialist Weapons lists and up to 1 weapon from the Unique Weapons weapon list (only one weapon of each type in the unique weapons list may be taken in your army)."
+        },
+        {
+          "Title": "Upgrades",
+          "Text": "A Lord Ascendant may take the Cloak of Ancients and Resurrection Shard upgrades."
+        }
+      ],
+      "Keywords": [
+        "Command",
+        "Lord Ascendant"
+      ],
+      "FactionKeywords": [
+        "The Endless"
+      ],
+      "CoreAbilities": [
+        "Regeneration"
+      ],
+      "StatLines": [
+        {
+          "StatName": "Lord Ascendant",
+          "Stats": [
+            {
+              "Id": "Cmd",
+              "Value": "6"
+            },
+            {
+              "Id": "Mov",
+              "Value": "6\""
+            },
+            {
+              "Id": "Skl",
+              "Value": "2+"
+            },
+            {
+              "Id": "Def",
+              "Value": "3+"
+            },
+            {
+              "Id": "Tgh",
+              "Value": "5"
+            },
+            {
+              "Id": "HP",
+              "Value": "4"
+            }
+          ]
+        }
+      ],
+      "Weapons": [
+        {
+          "Id": "STANDARD SIDEARMS",
+          "DisplayName": "Standard Sidearms",
+          "Weapons": [
+            {
+              "Id": "particle caster",
+              "DisplayName": "Particle Caster",
+              "Stats": [
+                {
+                  "Id": "Rng",
+                  "Value": "4\""
+                },
+                {
+                  "Id": "Att",
+                  "Value": "3"
+                },
+                {
+                  "Id": "Dmg",
+                  "Value": "3"
+                },
+                {
+                  "Id": "Prc",
+                  "Value": "0"
+                }
+              ],
+              "Keywords": "Assault"
+            },
+            {
+              "Id": "rending claws",
+              "DisplayName": "Rending Claws",
+              "Stats": [
+                {
+                  "Id": "Rng",
+                  "Value": "1\""
+                },
+                {
+                  "Id": "Att",
+                  "Value": "2"
+                },
+                {
+                  "Id": "Dmg",
+                  "Value": "4"
+                },
+                {
+                  "Id": "Prc",
+                  "Value": "0"
+                }
+              ],
+              "Keywords": "Rending 2"
+            }
+          ]
+        },
+        {
+          "Id": "SPECIALIST SIDEARMS",
+          "DisplayName": "Specialist Sidearms",
+          "Weapons": [
+            {
+              "Id": "neural disintegrator",
+              "DisplayName": "Neural Disintegrator",
+              "Stats": [
+                {
+                  "Id": "Rng",
+                  "Value": "6\""
+                },
+                {
+                  "Id": "Att",
+                  "Value": "4"
+                },
+                {
+                  "Id": "Dmg",
+                  "Value": "4"
+                },
+                {
+                  "Id": "Prc",
+                  "Value": "1"
+                }
+              ],
+              "Keywords": "Assault, Torrent, Shred"
+            },
+            {
+              "Id": "voidlight blade",
+              "DisplayName": "Voidlight Blade",
+              "Stats": [
+                {
+                  "Id": "Rng",
+                  "Value": "1\""
+                },
+                {
+                  "Id": "Att",
+                  "Value": "3"
+                },
+                {
+                  "Id": "Dmg",
+                  "Value": "6"
+                },
+                {
+                  "Id": "Prc",
+                  "Value": "3"
+                }
+              ],
+              "Keywords": "Assault, Rapid Fire 2"
+            }
+          ]
+        },
+        {
+          "Id": "STANDARD WEAPONS",
+          "DisplayName": "Standard Weapons",
+          "Weapons": [
+            {
+              "Id": "particle flayer",
+              "DisplayName": "Particle Flayer",
+              "Stats": [
+                {
+                  "Id": "Rng",
+                  "Value": "10\""
+                },
+                {
+                  "Id": "Att",
+                  "Value": "4"
+                },
+                {
+                  "Id": "Dmg",
+                  "Value": "3"
+                },
+                {
+                  "Id": "Prc",
+                  "Value": "0"
+                }
+              ],
+              "Keywords": "Shred, Rending 1"
+            },
+            {
+              "Id": "particle rifle",
+              "DisplayName": "Particle Rifle",
+              "Stats": [
+                {
+                  "Id": "Rng",
+                  "Value": "24\""
+                },
+                {
+                  "Id": "Att",
+                  "Value": "3"
+                },
+                {
+                  "Id": "Dmg",
+                  "Value": "4"
+                },
+                {
+                  "Id": "Prc",
+                  "Value": "0"
+                }
+              ],
+              "Keywords": "Rending 1"
+            },
+            {
+              "Id": "shock rifle",
+              "DisplayName": "Shock Rifle",
+              "Stats": [
+                {
+                  "Id": "Rng",
+                  "Value": "12\""
+                },
+                {
+                  "Id": "Att",
+                  "Value": "4"
+                },
+                {
+                  "Id": "Dmg",
+                  "Value": "3"
+                },
+                {
+                  "Id": "Prc",
+                  "Value": "0"
+                }
+              ],
+              "Keywords": "Rending 2, Indirect"
+            },
+            {
+              "Id": "nexian blade",
+              "DisplayName": "Nexian Blade",
+              "Stats": [
+                {
+                  "Id": "Rng",
+                  "Value": "1\""
+                },
+                {
+                  "Id": "Att",
+                  "Value": "3"
+                },
+                {
+                  "Id": "Dmg",
+                  "Value": "4"
+                },
+                {
+                  "Id": "Prc",
+                  "Value": "2"
+                }
+              ],
+              "Keywords": "Assault"
+            }
+          ]
+        },
+        {
+          "Id": "MOUNTED SECONDARY WEAPONS",
+          "DisplayName": "Mounted Secondary Weapons",
+          "Weapons": [
+            {
+              "Id": "particle reaper",
+              "DisplayName": "Particle Reaper",
+              "Stats": [
+                {
+                  "Id": "Rng",
+                  "Value": "18\""
+                },
+                {
+                  "Id": "Att",
+                  "Value": "3"
+                },
+                {
+                  "Id": "Dmg",
+                  "Value": "5"
+                },
+                {
+                  "Id": "Prc",
+                  "Value": "1"
+                }
+              ],
+              "Keywords": "Shred, Rending 1"
+            }
+          ]
+        },
+        {
+          "Id": "SPECIALIST WEAPONS",
+          "DisplayName": "Specialist Weapons",
+          "Weapons": [
+            {
+              "Id": "nexian glaives",
+              "DisplayName": "Nexian Glaives",
+              "Stats": [
+                {
+                  "Id": "Rng",
+                  "Value": "1\""
+                },
+                {
+                  "Id": "Att",
+                  "Value": "5"
+                },
+                {
+                  "Id": "Dmg",
+                  "Value": "5"
+                },
+                {
+                  "Id": "Prc",
+                  "Value": "2"
+                }
+              ],
+              "Keywords": "Assault"
+            },
+            {
+              "Id": "particle beam emitter",
+              "DisplayName": "Particle Beam Emitter",
+              "Stats": [
+                {
+                  "Id": "Rng",
+                  "Value": "48\""
+                },
+                {
+                  "Id": "Att",
+                  "Value": "1"
+                },
+                {
+                  "Id": "Dmg",
+                  "Value": "6"
+                },
+                {
+                  "Id": "Prc",
+                  "Value": "3"
+                }
+              ],
+              "Keywords": "Accurate, Destructive 4, Shred, Heavy"
+            },
+            {
+              "Id": "heavy particle reaper",
+              "DisplayName": "Heavy Particle Reaper",
+              "Stats": [
+                {
+                  "Id": "Rng",
+                  "Value": "24\""
+                },
+                {
+                  "Id": "Att",
+                  "Value": "4"
+                },
+                {
+                  "Id": "Dmg",
+                  "Value": "6"
+                },
+                {
+                  "Id": "Prc",
+                  "Value": "2"
+                }
+              ],
+              "Keywords": "Shred, Rending 2, Heavy"
+            },
+            {
+              "Id": "shock cannon",
+              "DisplayName": "Shock Cannon",
+              "Stats": [
+                {
+                  "Id": "Rng",
+                  "Value": "18\""
+                },
+                {
+                  "Id": "Att",
+                  "Value": "8"
+                },
+                {
+                  "Id": "Dmg",
+                  "Value": "3"
+                },
+                {
+                  "Id": "Prc",
+                  "Value": "0"
+                }
+              ],
+              "Keywords": "Rending 2, Indirect"
+            },
+            {
+              "Id": "disruptor array",
+              "DisplayName": "Disruptor Array",
+              "Stats": [
+                {
+                  "Id": "Rng",
+                  "Value": "6\""
+                },
+                {
+                  "Id": "Att",
+                  "Value": "3"
+                },
+                {
+                  "Id": "Dmg",
+                  "Value": "3"
+                },
+                {
+                  "Id": "Prc",
+                  "Value": "1"
+                }
+              ],
+              "Keywords": "Assault, Shred, Rapid Fire 4"
+            }
+          ]
+        },
+        {
+          "Id": "UNIQUE WEAPONS",
+          "DisplayName": "Unique Weapons",
+          "Weapons": [
+            {
+              "Id": "transdimensional disruptor",
+              "DisplayName": "Transdimensional Disruptor",
+              "Stats": [
+                {
+                  "Id": "Rng",
+                  "Value": "6\""
+                },
+                {
+                  "Id": "Att",
+                  "Value": "1"
+                },
+                {
+                  "Id": "Dmg",
+                  "Value": "8"
+                },
+                {
+                  "Id": "Prc",
+                  "Value": "4"
+                }
+              ],
+              "Keywords": "Assault, One-use, Destructive 6"
+            },
+            {
+              "Id": "necroflux gauntlet",
+              "DisplayName": "Necroflux Gauntlet",
+              "Stats": [
+                {
+                  "Id": "Rng",
+                  "Value": "1\""
+                },
+                {
+                  "Id": "Att",
+                  "Value": "3"
+                },
+                {
+                  "Id": "Dmg",
+                  "Value": "5"
+                },
+                {
+                  "Id": "Prc",
+                  "Value": "1"
+                }
+              ],
+              "Keywords": "Assault, Rapid Fire 3"
+            },
+            {
+              "Id": "entropic resonator",
+              "DisplayName": "Entropic Resonator",
+              "Stats": [
+                {
+                  "Id": "Rng",
+                  "Value": "12\""
+                },
+                {
+                  "Id": "Att",
+                  "Value": "3"
+                },
+                {
+                  "Id": "Dmg",
+                  "Value": "4"
+                },
+                {
+                  "Id": "Prc",
+                  "Value": "2"
+                }
+              ],
+              "Keywords": "Entropy"
+            }
+          ]
+        }
+      ],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 65
+        }
+      ]
+    },
+    {
+      "Id": "LORD ASCENDANT ON COMMAND ARK",
+      "DisplayName": "Lord Ascendant on Command Ark",
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "ModelName": "Lord Ascendant on Command Ark",
+            "Limit": {
+              "Min": 1,
+              "Max": 1
+            },
+            "StatlineRef": "Lord Ascendant on Command Ark",
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "particle caster"
+                ],
+                "Options": [
+                  {
+                    "Options": [
+                      {
+                        "Items": [
+                          "rending claws"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "neural disintegrator"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "voidlight blade"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "particle flayer"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "particle rifle"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "particle reaper"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "shock rifle"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "nexian blade"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "nexian glaives"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "particle beam emitter"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "heavy particle reaper"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "shock cannon"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "disruptor array"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "transdimensional disruptor"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "necroflux gauntlet"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "entropic resonator"
+                        ]
+                      }
+                    ],
+                    "Replaces": [
+                      "particle caster"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      {
+                        "Items": [
+                          "particle eradicator"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "fusion beam"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "plasma obliterator"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "particle flayer array"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "particle reaper 2"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "heavy shock cannon"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "Options": [
+                      {
+                        "Items": [
+                          "particle flayer array 2"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "particle reaper 3"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "heavy shock cannon 2"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": [
+          {
+            "Key": "particle caster",
+            "DisplayName": "Particle Caster",
+            "Cost": 1
+          },
+          {
+            "Key": "rending claws",
+            "DisplayName": "Rending Claws",
+            "Cost": 1
+          },
+          {
+            "Key": "neural disintegrator",
+            "DisplayName": "Neural Disintegrator",
+            "Cost": 4
+          },
+          {
+            "Key": "voidlight blade",
+            "DisplayName": "Voidlight Blade",
+            "Cost": 15
+          },
+          {
+            "Key": "particle flayer",
+            "DisplayName": "Particle Flayer",
+            "Cost": 3
+          },
+          {
+            "Key": "particle rifle",
+            "DisplayName": "Particle Rifle",
+            "Cost": 3
+          },
+          {
+            "Key": "particle reaper",
+            "DisplayName": "Particle Reaper",
+            "Cost": 6
+          },
+          {
+            "Key": "shock rifle",
+            "DisplayName": "Shock Rifle",
+            "Cost": 6
+          },
+          {
+            "Key": "nexian blade",
+            "DisplayName": "Nexian Blade",
+            "Cost": 5
+          },
+          {
+            "Key": "nexian glaives",
+            "DisplayName": "Nexian Glaives",
+            "Cost": 7
+          },
+          {
+            "Key": "particle beam emitter",
+            "DisplayName": "Particle Beam Emitter",
+            "Cost": 18
+          },
+          {
+            "Key": "heavy particle reaper",
+            "DisplayName": "Heavy Particle Reaper",
+            "Cost": 10
+          },
+          {
+            "Key": "shock cannon",
+            "DisplayName": "Shock Cannon",
+            "Cost": 10
+          },
+          {
+            "Key": "disruptor array",
+            "DisplayName": "Disruptor Array",
+            "Cost": 15
+          },
+          {
+            "Key": "particle eradicator",
+            "DisplayName": "Particle Eradicator",
+            "Cost": 28
+          },
+          {
+            "Key": "fusion beam",
+            "DisplayName": "Fusion Beam",
+            "Cost": 38
+          },
+          {
+            "Key": "plasma obliterator",
+            "DisplayName": "Plasma Obliterator",
+            "Cost": 34
+          },
+          {
+            "Key": "particle flayer array",
+            "DisplayName": "Particle Flayer Array",
+            "Cost": 16
+          },
+          {
+            "Key": "heavy shock cannon",
+            "DisplayName": "Heavy Shock Cannon",
+            "Cost": 20
+          },
+          {
+            "Key": "transdimensional disruptor",
+            "DisplayName": "Transdimensional Disruptor",
+            "Cost": 30
+          },
+          {
+            "Key": "necroflux gauntlet",
+            "DisplayName": "Necroflux Gauntlet",
+            "Cost": 18
+          },
+          {
+            "Key": "entropic resonator",
+            "DisplayName": "Entropic Resonator",
+            "Cost": 6
+          },
+          {
+            "Key": "particle reaper 2",
+            "DisplayName": "Particle Reaper",
+            "Cost": 6,
+            "GrantsWeapons": [
+              "particle reaper"
+            ]
+          },
+          {
+            "Key": "particle flayer array 2",
+            "DisplayName": "Particle Flayer Array",
+            "Cost": 16,
+            "GrantsWeapons": [
+              "particle flayer array"
+            ]
+          },
+          {
+            "Key": "particle reaper 3",
+            "DisplayName": "Particle Reaper",
+            "Cost": 6,
+            "GrantsWeapons": [
+              "particle reaper"
+            ]
+          },
+          {
+            "Key": "heavy shock cannon 2",
+            "DisplayName": "Heavy Shock Cannon",
+            "Cost": 20,
+            "GrantsWeapons": [
+              "heavy shock cannon"
+            ]
+          }
+        ]
+      },
+      "UnitAbilities": [],
+      "Infos": [
+        {
+          "Title": "Unit Composition",
+          "Text": "A Lord Ascendant on Command Ark unit consists of 1 Lord Ascendant on Command Ark. You may only include one Lord Ascendant or Lord Ascendant on Command Ark unit in your army."
+        },
+        {
+          "Title": "Weapons and Equipment",
+          "Text": "A Lord Ascendant on Command Ark may select 1 weapon from either the Standard Sidearms, Specialist Sidearms, Standard Weapons, Specialist Weapons, or Unique Weapons weapon list (only one weapon of each type in the unique weapons list may be taken in your army). A Lord Ascendant on Command Ark may also take up to 2 additional weapons: up to 1 from the Mounted Primary Weapons list and up to 2 from the Mounted Secondary Weapons list."
+        }
+      ],
+      "Keywords": [
+        "Command",
+        "Lord Ascendant on Command Ark"
+      ],
+      "FactionKeywords": [
+        "The Endless"
+      ],
+      "CoreAbilities": [
+        "Flying",
+        "Regeneration",
+        "Vehicle"
+      ],
+      "StatLines": [
+        {
+          "StatName": "Lord Ascendant on Command Ark",
+          "Stats": [
+            {
+              "Id": "Cmd",
+              "Value": "5"
+            },
+            {
+              "Id": "Mov",
+              "Value": "9\""
+            },
+            {
+              "Id": "Skl",
+              "Value": "2+"
+            },
+            {
+              "Id": "Def",
+              "Value": "3+"
+            },
+            {
+              "Id": "Tgh",
+              "Value": "6"
+            },
+            {
+              "Id": "HP",
+              "Value": "8"
+            }
+          ]
+        }
+      ],
+      "Weapons": [
+        {
+          "Id": "STANDARD SIDEARMS",
+          "DisplayName": "Standard Sidearms",
+          "Weapons": [
+            {
+              "Id": "particle caster",
+              "DisplayName": "Particle Caster",
+              "Stats": [
+                {
+                  "Id": "Rng",
+                  "Value": "4\""
+                },
+                {
+                  "Id": "Att",
+                  "Value": "3"
+                },
+                {
+                  "Id": "Dmg",
+                  "Value": "3"
+                },
+                {
+                  "Id": "Prc",
+                  "Value": "0"
+                }
+              ],
+              "Keywords": "Assault"
+            },
+            {
+              "Id": "rending claws",
+              "DisplayName": "Rending Claws",
+              "Stats": [
+                {
+                  "Id": "Rng",
+                  "Value": "1\""
+                },
+                {
+                  "Id": "Att",
+                  "Value": "2"
+                },
+                {
+                  "Id": "Dmg",
+                  "Value": "4"
+                },
+                {
+                  "Id": "Prc",
+                  "Value": "0"
+                }
+              ],
+              "Keywords": "Rending 2"
+            }
+          ]
+        },
+        {
+          "Id": "SPECIALIST SIDEARMS",
+          "DisplayName": "Specialist Sidearms",
+          "Weapons": [
+            {
+              "Id": "neural disintegrator",
+              "DisplayName": "Neural Disintegrator",
+              "Stats": [
+                {
+                  "Id": "Rng",
+                  "Value": "6\""
+                },
+                {
+                  "Id": "Att",
+                  "Value": "4"
+                },
+                {
+                  "Id": "Dmg",
+                  "Value": "4"
+                },
+                {
+                  "Id": "Prc",
+                  "Value": "1"
+                }
+              ],
+              "Keywords": "Assault, Torrent, Shred"
+            },
+            {
+              "Id": "voidlight blade",
+              "DisplayName": "Voidlight Blade",
+              "Stats": [
+                {
+                  "Id": "Rng",
+                  "Value": "1\""
+                },
+                {
+                  "Id": "Att",
+                  "Value": "3"
+                },
+                {
+                  "Id": "Dmg",
+                  "Value": "6"
+                },
+                {
+                  "Id": "Prc",
+                  "Value": "3"
+                }
+              ],
+              "Keywords": "Assault, Rapid Fire 2"
+            }
+          ]
+        },
+        {
+          "Id": "STANDARD WEAPONS",
+          "DisplayName": "Standard Weapons",
+          "Weapons": [
+            {
+              "Id": "particle flayer",
+              "DisplayName": "Particle Flayer",
+              "Stats": [
+                {
+                  "Id": "Rng",
+                  "Value": "10\""
+                },
+                {
+                  "Id": "Att",
+                  "Value": "4"
+                },
+                {
+                  "Id": "Dmg",
+                  "Value": "3"
+                },
+                {
+                  "Id": "Prc",
+                  "Value": "0"
+                }
+              ],
+              "Keywords": "Shred, Rending 1"
+            },
+            {
+              "Id": "particle rifle",
+              "DisplayName": "Particle Rifle",
+              "Stats": [
+                {
+                  "Id": "Rng",
+                  "Value": "24\""
+                },
+                {
+                  "Id": "Att",
+                  "Value": "3"
+                },
+                {
+                  "Id": "Dmg",
+                  "Value": "4"
+                },
+                {
+                  "Id": "Prc",
+                  "Value": "0"
+                }
+              ],
+              "Keywords": "Rending 1"
+            },
+            {
+              "Id": "shock rifle",
+              "DisplayName": "Shock Rifle",
+              "Stats": [
+                {
+                  "Id": "Rng",
+                  "Value": "12\""
+                },
+                {
+                  "Id": "Att",
+                  "Value": "4"
+                },
+                {
+                  "Id": "Dmg",
+                  "Value": "3"
+                },
+                {
+                  "Id": "Prc",
+                  "Value": "0"
+                }
+              ],
+              "Keywords": "Rending 2, Indirect"
+            },
+            {
+              "Id": "nexian blade",
+              "DisplayName": "Nexian Blade",
+              "Stats": [
+                {
+                  "Id": "Rng",
+                  "Value": "1\""
+                },
+                {
+                  "Id": "Att",
+                  "Value": "3"
+                },
+                {
+                  "Id": "Dmg",
+                  "Value": "4"
+                },
+                {
+                  "Id": "Prc",
+                  "Value": "2"
+                }
+              ],
+              "Keywords": "Assault"
+            }
+          ]
+        },
+        {
+          "Id": "MOUNTED SECONDARY WEAPONS",
+          "DisplayName": "Mounted Secondary Weapons",
+          "Weapons": [
+            {
+              "Id": "particle reaper",
+              "DisplayName": "Particle Reaper",
+              "Stats": [
+                {
+                  "Id": "Rng",
+                  "Value": "18\""
+                },
+                {
+                  "Id": "Att",
+                  "Value": "3"
+                },
+                {
+                  "Id": "Dmg",
+                  "Value": "5"
+                },
+                {
+                  "Id": "Prc",
+                  "Value": "1"
+                }
+              ],
+              "Keywords": "Shred, Rending 1"
+            },
+            {
+              "Id": "particle flayer array",
+              "DisplayName": "Particle Flayer Array",
+              "Stats": [
+                {
+                  "Id": "Rng",
+                  "Value": "10\""
+                },
+                {
+                  "Id": "Att",
+                  "Value": "6"
+                },
+                {
+                  "Id": "Dmg",
+                  "Value": "3"
+                },
+                {
+                  "Id": "Prc",
+                  "Value": "0"
+                }
+              ],
+              "Keywords": "Rapid Fire 1, Shred, Rending 1"
+            },
+            {
+              "Id": "heavy shock cannon",
+              "DisplayName": "Heavy Shock Cannon",
+              "Stats": [
+                {
+                  "Id": "Rng",
+                  "Value": "24\""
+                },
+                {
+                  "Id": "Att",
+                  "Value": "8"
+                },
+                {
+                  "Id": "Dmg",
+                  "Value": "5"
+                },
+                {
+                  "Id": "Prc",
+                  "Value": "1"
+                }
+              ],
+              "Keywords": "Rending 2, Indirect"
+            }
+          ]
+        },
+        {
+          "Id": "SPECIALIST WEAPONS",
+          "DisplayName": "Specialist Weapons",
+          "Weapons": [
+            {
+              "Id": "nexian glaives",
+              "DisplayName": "Nexian Glaives",
+              "Stats": [
+                {
+                  "Id": "Rng",
+                  "Value": "1\""
+                },
+                {
+                  "Id": "Att",
+                  "Value": "5"
+                },
+                {
+                  "Id": "Dmg",
+                  "Value": "5"
+                },
+                {
+                  "Id": "Prc",
+                  "Value": "2"
+                }
+              ],
+              "Keywords": "Assault"
+            },
+            {
+              "Id": "particle beam emitter",
+              "DisplayName": "Particle Beam Emitter",
+              "Stats": [
+                {
+                  "Id": "Rng",
+                  "Value": "48\""
+                },
+                {
+                  "Id": "Att",
+                  "Value": "1"
+                },
+                {
+                  "Id": "Dmg",
+                  "Value": "6"
+                },
+                {
+                  "Id": "Prc",
+                  "Value": "3"
+                }
+              ],
+              "Keywords": "Accurate, Destructive 4, Shred, Heavy"
+            },
+            {
+              "Id": "heavy particle reaper",
+              "DisplayName": "Heavy Particle Reaper",
+              "Stats": [
+                {
+                  "Id": "Rng",
+                  "Value": "24\""
+                },
+                {
+                  "Id": "Att",
+                  "Value": "4"
+                },
+                {
+                  "Id": "Dmg",
+                  "Value": "6"
+                },
+                {
+                  "Id": "Prc",
+                  "Value": "2"
+                }
+              ],
+              "Keywords": "Shred, Rending 2, Heavy"
+            },
+            {
+              "Id": "shock cannon",
+              "DisplayName": "Shock Cannon",
+              "Stats": [
+                {
+                  "Id": "Rng",
+                  "Value": "18\""
+                },
+                {
+                  "Id": "Att",
+                  "Value": "8"
+                },
+                {
+                  "Id": "Dmg",
+                  "Value": "3"
+                },
+                {
+                  "Id": "Prc",
+                  "Value": "0"
+                }
+              ],
+              "Keywords": "Rending 2, Indirect"
+            },
+            {
+              "Id": "disruptor array",
+              "DisplayName": "Disruptor Array",
+              "Stats": [
+                {
+                  "Id": "Rng",
+                  "Value": "6\""
+                },
+                {
+                  "Id": "Att",
+                  "Value": "3"
+                },
+                {
+                  "Id": "Dmg",
+                  "Value": "3"
+                },
+                {
+                  "Id": "Prc",
+                  "Value": "1"
+                }
+              ],
+              "Keywords": "Assault, Shred, Rapid Fire 4"
+            }
+          ]
+        },
+        {
+          "Id": "MOUNTED PRIMARY WEAPONS",
+          "DisplayName": "Mounted Primary Weapons",
+          "Weapons": [
+            {
+              "Id": "particle eradicator",
+              "DisplayName": "Particle Eradicator",
+              "Stats": [
+                {
+                  "Id": "Rng",
+                  "Value": "32\""
+                },
+                {
+                  "Id": "Att",
+                  "Value": "4"
+                },
+                {
+                  "Id": "Dmg",
+                  "Value": "6"
+                },
+                {
+                  "Id": "Prc",
+                  "Value": "3"
+                }
+              ],
+              "Keywords": "Shred, Rending 2, Destructive 2"
+            },
+            {
+              "Id": "fusion beam",
+              "DisplayName": "Fusion Beam",
+              "Stats": [
+                {
+                  "Id": "Rng",
+                  "Value": "18\""
+                },
+                {
+                  "Id": "Att",
+                  "Value": "4"
+                },
+                {
+                  "Id": "Dmg",
+                  "Value": "7"
+                },
+                {
+                  "Id": "Prc",
+                  "Value": "4"
+                }
+              ],
+              "Keywords": "Destructive 2, Blast 2, Volley"
+            },
+            {
+              "Id": "plasma obliterator",
+              "DisplayName": "Plasma Obliterator",
+              "Stats": [
+                {
+                  "Id": "Rng",
+                  "Value": "32\""
+                },
+                {
+                  "Id": "Att",
+                  "Value": "3"
+                },
+                {
+                  "Id": "Dmg",
+                  "Value": "7"
+                },
+                {
+                  "Id": "Prc",
+                  "Value": "3"
+                }
+              ],
+              "Keywords": "Shred, Accurate"
+            }
+          ]
+        },
+        {
+          "Id": "UNIQUE WEAPONS",
+          "DisplayName": "Unique Weapons",
+          "Weapons": [
+            {
+              "Id": "transdimensional disruptor",
+              "DisplayName": "Transdimensional Disruptor",
+              "Stats": [
+                {
+                  "Id": "Rng",
+                  "Value": "6\""
+                },
+                {
+                  "Id": "Att",
+                  "Value": "1"
+                },
+                {
+                  "Id": "Dmg",
+                  "Value": "8"
+                },
+                {
+                  "Id": "Prc",
+                  "Value": "4"
+                }
+              ],
+              "Keywords": "Assault, One-use, Destructive 6"
+            },
+            {
+              "Id": "necroflux gauntlet",
+              "DisplayName": "Necroflux Gauntlet",
+              "Stats": [
+                {
+                  "Id": "Rng",
+                  "Value": "1\""
+                },
+                {
+                  "Id": "Att",
+                  "Value": "3"
+                },
+                {
+                  "Id": "Dmg",
+                  "Value": "5"
+                },
+                {
+                  "Id": "Prc",
+                  "Value": "1"
+                }
+              ],
+              "Keywords": "Assault, Rapid Fire 3"
+            },
+            {
+              "Id": "entropic resonator",
+              "DisplayName": "Entropic Resonator",
+              "Stats": [
+                {
+                  "Id": "Rng",
+                  "Value": "12\""
+                },
+                {
+                  "Id": "Att",
+                  "Value": "3"
+                },
+                {
+                  "Id": "Dmg",
+                  "Value": "4"
+                },
+                {
+                  "Id": "Prc",
+                  "Value": "2"
+                }
+              ],
+              "Keywords": "Entropy"
+            }
+          ]
+        }
+      ],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 135
+        }
+      ]
+    },
+    {
+      "Id": "WARRIOR HOST (WARRIOR)",
+      "DisplayName": "Warrior Host",
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "ModelName": "Warrior",
+            "Limit": {
+              "Min": 5,
+              "Max": 10
+            },
+            "StatlineRef": "Warrior",
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "particle flayer"
+                ],
+                "Options": [
+                  {
+                    "Options": [
+                      {
+                        "Items": [
+                          "particle rifle"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "particle reaper"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "shock rifle"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "nexian blade"
+                        ]
+                      }
+                    ],
+                    "Replaces": [
+                      "particle flayer"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      {
+                        "Items": [
+                          "endless horde"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": [
+          {
+            "Key": "particle flayer",
+            "DisplayName": "Particle Flayer",
+            "Cost": 3
+          },
+          {
+            "Key": "particle rifle",
+            "DisplayName": "Particle Rifle",
+            "Cost": 3
+          },
+          {
+            "Key": "particle reaper",
+            "DisplayName": "Particle Reaper",
+            "Cost": 6
+          },
+          {
+            "Key": "shock rifle",
+            "DisplayName": "Shock Rifle",
+            "Cost": 6
+          },
+          {
+            "Key": "nexian blade",
+            "DisplayName": "Nexian Blade",
+            "Cost": 5
+          },
+          {
+            "Key": "endless horde",
+            "DisplayName": "Endless Horde",
+            "Cost": 1,
+            "GrantsAbilities": [
+              "Endless Horde"
+            ]
+          }
+        ]
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Endless Horde",
+          "Text": "This model gains the Reanimation special rule but only targets itself when using it."
+        }
+      ],
+      "Infos": [
+        {
+          "Title": "Unit Composition",
+          "Text": "A Warrior Host unit consists of 5-10 Warrior models or 5-10 Warrior Protean models."
+        },
+        {
+          "Title": "Weapons and Equipment",
+          "Text": "Each Warrior or Warrior Protean must be equipped with the same weapon, you must select 1 weapon from the Standard Weapons list."
+        },
+        {
+          "Title": "Upgrades",
+          "Text": "Every Warrior or Warrior Protean may take the Endless Horde upgrade."
+        }
+      ],
+      "Keywords": [
+        "Standard",
+        "Warrior Host"
+      ],
+      "FactionKeywords": [
+        "The Endless"
+      ],
+      "CoreAbilities": [],
+      "StatLines": [
+        {
+          "StatName": "Warrior",
+          "Stats": [
+            {
+              "Id": "Cmd",
+              "Value": "4"
+            },
+            {
+              "Id": "Mov",
+              "Value": "5\""
+            },
+            {
+              "Id": "Skl",
+              "Value": "4+"
+            },
+            {
+              "Id": "Def",
+              "Value": "4+"
+            },
+            {
+              "Id": "Tgh",
+              "Value": "3"
+            },
+            {
+              "Id": "HP",
+              "Value": "1"
+            }
+          ]
+        }
+      ],
+      "Weapons": [
+        {
+          "Id": "STANDARD WEAPONS",
+          "DisplayName": "Standard Weapons",
+          "Weapons": [
+            {
+              "Id": "particle flayer",
+              "DisplayName": "Particle Flayer",
+              "Stats": [
+                {
+                  "Id": "Rng",
+                  "Value": "10\""
+                },
+                {
+                  "Id": "Att",
+                  "Value": "4"
+                },
+                {
+                  "Id": "Dmg",
+                  "Value": "3"
+                },
+                {
+                  "Id": "Prc",
+                  "Value": "0"
+                }
+              ],
+              "Keywords": "Shred, Rending 1"
+            },
+            {
+              "Id": "particle rifle",
+              "DisplayName": "Particle Rifle",
+              "Stats": [
+                {
+                  "Id": "Rng",
+                  "Value": "24\""
+                },
+                {
+                  "Id": "Att",
+                  "Value": "3"
+                },
+                {
+                  "Id": "Dmg",
+                  "Value": "4"
+                },
+                {
+                  "Id": "Prc",
+                  "Value": "0"
+                }
+              ],
+              "Keywords": "Rending 1"
+            },
+            {
+              "Id": "shock rifle",
+              "DisplayName": "Shock Rifle",
+              "Stats": [
+                {
+                  "Id": "Rng",
+                  "Value": "12\""
+                },
+                {
+                  "Id": "Att",
+                  "Value": "4"
+                },
+                {
+                  "Id": "Dmg",
+                  "Value": "3"
+                },
+                {
+                  "Id": "Prc",
+                  "Value": "0"
+                }
+              ],
+              "Keywords": "Rending 2, Indirect"
+            },
+            {
+              "Id": "nexian blade",
+              "DisplayName": "Nexian Blade",
+              "Stats": [
+                {
+                  "Id": "Rng",
+                  "Value": "1\""
+                },
+                {
+                  "Id": "Att",
+                  "Value": "3"
+                },
+                {
+                  "Id": "Dmg",
+                  "Value": "4"
+                },
+                {
+                  "Id": "Prc",
+                  "Value": "2"
+                }
+              ],
+              "Keywords": "Assault"
+            }
+          ]
+        },
+        {
+          "Id": "MOUNTED SECONDARY WEAPONS",
+          "DisplayName": "Mounted Secondary Weapons",
+          "Weapons": [
+            {
+              "Id": "particle reaper",
+              "DisplayName": "Particle Reaper",
+              "Stats": [
+                {
+                  "Id": "Rng",
+                  "Value": "18\""
+                },
+                {
+                  "Id": "Att",
+                  "Value": "3"
+                },
+                {
+                  "Id": "Dmg",
+                  "Value": "5"
+                },
+                {
+                  "Id": "Prc",
+                  "Value": "1"
+                }
+              ],
+              "Keywords": "Shred, Rending 1"
+            }
+          ]
+        }
+      ],
+      "Points": [
+        {
+          "ModelCount": 5,
+          "Cost": 35
+        },
+        {
+          "ModelCount": 6,
+          "Cost": 42
+        },
+        {
+          "ModelCount": 7,
+          "Cost": 49
+        },
+        {
+          "ModelCount": 8,
+          "Cost": 56
+        },
+        {
+          "ModelCount": 9,
+          "Cost": 63
+        },
+        {
+          "ModelCount": 10,
+          "Cost": 70
+        }
+      ]
+    },
+    {
+      "Id": "WARRIOR HOST (WARRIOR PROTEAN)",
+      "DisplayName": "Warrior Protean Host",
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "ModelName": "Warrior Protean",
+            "Limit": {
+              "Min": 5,
+              "Max": 10
+            },
+            "StatlineRef": "Warrior Protean",
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "particle flayer"
+                ],
+                "Options": [
+                  {
+                    "Options": [
+                      {
+                        "Items": [
+                          "particle rifle"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "particle reaper"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "shock rifle"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "nexian blade"
+                        ]
+                      }
+                    ],
+                    "Replaces": [
+                      "particle flayer"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      {
+                        "Items": [
+                          "endless horde"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": [
+          {
+            "Key": "particle flayer",
+            "DisplayName": "Particle Flayer",
+            "Cost": 3
+          },
+          {
+            "Key": "particle rifle",
+            "DisplayName": "Particle Rifle",
+            "Cost": 3
+          },
+          {
+            "Key": "particle reaper",
+            "DisplayName": "Particle Reaper",
+            "Cost": 6
+          },
+          {
+            "Key": "shock rifle",
+            "DisplayName": "Shock Rifle",
+            "Cost": 6
+          },
+          {
+            "Key": "nexian blade",
+            "DisplayName": "Nexian Blade",
+            "Cost": 5
+          },
+          {
+            "Key": "endless horde",
+            "DisplayName": "Endless Horde",
+            "Cost": 1,
+            "GrantsAbilities": [
+              "Endless Horde"
+            ]
+          }
+        ]
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Endless Horde",
+          "Text": "This model gains the Reanimation special rule but only targets itself when using it."
+        }
+      ],
+      "Infos": [
+        {
+          "Title": "Unit Composition",
+          "Text": "A Warrior Host unit consists of 5-10 Warrior models or 5-10 Warrior Protean models."
+        },
+        {
+          "Title": "Weapons and Equipment",
+          "Text": "Each Warrior or Warrior Protean must be equipped with the same weapon, you must select 1 weapon from the Standard Weapons list."
+        },
+        {
+          "Title": "Upgrades",
+          "Text": "Every Warrior or Warrior Protean may take the Endless Horde upgrade."
+        }
+      ],
+      "Keywords": [
+        "Standard",
+        "Warrior Host"
+      ],
+      "FactionKeywords": [
+        "The Endless"
+      ],
+      "CoreAbilities": [
+        "Large"
+      ],
+      "StatLines": [
+        {
+          "StatName": "Warrior Protean",
+          "Stats": [
+            {
+              "Id": "Cmd",
+              "Value": "4"
+            },
+            {
+              "Id": "Mov",
+              "Value": "5\""
+            },
+            {
+              "Id": "Skl",
+              "Value": "3+"
+            },
+            {
+              "Id": "Def",
+              "Value": "4+"
+            },
+            {
+              "Id": "Tgh",
+              "Value": "4"
+            },
+            {
+              "Id": "HP",
+              "Value": "1"
+            }
+          ]
+        }
+      ],
+      "Weapons": [
+        {
+          "Id": "STANDARD WEAPONS",
+          "DisplayName": "Standard Weapons",
+          "Weapons": [
+            {
+              "Id": "particle flayer",
+              "DisplayName": "Particle Flayer",
+              "Stats": [
+                {
+                  "Id": "Rng",
+                  "Value": "10\""
+                },
+                {
+                  "Id": "Att",
+                  "Value": "4"
+                },
+                {
+                  "Id": "Dmg",
+                  "Value": "3"
+                },
+                {
+                  "Id": "Prc",
+                  "Value": "0"
+                }
+              ],
+              "Keywords": "Shred, Rending 1"
+            },
+            {
+              "Id": "particle rifle",
+              "DisplayName": "Particle Rifle",
+              "Stats": [
+                {
+                  "Id": "Rng",
+                  "Value": "24\""
+                },
+                {
+                  "Id": "Att",
+                  "Value": "3"
+                },
+                {
+                  "Id": "Dmg",
+                  "Value": "4"
+                },
+                {
+                  "Id": "Prc",
+                  "Value": "0"
+                }
+              ],
+              "Keywords": "Rending 1"
+            },
+            {
+              "Id": "shock rifle",
+              "DisplayName": "Shock Rifle",
+              "Stats": [
+                {
+                  "Id": "Rng",
+                  "Value": "12\""
+                },
+                {
+                  "Id": "Att",
+                  "Value": "4"
+                },
+                {
+                  "Id": "Dmg",
+                  "Value": "3"
+                },
+                {
+                  "Id": "Prc",
+                  "Value": "0"
+                }
+              ],
+              "Keywords": "Rending 2, Indirect"
+            },
+            {
+              "Id": "nexian blade",
+              "DisplayName": "Nexian Blade",
+              "Stats": [
+                {
+                  "Id": "Rng",
+                  "Value": "1\""
+                },
+                {
+                  "Id": "Att",
+                  "Value": "3"
+                },
+                {
+                  "Id": "Dmg",
+                  "Value": "4"
+                },
+                {
+                  "Id": "Prc",
+                  "Value": "2"
+                }
+              ],
+              "Keywords": "Assault"
+            }
+          ]
+        },
+        {
+          "Id": "MOUNTED SECONDARY WEAPONS",
+          "DisplayName": "Mounted Secondary Weapons",
+          "Weapons": [
+            {
+              "Id": "particle reaper",
+              "DisplayName": "Particle Reaper",
+              "Stats": [
+                {
+                  "Id": "Rng",
+                  "Value": "18\""
+                },
+                {
+                  "Id": "Att",
+                  "Value": "3"
+                },
+                {
+                  "Id": "Dmg",
+                  "Value": "5"
+                },
+                {
+                  "Id": "Prc",
+                  "Value": "1"
+                }
+              ],
+              "Keywords": "Shred, Rending 1"
+            }
+          ]
+        }
+      ],
+      "Points": [
+        {
+          "ModelCount": 5,
+          "Cost": 50
+        },
+        {
+          "ModelCount": 6,
+          "Cost": 60
+        },
+        {
+          "ModelCount": 7,
+          "Cost": 70
+        },
+        {
+          "ModelCount": 8,
+          "Cost": 80
+        },
+        {
+          "ModelCount": 9,
+          "Cost": 90
+        },
+        {
+          "ModelCount": 10,
+          "Cost": 100
+        }
+      ]
+    },
+    {
+      "Id": "REANIMATOR SWARM",
+      "DisplayName": "Reanimator Swarm",
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "ModelName": "Reanimator Swarm",
+            "Limit": {
+              "Min": 3,
+              "Max": 5
+            },
+            "StatlineRef": "Reanimator Swarm",
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "micro disruptors"
+                ],
+                "Options": []
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": [
+          {
+            "Key": "micro disruptors",
+            "DisplayName": "Micro Disruptors",
+            "Cost": 2
+          }
+        ]
+      },
+      "UnitAbilities": [],
+      "Infos": [
+        {
+          "Title": "Unit Composition",
+          "Text": "A Reanimator Swarm unit consists of 3-5 Reanimator Swarms."
+        },
+        {
+          "Title": "Weapons and Equipment",
+          "Text": "Reanimator Swarms are equipped with Micro Disruptors. Reanimator Swarms have the Reanimation ability."
+        }
+      ],
+      "Keywords": [
+        "Standard",
+        "Reanimator Swarm"
+      ],
+      "FactionKeywords": [
+        "The Endless"
+      ],
+      "CoreAbilities": [
+        "Unbreakable",
+        "Reanimation"
+      ],
+      "StatLines": [
+        {
+          "StatName": "Reanimator Swarm",
+          "Stats": [
+            {
+              "Id": "Cmd",
+              "Value": "3"
+            },
+            {
+              "Id": "Mov",
+              "Value": "5\""
+            },
+            {
+              "Id": "Skl",
+              "Value": "5+"
+            },
+            {
+              "Id": "Def",
+              "Value": "5+"
+            },
+            {
+              "Id": "Tgh",
+              "Value": "3"
+            },
+            {
+              "Id": "HP",
+              "Value": "5"
+            }
+          ]
+        }
+      ],
+      "Weapons": [
+        {
+          "Id": "OTHER WEAPONS",
+          "DisplayName": "Other Weapons",
+          "Weapons": [
+            {
+              "Id": "micro disruptors",
+              "DisplayName": "Micro Disruptors",
+              "Stats": [
+                {
+                  "Id": "Rng",
+                  "Value": "1\""
+                },
+                {
+                  "Id": "Att",
+                  "Value": "5"
+                },
+                {
+                  "Id": "Dmg",
+                  "Value": "3"
+                },
+                {
+                  "Id": "Prc",
+                  "Value": "0"
+                }
+              ],
+              "Keywords": "Assault, Shred"
+            }
+          ]
+        }
+      ],
+      "Points": [
+        {
+          "ModelCount": 3,
+          "Cost": 36
+        },
+        {
+          "ModelCount": 4,
+          "Cost": 48
+        },
+        {
+          "ModelCount": 5,
+          "Cost": 60
+        }
+      ]
+    },
+    {
+      "Id": "TRANSPORT ARK",
+      "DisplayName": "Transport Ark",
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "ModelName": "Transport Ark",
+            "Limit": {
+              "Min": 1,
+              "Max": 1
+            },
+            "StatlineRef": "Transport Ark",
+            "Wargear": [
+              {
+                "InitialWargear": [],
+                "Options": [
+                  {
+                    "Options": [
+                      {
+                        "Items": [
+                          "particle flayer array"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "particle reaper"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "heavy shock cannon"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": [
+          {
+            "Key": "particle reaper",
+            "DisplayName": "Particle Reaper",
+            "Cost": 6
+          },
+          {
+            "Key": "particle flayer array",
+            "DisplayName": "Particle Flayer Array",
+            "Cost": 16
+          },
+          {
+            "Key": "heavy shock cannon",
+            "DisplayName": "Heavy Shock Cannon",
+            "Cost": 20
+          }
+        ]
+      },
+      "UnitAbilities": [],
+      "Infos": [
+        {
+          "Title": "Unit Composition",
+          "Text": "A Transport Ark unit consists of 1 Transport Ark. You may take 1 Transport Ark unit for every Warrior Host unit in your army."
+        },
+        {
+          "Title": "Weapons and Equipment",
+          "Text": "A Transport Ark may take 1 weapon from the Mounted Secondary Weapons list."
+        }
+      ],
+      "Keywords": [
+        "Standard",
+        "Transport Ark"
+      ],
+      "FactionKeywords": [
+        "The Endless"
+      ],
+      "CoreAbilities": [
+        "Flying",
+        "Transport 10",
+        "Vehicle"
+      ],
+      "StatLines": [
+        {
+          "StatName": "Transport Ark",
+          "Stats": [
+            {
+              "Id": "Cmd",
+              "Value": "4"
+            },
+            {
+              "Id": "Mov",
+              "Value": "10\""
+            },
+            {
+              "Id": "Skl",
+              "Value": "4+"
+            },
+            {
+              "Id": "Def",
+              "Value": "3+"
+            },
+            {
+              "Id": "Tgh",
+              "Value": "6"
+            },
+            {
+              "Id": "HP",
+              "Value": "6"
+            }
+          ]
+        }
+      ],
+      "Weapons": [
+        {
+          "Id": "MOUNTED SECONDARY WEAPONS",
+          "DisplayName": "Mounted Secondary Weapons",
+          "Weapons": [
+            {
+              "Id": "particle reaper",
+              "DisplayName": "Particle Reaper",
+              "Stats": [
+                {
+                  "Id": "Rng",
+                  "Value": "18\""
+                },
+                {
+                  "Id": "Att",
+                  "Value": "3"
+                },
+                {
+                  "Id": "Dmg",
+                  "Value": "5"
+                },
+                {
+                  "Id": "Prc",
+                  "Value": "1"
+                }
+              ],
+              "Keywords": "Shred, Rending 1"
+            },
+            {
+              "Id": "particle flayer array",
+              "DisplayName": "Particle Flayer Array",
+              "Stats": [
+                {
+                  "Id": "Rng",
+                  "Value": "10\""
+                },
+                {
+                  "Id": "Att",
+                  "Value": "6"
+                },
+                {
+                  "Id": "Dmg",
+                  "Value": "3"
+                },
+                {
+                  "Id": "Prc",
+                  "Value": "0"
+                }
+              ],
+              "Keywords": "Rapid Fire 1, Shred, Rending 1"
+            },
+            {
+              "Id": "heavy shock cannon",
+              "DisplayName": "Heavy Shock Cannon",
+              "Stats": [
+                {
+                  "Id": "Rng",
+                  "Value": "24\""
+                },
+                {
+                  "Id": "Att",
+                  "Value": "8"
+                },
+                {
+                  "Id": "Dmg",
+                  "Value": "5"
+                },
+                {
+                  "Id": "Prc",
+                  "Value": "1"
+                }
+              ],
+              "Keywords": "Rending 2, Indirect"
+            }
+          ]
+        }
+      ],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 100
+        }
+      ]
+    },
+    {
+      "Id": "PROTEAN ADAPTS",
+      "DisplayName": "Protean Adapts",
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "ModelName": "Protean Adapt",
+            "Limit": {
+              "Min": 3,
+              "Max": 5
+            },
+            "StatlineRef": "Protean Adapt",
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "nexian glaives"
+                ],
+                "Options": [
+                  {
+                    "Options": [
+                      {
+                        "Items": [
+                          "particle beam emitter"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "heavy particle reaper"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "shock cannon"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "disruptor array"
+                        ]
+                      }
+                    ],
+                    "Replaces": [
+                      "nexian glaives"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      {
+                        "Items": [
+                          "particle caster"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "rending claws"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "Options": [
+                      {
+                        "Items": [
+                          "protean hover frame"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "protean stalker frame"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": [
+          {
+            "Key": "particle caster",
+            "DisplayName": "Particle Caster",
+            "Cost": 1
+          },
+          {
+            "Key": "rending claws",
+            "DisplayName": "Rending Claws",
+            "Cost": 1
+          },
+          {
+            "Key": "nexian glaives",
+            "DisplayName": "Nexian Glaives",
+            "Cost": 7
+          },
+          {
+            "Key": "particle beam emitter",
+            "DisplayName": "Particle Beam Emitter",
+            "Cost": 18
+          },
+          {
+            "Key": "heavy particle reaper",
+            "DisplayName": "Heavy Particle Reaper",
+            "Cost": 10
+          },
+          {
+            "Key": "shock cannon",
+            "DisplayName": "Shock Cannon",
+            "Cost": 10
+          },
+          {
+            "Key": "disruptor array",
+            "DisplayName": "Disruptor Array",
+            "Cost": 15
+          },
+          {
+            "Key": "protean hover frame",
+            "DisplayName": "Protean Hover Frame",
+            "Cost": 6,
+            "GrantsAbilities": [
+              "Protean Hover Frame"
+            ],
+            "DatasheetAdjustments": [
+              {
+                "Target": "CoreAbilities",
+                "Type": "Add",
+                "Scope": "Model",
+                "Values": [
+                  "Flying"
+                ]
+              }
+            ]
+          },
+          {
+            "Key": "protean stalker frame",
+            "DisplayName": "Protean Stalker Frame",
+            "Cost": 5,
+            "GrantsAbilities": [
+              "Protean Stalker Frame"
+            ],
+            "DatasheetAdjustments": [
+              {
+                "Target": "CoreAbilities",
+                "Type": "Add",
+                "Scope": "Model",
+                "Values": [
+                  "Resilient",
+                  "Rugged"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Protean Hover Frame",
+          "Text": "This model doubles it's movement attribute during Advance actions and gains the Flying special rule."
+        },
+        {
+          "Title": "Protean Stalker Frame",
+          "Text": "This model gains the Resilient and the Rugged special rule."
+        }
+      ],
+      "Infos": [
+        {
+          "Title": "Unit Composition",
+          "Text": "A Protean Adapts unit consists of 3-5 Protean Adapt models."
+        },
+        {
+          "Title": "Weapons and Equipment",
+          "Text": "Each Protean Adapt must be equipped with the same weapons: you must select 1 weapon from the Specialist Weapons list and may choose 1 weapon from the Standard Sidearms list."
+        },
+        {
+          "Title": "Upgrades",
+          "Text": "You may upgrade all Protean Adapts with the Protean Hover Frame or the Protean Stalker Frame upgrade."
+        }
+      ],
+      "Keywords": [
+        "Specialist",
+        "Protean Adapts"
+      ],
+      "FactionKeywords": [
+        "The Endless"
+      ],
+      "CoreAbilities": [
+        "Large",
+        "Unbreakable"
+      ],
+      "StatLines": [
+        {
+          "StatName": "Protean Adapt",
+          "Stats": [
+            {
+              "Id": "Cmd",
+              "Value": "4"
+            },
+            {
+              "Id": "Mov",
+              "Value": "6\""
+            },
+            {
+              "Id": "Skl",
+              "Value": "3+"
+            },
+            {
+              "Id": "Def",
+              "Value": "4+"
+            },
+            {
+              "Id": "Tgh",
+              "Value": "4"
+            },
+            {
+              "Id": "HP",
+              "Value": "1"
+            }
+          ]
+        }
+      ],
+      "Weapons": [
+        {
+          "Id": "STANDARD SIDEARMS",
+          "DisplayName": "Standard Sidearms",
+          "Weapons": [
+            {
+              "Id": "particle caster",
+              "DisplayName": "Particle Caster",
+              "Stats": [
+                {
+                  "Id": "Rng",
+                  "Value": "4\""
+                },
+                {
+                  "Id": "Att",
+                  "Value": "3"
+                },
+                {
+                  "Id": "Dmg",
+                  "Value": "3"
+                },
+                {
+                  "Id": "Prc",
+                  "Value": "0"
+                }
+              ],
+              "Keywords": "Assault"
+            },
+            {
+              "Id": "rending claws",
+              "DisplayName": "Rending Claws",
+              "Stats": [
+                {
+                  "Id": "Rng",
+                  "Value": "1\""
+                },
+                {
+                  "Id": "Att",
+                  "Value": "2"
+                },
+                {
+                  "Id": "Dmg",
+                  "Value": "4"
+                },
+                {
+                  "Id": "Prc",
+                  "Value": "0"
+                }
+              ],
+              "Keywords": "Rending 2"
+            }
+          ]
+        },
+        {
+          "Id": "SPECIALIST WEAPONS",
+          "DisplayName": "Specialist Weapons",
+          "Weapons": [
+            {
+              "Id": "nexian glaives",
+              "DisplayName": "Nexian Glaives",
+              "Stats": [
+                {
+                  "Id": "Rng",
+                  "Value": "1\""
+                },
+                {
+                  "Id": "Att",
+                  "Value": "5"
+                },
+                {
+                  "Id": "Dmg",
+                  "Value": "5"
+                },
+                {
+                  "Id": "Prc",
+                  "Value": "2"
+                }
+              ],
+              "Keywords": "Assault"
+            },
+            {
+              "Id": "particle beam emitter",
+              "DisplayName": "Particle Beam Emitter",
+              "Stats": [
+                {
+                  "Id": "Rng",
+                  "Value": "48\""
+                },
+                {
+                  "Id": "Att",
+                  "Value": "1"
+                },
+                {
+                  "Id": "Dmg",
+                  "Value": "6"
+                },
+                {
+                  "Id": "Prc",
+                  "Value": "3"
+                }
+              ],
+              "Keywords": "Accurate, Destructive 4, Shred, Heavy"
+            },
+            {
+              "Id": "heavy particle reaper",
+              "DisplayName": "Heavy Particle Reaper",
+              "Stats": [
+                {
+                  "Id": "Rng",
+                  "Value": "24\""
+                },
+                {
+                  "Id": "Att",
+                  "Value": "4"
+                },
+                {
+                  "Id": "Dmg",
+                  "Value": "6"
+                },
+                {
+                  "Id": "Prc",
+                  "Value": "2"
+                }
+              ],
+              "Keywords": "Shred, Rending 2, Heavy"
+            },
+            {
+              "Id": "shock cannon",
+              "DisplayName": "Shock Cannon",
+              "Stats": [
+                {
+                  "Id": "Rng",
+                  "Value": "18\""
+                },
+                {
+                  "Id": "Att",
+                  "Value": "8"
+                },
+                {
+                  "Id": "Dmg",
+                  "Value": "3"
+                },
+                {
+                  "Id": "Prc",
+                  "Value": "0"
+                }
+              ],
+              "Keywords": "Rending 2, Indirect"
+            },
+            {
+              "Id": "disruptor array",
+              "DisplayName": "Disruptor Array",
+              "Stats": [
+                {
+                  "Id": "Rng",
+                  "Value": "6\""
+                },
+                {
+                  "Id": "Att",
+                  "Value": "3"
+                },
+                {
+                  "Id": "Dmg",
+                  "Value": "3"
+                },
+                {
+                  "Id": "Prc",
+                  "Value": "1"
+                }
+              ],
+              "Keywords": "Assault, Shred, Rapid Fire 4"
+            }
+          ]
+        }
+      ],
+      "Points": [
+        {
+          "ModelCount": 3,
+          "Cost": 30
+        },
+        {
+          "ModelCount": 4,
+          "Cost": 40
+        },
+        {
+          "ModelCount": 5,
+          "Cost": 50
+        }
+      ]
+    }
+  ],
+  "ArmyRules": [
+    {
+      "Title": "About The Endless",
+      "Text": "Ruthless and ancient beings, once assured of their ultimate supremacy now find themselves surrounded by lesser beings. Unburdened by doubt and with an unwavering resolve their armies march once again into war."
+    },
+    {
+      "Title": "Building an Army",
+      "Text": "Building your army for Fracture is simple, players agree a maximum number of points then choose their units from a suitable army list, ensuring the total points cost for their models, weapons, and equipment don't exceed that maximum. Each army list is designed to reflect a certain type of faction rather than one single entity, choose the one that best suits your chosen miniatures and play style.\n\nIn addition to the maximum points each player can spend there are also 3 categories of unit; Command, Standard, and Specialist. An army must be at least 25% (by points) Standard models, no more than 25% Command models, and no more than 50% Specialist models.\n\nRecommended points for games of Fracture are 500-1000 points for smaller games which can be played on a 3ft by 4ft battlefield and up to 2000 for larger games with a larger battlefield."
+    },
+    {
+      "Title": "Roster Restrictions",
+      "Text": "Check the source Unit Composition and Weapons and Equipment notes when building an army. Army category percentages, one-per-army limits across variants, transport ratios, unique weapons, and matching equipment or upgrades across squad models require manual checking."
+    },
+    {
+      "Title": "Attribution",
+      "Text": "Fracture and the Cadence Wargame System by Open Source Tabletop (https://cadence.games; https://github.com/open-source-tabletop/fracture), licensed under Creative Commons Attribution 4.0 (https://creativecommons.org/licenses/by/4.0/)."
+    }
+  ]
+}

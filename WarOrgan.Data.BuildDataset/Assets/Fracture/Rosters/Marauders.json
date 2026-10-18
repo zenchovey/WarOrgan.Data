@@ -1,0 +1,6668 @@
+{
+  "Name": "Marauders",
+  "Units": [
+    {
+      "Id": "WARLORD (WARLORD)",
+      "DisplayName": "Warlord",
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "ModelName": "Warlord",
+            "Limit": {
+              "Min": 1,
+              "Max": 1
+            },
+            "StatlineRef": "Warlord",
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "combat blade",
+                  "combat blade 2"
+                ],
+                "Options": [
+                  {
+                    "Options": [
+                      {
+                        "Items": [
+                          "slugger pistol"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "spitfire"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "bonecrusher"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "scattergun"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "slammer"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "cleaver"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "longshot"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "scorcher"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "rocket pipe"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "buzzsaw"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "plasma destabiliser"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "crushing claw"
+                        ]
+                      }
+                    ],
+                    "Replaces": [
+                      "combat blade"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      {
+                        "Items": [
+                          "slugger pistol 2"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "spitfire 2"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "bonecrusher 2"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "scattergun 2"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "slammer 2"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "cleaver 2"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "longshot 2"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "scorcher 2"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "rocket pipe 2"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "buzzsaw 2"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "plasma destabiliser 2"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "crushing claw 2"
+                        ]
+                      }
+                    ],
+                    "Replaces": [
+                      "combat blade 2"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      {
+                        "Items": [
+                          "he grenade"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "freg grenade"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "Options": [
+                      {
+                        "Items": [
+                          "big boss"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": [
+          {
+            "Key": "slugger pistol",
+            "DisplayName": "Slugger Pistol",
+            "Cost": 0
+          },
+          {
+            "Key": "combat blade",
+            "DisplayName": "Combat Blade",
+            "Cost": 0
+          },
+          {
+            "Key": "spitfire",
+            "DisplayName": "Spitfire",
+            "Cost": 4
+          },
+          {
+            "Key": "bonecrusher",
+            "DisplayName": "Bonecrusher",
+            "Cost": 4
+          },
+          {
+            "Key": "scattergun",
+            "DisplayName": "Scattergun",
+            "Cost": 2
+          },
+          {
+            "Key": "slammer",
+            "DisplayName": "Slammer",
+            "Cost": 5
+          },
+          {
+            "Key": "cleaver",
+            "DisplayName": "Cleaver",
+            "Cost": 2
+          },
+          {
+            "Key": "he grenade",
+            "DisplayName": "HE Grenade",
+            "Cost": 5
+          },
+          {
+            "Key": "freg grenade",
+            "DisplayName": "Freg Grenade",
+            "Cost": 2
+          },
+          {
+            "Key": "longshot",
+            "DisplayName": "Longshot",
+            "Cost": 12
+          },
+          {
+            "Key": "scorcher",
+            "DisplayName": "Scorcher",
+            "Cost": 4
+          },
+          {
+            "Key": "rocket pipe",
+            "DisplayName": "Rocket Pipe",
+            "Cost": 4
+          },
+          {
+            "Key": "buzzsaw",
+            "DisplayName": "Buzzsaw",
+            "Cost": 18
+          },
+          {
+            "Key": "plasma destabiliser",
+            "DisplayName": "Plasma Destabiliser",
+            "Cost": 12
+          },
+          {
+            "Key": "crushing claw",
+            "DisplayName": "Crushing Claw",
+            "Cost": 11
+          },
+          {
+            "Key": "big boss",
+            "DisplayName": "Big Boss",
+            "Cost": 15,
+            "GrantsAbilities": [
+              "Big Boss"
+            ]
+          },
+          {
+            "Key": "slugger pistol 2",
+            "DisplayName": "Slugger Pistol",
+            "Cost": 0,
+            "GrantsWeapons": [
+              "slugger pistol"
+            ]
+          },
+          {
+            "Key": "combat blade 2",
+            "DisplayName": "Combat Blade",
+            "Cost": 0,
+            "GrantsWeapons": [
+              "combat blade"
+            ]
+          },
+          {
+            "Key": "spitfire 2",
+            "DisplayName": "Spitfire",
+            "Cost": 4,
+            "GrantsWeapons": [
+              "spitfire"
+            ]
+          },
+          {
+            "Key": "bonecrusher 2",
+            "DisplayName": "Bonecrusher",
+            "Cost": 4,
+            "GrantsWeapons": [
+              "bonecrusher"
+            ]
+          },
+          {
+            "Key": "scattergun 2",
+            "DisplayName": "Scattergun",
+            "Cost": 2,
+            "GrantsWeapons": [
+              "scattergun"
+            ]
+          },
+          {
+            "Key": "slammer 2",
+            "DisplayName": "Slammer",
+            "Cost": 5,
+            "GrantsWeapons": [
+              "slammer"
+            ]
+          },
+          {
+            "Key": "cleaver 2",
+            "DisplayName": "Cleaver",
+            "Cost": 2,
+            "GrantsWeapons": [
+              "cleaver"
+            ]
+          },
+          {
+            "Key": "longshot 2",
+            "DisplayName": "Longshot",
+            "Cost": 12,
+            "GrantsWeapons": [
+              "longshot"
+            ]
+          },
+          {
+            "Key": "scorcher 2",
+            "DisplayName": "Scorcher",
+            "Cost": 4,
+            "GrantsWeapons": [
+              "scorcher"
+            ]
+          },
+          {
+            "Key": "rocket pipe 2",
+            "DisplayName": "Rocket Pipe",
+            "Cost": 4,
+            "GrantsWeapons": [
+              "rocket pipe"
+            ]
+          },
+          {
+            "Key": "buzzsaw 2",
+            "DisplayName": "Buzzsaw",
+            "Cost": 18,
+            "GrantsWeapons": [
+              "buzzsaw"
+            ]
+          },
+          {
+            "Key": "plasma destabiliser 2",
+            "DisplayName": "Plasma Destabiliser",
+            "Cost": 12,
+            "GrantsWeapons": [
+              "plasma destabiliser"
+            ]
+          },
+          {
+            "Key": "crushing claw 2",
+            "DisplayName": "Crushing Claw",
+            "Cost": 11,
+            "GrantsWeapons": [
+              "crushing claw"
+            ]
+          }
+        ]
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Big Boss",
+          "Text": "Friendly units within 6 inches of this model automatically pass Morale Tests."
+        }
+      ],
+      "Infos": [
+        {
+          "Title": "Unit Composition",
+          "Text": "A Warlord unit consists of 1 Warlord or Warlord in Juggernaut Armour model. You may only include 1 Warlord unit in your army."
+        },
+        {
+          "Title": "Weapons and Equipment",
+          "Text": "A Warlord may select 2 weapons from either the Standard Sidearms, Specialist Sidearms, Standard Weapons or Specialist Weapons lists. A Warlord may also select 1 weapon from the Grenades weapon list."
+        },
+        {
+          "Title": "Upgrades",
+          "Text": "This model may take the Big Boss upgrade."
+        }
+      ],
+      "Keywords": [
+        "Command",
+        "Warlord"
+      ],
+      "FactionKeywords": [
+        "Marauders"
+      ],
+      "CoreAbilities": [],
+      "StatLines": [
+        {
+          "StatName": "Warlord",
+          "Stats": [
+            {
+              "Id": "Cmd",
+              "Value": "6"
+            },
+            {
+              "Id": "Mov",
+              "Value": "6\""
+            },
+            {
+              "Id": "Skl",
+              "Value": "3+"
+            },
+            {
+              "Id": "Def",
+              "Value": "4+"
+            },
+            {
+              "Id": "Tgh",
+              "Value": "6"
+            },
+            {
+              "Id": "HP",
+              "Value": "6"
+            }
+          ]
+        }
+      ],
+      "Weapons": [
+        {
+          "Id": "STANDARD SIDEARMS",
+          "DisplayName": "Standard Sidearms",
+          "Weapons": [
+            {
+              "Id": "slugger pistol",
+              "DisplayName": "Slugger Pistol",
+              "Stats": [
+                {
+                  "Id": "Rng",
+                  "Value": "6\""
+                },
+                {
+                  "Id": "Att",
+                  "Value": "2"
+                },
+                {
+                  "Id": "Dmg",
+                  "Value": "3"
+                },
+                {
+                  "Id": "Prc",
+                  "Value": "0"
+                }
+              ],
+              "Keywords": "Assault"
+            },
+            {
+              "Id": "combat blade",
+              "DisplayName": "Combat Blade",
+              "Stats": [
+                {
+                  "Id": "Rng",
+                  "Value": "1\""
+                },
+                {
+                  "Id": "Att",
+                  "Value": "2"
+                },
+                {
+                  "Id": "Dmg",
+                  "Value": "4"
+                },
+                {
+                  "Id": "Prc",
+                  "Value": "0"
+                }
+              ],
+              "Keywords": "Assault"
+            }
+          ]
+        },
+        {
+          "Id": "SPECIALIST SIDEARMS",
+          "DisplayName": "Specialist Sidearms",
+          "Weapons": [
+            {
+              "Id": "spitfire",
+              "DisplayName": "Spitfire",
+              "Stats": [
+                {
+                  "Id": "Rng",
+                  "Value": "6\""
+                },
+                {
+                  "Id": "Att",
+                  "Value": "3"
+                },
+                {
+                  "Id": "Dmg",
+                  "Value": "5"
+                },
+                {
+                  "Id": "Prc",
+                  "Value": "1"
+                }
+              ],
+              "Keywords": "Assault, Shred"
+            },
+            {
+              "Id": "bonecrusher",
+              "DisplayName": "Bonecrusher",
+              "Stats": [
+                {
+                  "Id": "Rng",
+                  "Value": "1\""
+                },
+                {
+                  "Id": "Att",
+                  "Value": "3"
+                },
+                {
+                  "Id": "Dmg",
+                  "Value": "4"
+                },
+                {
+                  "Id": "Prc",
+                  "Value": "1"
+                }
+              ],
+              "Keywords": "Assault, Rapid Fire 1"
+            }
+          ]
+        },
+        {
+          "Id": "STANDARD WEAPONS",
+          "DisplayName": "Standard Weapons",
+          "Weapons": [
+            {
+              "Id": "scattergun",
+              "DisplayName": "Scattergun",
+              "Stats": [
+                {
+                  "Id": "Rng",
+                  "Value": "20\""
+                },
+                {
+                  "Id": "Att",
+                  "Value": "4"
+                },
+                {
+                  "Id": "Dmg",
+                  "Value": "3"
+                },
+                {
+                  "Id": "Prc",
+                  "Value": "0"
+                }
+              ]
+            },
+            {
+              "Id": "slammer",
+              "DisplayName": "Slammer",
+              "Stats": [
+                {
+                  "Id": "Rng",
+                  "Value": "10\""
+                },
+                {
+                  "Id": "Att",
+                  "Value": "4"
+                },
+                {
+                  "Id": "Dmg",
+                  "Value": "4"
+                },
+                {
+                  "Id": "Prc",
+                  "Value": "1"
+                }
+              ],
+              "Keywords": "Rending 1, Shred"
+            },
+            {
+              "Id": "cleaver",
+              "DisplayName": "Cleaver",
+              "Stats": [
+                {
+                  "Id": "Rng",
+                  "Value": "1\""
+                },
+                {
+                  "Id": "Att",
+                  "Value": "4"
+                },
+                {
+                  "Id": "Dmg",
+                  "Value": "4"
+                },
+                {
+                  "Id": "Prc",
+                  "Value": "0"
+                }
+              ],
+              "Keywords": "Assault"
+            }
+          ]
+        },
+        {
+          "Id": "GRENADES",
+          "DisplayName": "Grenades",
+          "Weapons": [
+            {
+              "Id": "he grenade",
+              "DisplayName": "HE Grenade",
+              "Stats": [
+                {
+                  "Id": "Rng",
+                  "Value": "8\""
+                },
+                {
+                  "Id": "Att",
+                  "Value": "3"
+                },
+                {
+                  "Id": "Dmg",
+                  "Value": "6"
+                },
+                {
+                  "Id": "Prc",
+                  "Value": "3"
+                }
+              ],
+              "Keywords": "Blast 1, Inaccurate, Grenade"
+            },
+            {
+              "Id": "freg grenade",
+              "DisplayName": "Freg Grenade",
+              "Stats": [
+                {
+                  "Id": "Rng",
+                  "Value": "8\""
+                },
+                {
+                  "Id": "Att",
+                  "Value": "3"
+                },
+                {
+                  "Id": "Dmg",
+                  "Value": "4"
+                },
+                {
+                  "Id": "Prc",
+                  "Value": "1"
+                }
+              ],
+              "Keywords": "Blast 2, Inaccurate, Grenade"
+            }
+          ]
+        },
+        {
+          "Id": "SPECIALIST WEAPONS",
+          "DisplayName": "Specialist Weapons",
+          "Weapons": [
+            {
+              "Id": "longshot",
+              "DisplayName": "Longshot",
+              "Stats": [
+                {
+                  "Id": "Rng",
+                  "Value": "32\""
+                },
+                {
+                  "Id": "Att",
+                  "Value": "2"
+                },
+                {
+                  "Id": "Dmg",
+                  "Value": "5"
+                },
+                {
+                  "Id": "Prc",
+                  "Value": "1"
+                }
+              ],
+              "Keywords": "Accurate, Destructive 2, Heavy"
+            },
+            {
+              "Id": "scorcher",
+              "DisplayName": "Scorcher",
+              "Stats": [
+                {
+                  "Id": "Rng",
+                  "Value": "6\""
+                },
+                {
+                  "Id": "Att",
+                  "Value": "4"
+                },
+                {
+                  "Id": "Dmg",
+                  "Value": "3"
+                },
+                {
+                  "Id": "Prc",
+                  "Value": "1"
+                }
+              ],
+              "Keywords": "Blast 1, Torrent, Rending 2"
+            },
+            {
+              "Id": "rocket pipe",
+              "DisplayName": "Rocket Pipe",
+              "Stats": [
+                {
+                  "Id": "Rng",
+                  "Value": "18\""
+                },
+                {
+                  "Id": "Att",
+                  "Value": "4"
+                },
+                {
+                  "Id": "Dmg",
+                  "Value": "6"
+                },
+                {
+                  "Id": "Prc",
+                  "Value": "2"
+                }
+              ],
+              "Keywords": "Inaccurate, Blast 1"
+            },
+            {
+              "Id": "buzzsaw",
+              "DisplayName": "Buzzsaw",
+              "Stats": [
+                {
+                  "Id": "Rng",
+                  "Value": "1\""
+                },
+                {
+                  "Id": "Att",
+                  "Value": "3"
+                },
+                {
+                  "Id": "Dmg",
+                  "Value": "5"
+                },
+                {
+                  "Id": "Prc",
+                  "Value": "3"
+                }
+              ],
+              "Keywords": "Assault, Rapid Fire 1, Destructive 2"
+            },
+            {
+              "Id": "plasma destabiliser",
+              "DisplayName": "Plasma Destabiliser",
+              "Stats": [
+                {
+                  "Id": "Rng",
+                  "Value": "20\""
+                },
+                {
+                  "Id": "Att",
+                  "Value": "3"
+                },
+                {
+                  "Id": "Dmg",
+                  "Value": "7"
+                },
+                {
+                  "Id": "Prc",
+                  "Value": "2"
+                }
+              ],
+              "Keywords": "Volatile"
+            },
+            {
+              "Id": "crushing claw",
+              "DisplayName": "Crushing Claw",
+              "Stats": [
+                {
+                  "Id": "Rng",
+                  "Value": "1\""
+                },
+                {
+                  "Id": "Att",
+                  "Value": "3"
+                },
+                {
+                  "Id": "Dmg",
+                  "Value": "6"
+                },
+                {
+                  "Id": "Prc",
+                  "Value": "2"
+                }
+              ],
+              "Keywords": "Assault, Destructive 2"
+            }
+          ]
+        }
+      ],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 50
+        }
+      ]
+    },
+    {
+      "Id": "WARLORD (JUGGERNAUT ARMOUR)",
+      "DisplayName": "Warlord (Juggernaut Armour)",
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "ModelName": "Warlord in Juggernaut Armour",
+            "Limit": {
+              "Min": 1,
+              "Max": 1
+            },
+            "StatlineRef": "Warlord in Juggernaut Armour",
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "combat blade",
+                  "combat blade 2"
+                ],
+                "Options": [
+                  {
+                    "Options": [
+                      {
+                        "Items": [
+                          "slugger pistol"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "spitfire"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "bonecrusher"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "scattergun"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "slammer"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "cleaver"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "longshot"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "scorcher"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "rocket pipe"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "buzzsaw"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "plasma destabiliser"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "crushing claw"
+                        ]
+                      }
+                    ],
+                    "Replaces": [
+                      "combat blade"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      {
+                        "Items": [
+                          "slugger pistol 2"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "spitfire 2"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "bonecrusher 2"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "scattergun 2"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "slammer 2"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "cleaver 2"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "longshot 2"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "scorcher 2"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "rocket pipe 2"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "buzzsaw 2"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "plasma destabiliser 2"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "crushing claw 2"
+                        ]
+                      }
+                    ],
+                    "Replaces": [
+                      "combat blade 2"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      {
+                        "Items": [
+                          "he grenade"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "freg grenade"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "Options": [
+                      {
+                        "Items": [
+                          "big boss"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": [
+          {
+            "Key": "slugger pistol",
+            "DisplayName": "Slugger Pistol",
+            "Cost": 0
+          },
+          {
+            "Key": "combat blade",
+            "DisplayName": "Combat Blade",
+            "Cost": 0
+          },
+          {
+            "Key": "spitfire",
+            "DisplayName": "Spitfire",
+            "Cost": 4
+          },
+          {
+            "Key": "bonecrusher",
+            "DisplayName": "Bonecrusher",
+            "Cost": 4
+          },
+          {
+            "Key": "scattergun",
+            "DisplayName": "Scattergun",
+            "Cost": 2
+          },
+          {
+            "Key": "slammer",
+            "DisplayName": "Slammer",
+            "Cost": 5
+          },
+          {
+            "Key": "cleaver",
+            "DisplayName": "Cleaver",
+            "Cost": 2
+          },
+          {
+            "Key": "he grenade",
+            "DisplayName": "HE Grenade",
+            "Cost": 5
+          },
+          {
+            "Key": "freg grenade",
+            "DisplayName": "Freg Grenade",
+            "Cost": 2
+          },
+          {
+            "Key": "longshot",
+            "DisplayName": "Longshot",
+            "Cost": 12
+          },
+          {
+            "Key": "scorcher",
+            "DisplayName": "Scorcher",
+            "Cost": 4
+          },
+          {
+            "Key": "rocket pipe",
+            "DisplayName": "Rocket Pipe",
+            "Cost": 4
+          },
+          {
+            "Key": "buzzsaw",
+            "DisplayName": "Buzzsaw",
+            "Cost": 18
+          },
+          {
+            "Key": "plasma destabiliser",
+            "DisplayName": "Plasma Destabiliser",
+            "Cost": 12
+          },
+          {
+            "Key": "crushing claw",
+            "DisplayName": "Crushing Claw",
+            "Cost": 11
+          },
+          {
+            "Key": "big boss",
+            "DisplayName": "Big Boss",
+            "Cost": 15,
+            "GrantsAbilities": [
+              "Big Boss"
+            ]
+          },
+          {
+            "Key": "slugger pistol 2",
+            "DisplayName": "Slugger Pistol",
+            "Cost": 0,
+            "GrantsWeapons": [
+              "slugger pistol"
+            ]
+          },
+          {
+            "Key": "combat blade 2",
+            "DisplayName": "Combat Blade",
+            "Cost": 0,
+            "GrantsWeapons": [
+              "combat blade"
+            ]
+          },
+          {
+            "Key": "spitfire 2",
+            "DisplayName": "Spitfire",
+            "Cost": 4,
+            "GrantsWeapons": [
+              "spitfire"
+            ]
+          },
+          {
+            "Key": "bonecrusher 2",
+            "DisplayName": "Bonecrusher",
+            "Cost": 4,
+            "GrantsWeapons": [
+              "bonecrusher"
+            ]
+          },
+          {
+            "Key": "scattergun 2",
+            "DisplayName": "Scattergun",
+            "Cost": 2,
+            "GrantsWeapons": [
+              "scattergun"
+            ]
+          },
+          {
+            "Key": "slammer 2",
+            "DisplayName": "Slammer",
+            "Cost": 5,
+            "GrantsWeapons": [
+              "slammer"
+            ]
+          },
+          {
+            "Key": "cleaver 2",
+            "DisplayName": "Cleaver",
+            "Cost": 2,
+            "GrantsWeapons": [
+              "cleaver"
+            ]
+          },
+          {
+            "Key": "longshot 2",
+            "DisplayName": "Longshot",
+            "Cost": 12,
+            "GrantsWeapons": [
+              "longshot"
+            ]
+          },
+          {
+            "Key": "scorcher 2",
+            "DisplayName": "Scorcher",
+            "Cost": 4,
+            "GrantsWeapons": [
+              "scorcher"
+            ]
+          },
+          {
+            "Key": "rocket pipe 2",
+            "DisplayName": "Rocket Pipe",
+            "Cost": 4,
+            "GrantsWeapons": [
+              "rocket pipe"
+            ]
+          },
+          {
+            "Key": "buzzsaw 2",
+            "DisplayName": "Buzzsaw",
+            "Cost": 18,
+            "GrantsWeapons": [
+              "buzzsaw"
+            ]
+          },
+          {
+            "Key": "plasma destabiliser 2",
+            "DisplayName": "Plasma Destabiliser",
+            "Cost": 12,
+            "GrantsWeapons": [
+              "plasma destabiliser"
+            ]
+          },
+          {
+            "Key": "crushing claw 2",
+            "DisplayName": "Crushing Claw",
+            "Cost": 11,
+            "GrantsWeapons": [
+              "crushing claw"
+            ]
+          }
+        ]
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Big Boss",
+          "Text": "Friendly units within 6 inches of this model automatically pass Morale Tests."
+        }
+      ],
+      "Infos": [
+        {
+          "Title": "Unit Composition",
+          "Text": "A Warlord unit consists of 1 Warlord or Warlord in Juggernaut Armour model. You may only include 1 Warlord unit in your army."
+        },
+        {
+          "Title": "Weapons and Equipment",
+          "Text": "A Warlord may select 2 weapons from either the Standard Sidearms, Specialist Sidearms, Standard Weapons or Specialist Weapons lists. A Warlord may also select 1 weapon from the Grenades weapon list."
+        },
+        {
+          "Title": "Upgrades",
+          "Text": "This model may take the Big Boss upgrade."
+        }
+      ],
+      "Keywords": [
+        "Command",
+        "Warlord"
+      ],
+      "FactionKeywords": [
+        "Marauders"
+      ],
+      "CoreAbilities": [
+        "Large",
+        "Platform 1",
+        "Steady"
+      ],
+      "StatLines": [
+        {
+          "StatName": "Warlord in Juggernaut Armour",
+          "Stats": [
+            {
+              "Id": "Cmd",
+              "Value": "5"
+            },
+            {
+              "Id": "Mov",
+              "Value": "5\""
+            },
+            {
+              "Id": "Skl",
+              "Value": "3+"
+            },
+            {
+              "Id": "Def",
+              "Value": "2+"
+            },
+            {
+              "Id": "Tgh",
+              "Value": "6"
+            },
+            {
+              "Id": "HP",
+              "Value": "6"
+            }
+          ]
+        }
+      ],
+      "Weapons": [
+        {
+          "Id": "STANDARD SIDEARMS",
+          "DisplayName": "Standard Sidearms",
+          "Weapons": [
+            {
+              "Id": "slugger pistol",
+              "DisplayName": "Slugger Pistol",
+              "Stats": [
+                {
+                  "Id": "Rng",
+                  "Value": "6\""
+                },
+                {
+                  "Id": "Att",
+                  "Value": "2"
+                },
+                {
+                  "Id": "Dmg",
+                  "Value": "3"
+                },
+                {
+                  "Id": "Prc",
+                  "Value": "0"
+                }
+              ],
+              "Keywords": "Assault"
+            },
+            {
+              "Id": "combat blade",
+              "DisplayName": "Combat Blade",
+              "Stats": [
+                {
+                  "Id": "Rng",
+                  "Value": "1\""
+                },
+                {
+                  "Id": "Att",
+                  "Value": "2"
+                },
+                {
+                  "Id": "Dmg",
+                  "Value": "4"
+                },
+                {
+                  "Id": "Prc",
+                  "Value": "0"
+                }
+              ],
+              "Keywords": "Assault"
+            }
+          ]
+        },
+        {
+          "Id": "SPECIALIST SIDEARMS",
+          "DisplayName": "Specialist Sidearms",
+          "Weapons": [
+            {
+              "Id": "spitfire",
+              "DisplayName": "Spitfire",
+              "Stats": [
+                {
+                  "Id": "Rng",
+                  "Value": "6\""
+                },
+                {
+                  "Id": "Att",
+                  "Value": "3"
+                },
+                {
+                  "Id": "Dmg",
+                  "Value": "5"
+                },
+                {
+                  "Id": "Prc",
+                  "Value": "1"
+                }
+              ],
+              "Keywords": "Assault, Shred"
+            },
+            {
+              "Id": "bonecrusher",
+              "DisplayName": "Bonecrusher",
+              "Stats": [
+                {
+                  "Id": "Rng",
+                  "Value": "1\""
+                },
+                {
+                  "Id": "Att",
+                  "Value": "3"
+                },
+                {
+                  "Id": "Dmg",
+                  "Value": "4"
+                },
+                {
+                  "Id": "Prc",
+                  "Value": "1"
+                }
+              ],
+              "Keywords": "Assault, Rapid Fire 1"
+            }
+          ]
+        },
+        {
+          "Id": "STANDARD WEAPONS",
+          "DisplayName": "Standard Weapons",
+          "Weapons": [
+            {
+              "Id": "scattergun",
+              "DisplayName": "Scattergun",
+              "Stats": [
+                {
+                  "Id": "Rng",
+                  "Value": "20\""
+                },
+                {
+                  "Id": "Att",
+                  "Value": "4"
+                },
+                {
+                  "Id": "Dmg",
+                  "Value": "3"
+                },
+                {
+                  "Id": "Prc",
+                  "Value": "0"
+                }
+              ]
+            },
+            {
+              "Id": "slammer",
+              "DisplayName": "Slammer",
+              "Stats": [
+                {
+                  "Id": "Rng",
+                  "Value": "10\""
+                },
+                {
+                  "Id": "Att",
+                  "Value": "4"
+                },
+                {
+                  "Id": "Dmg",
+                  "Value": "4"
+                },
+                {
+                  "Id": "Prc",
+                  "Value": "1"
+                }
+              ],
+              "Keywords": "Rending 1, Shred"
+            },
+            {
+              "Id": "cleaver",
+              "DisplayName": "Cleaver",
+              "Stats": [
+                {
+                  "Id": "Rng",
+                  "Value": "1\""
+                },
+                {
+                  "Id": "Att",
+                  "Value": "4"
+                },
+                {
+                  "Id": "Dmg",
+                  "Value": "4"
+                },
+                {
+                  "Id": "Prc",
+                  "Value": "0"
+                }
+              ],
+              "Keywords": "Assault"
+            }
+          ]
+        },
+        {
+          "Id": "GRENADES",
+          "DisplayName": "Grenades",
+          "Weapons": [
+            {
+              "Id": "he grenade",
+              "DisplayName": "HE Grenade",
+              "Stats": [
+                {
+                  "Id": "Rng",
+                  "Value": "8\""
+                },
+                {
+                  "Id": "Att",
+                  "Value": "3"
+                },
+                {
+                  "Id": "Dmg",
+                  "Value": "6"
+                },
+                {
+                  "Id": "Prc",
+                  "Value": "3"
+                }
+              ],
+              "Keywords": "Blast 1, Inaccurate, Grenade"
+            },
+            {
+              "Id": "freg grenade",
+              "DisplayName": "Freg Grenade",
+              "Stats": [
+                {
+                  "Id": "Rng",
+                  "Value": "8\""
+                },
+                {
+                  "Id": "Att",
+                  "Value": "3"
+                },
+                {
+                  "Id": "Dmg",
+                  "Value": "4"
+                },
+                {
+                  "Id": "Prc",
+                  "Value": "1"
+                }
+              ],
+              "Keywords": "Blast 2, Inaccurate, Grenade"
+            }
+          ]
+        },
+        {
+          "Id": "SPECIALIST WEAPONS",
+          "DisplayName": "Specialist Weapons",
+          "Weapons": [
+            {
+              "Id": "longshot",
+              "DisplayName": "Longshot",
+              "Stats": [
+                {
+                  "Id": "Rng",
+                  "Value": "32\""
+                },
+                {
+                  "Id": "Att",
+                  "Value": "2"
+                },
+                {
+                  "Id": "Dmg",
+                  "Value": "5"
+                },
+                {
+                  "Id": "Prc",
+                  "Value": "1"
+                }
+              ],
+              "Keywords": "Accurate, Destructive 2, Heavy"
+            },
+            {
+              "Id": "scorcher",
+              "DisplayName": "Scorcher",
+              "Stats": [
+                {
+                  "Id": "Rng",
+                  "Value": "6\""
+                },
+                {
+                  "Id": "Att",
+                  "Value": "4"
+                },
+                {
+                  "Id": "Dmg",
+                  "Value": "3"
+                },
+                {
+                  "Id": "Prc",
+                  "Value": "1"
+                }
+              ],
+              "Keywords": "Blast 1, Torrent, Rending 2"
+            },
+            {
+              "Id": "rocket pipe",
+              "DisplayName": "Rocket Pipe",
+              "Stats": [
+                {
+                  "Id": "Rng",
+                  "Value": "18\""
+                },
+                {
+                  "Id": "Att",
+                  "Value": "4"
+                },
+                {
+                  "Id": "Dmg",
+                  "Value": "6"
+                },
+                {
+                  "Id": "Prc",
+                  "Value": "2"
+                }
+              ],
+              "Keywords": "Inaccurate, Blast 1"
+            },
+            {
+              "Id": "buzzsaw",
+              "DisplayName": "Buzzsaw",
+              "Stats": [
+                {
+                  "Id": "Rng",
+                  "Value": "1\""
+                },
+                {
+                  "Id": "Att",
+                  "Value": "3"
+                },
+                {
+                  "Id": "Dmg",
+                  "Value": "5"
+                },
+                {
+                  "Id": "Prc",
+                  "Value": "3"
+                }
+              ],
+              "Keywords": "Assault, Rapid Fire 1, Destructive 2"
+            },
+            {
+              "Id": "plasma destabiliser",
+              "DisplayName": "Plasma Destabiliser",
+              "Stats": [
+                {
+                  "Id": "Rng",
+                  "Value": "20\""
+                },
+                {
+                  "Id": "Att",
+                  "Value": "3"
+                },
+                {
+                  "Id": "Dmg",
+                  "Value": "7"
+                },
+                {
+                  "Id": "Prc",
+                  "Value": "2"
+                }
+              ],
+              "Keywords": "Volatile"
+            },
+            {
+              "Id": "crushing claw",
+              "DisplayName": "Crushing Claw",
+              "Stats": [
+                {
+                  "Id": "Rng",
+                  "Value": "1\""
+                },
+                {
+                  "Id": "Att",
+                  "Value": "3"
+                },
+                {
+                  "Id": "Dmg",
+                  "Value": "6"
+                },
+                {
+                  "Id": "Prc",
+                  "Value": "2"
+                }
+              ],
+              "Keywords": "Assault, Destructive 2"
+            }
+          ]
+        }
+      ],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 110
+        }
+      ]
+    },
+    {
+      "Id": "BRUTES (BRUTE)",
+      "DisplayName": "Brutes",
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "ModelName": "Brute",
+            "Limit": {
+              "Min": 1,
+              "Max": 1
+            },
+            "StatlineRef": "Brute",
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "combat blade",
+                  "combat blade 2"
+                ],
+                "Options": [
+                  {
+                    "Options": [
+                      {
+                        "Items": [
+                          "slugger pistol"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "spitfire"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "bonecrusher"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "scattergun"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "slammer"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "cleaver"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "longshot"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "scorcher"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "rocket pipe"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "buzzsaw"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "plasma destabiliser"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "crushing claw"
+                        ]
+                      }
+                    ],
+                    "Replaces": [
+                      "combat blade"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      {
+                        "Items": [
+                          "slugger pistol 2"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "spitfire 2"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "bonecrusher 2"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "scattergun 2"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "slammer 2"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "cleaver 2"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "longshot 2"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "scorcher 2"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "rocket pipe 2"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "buzzsaw 2"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "plasma destabiliser 2"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "crushing claw 2"
+                        ]
+                      }
+                    ],
+                    "Replaces": [
+                      "combat blade 2"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      {
+                        "Items": [
+                          "he grenade"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "freg grenade"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "Options": [
+                      {
+                        "Items": [
+                          "big boss"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": [
+          {
+            "Key": "slugger pistol",
+            "DisplayName": "Slugger Pistol",
+            "Cost": 0
+          },
+          {
+            "Key": "combat blade",
+            "DisplayName": "Combat Blade",
+            "Cost": 0
+          },
+          {
+            "Key": "spitfire",
+            "DisplayName": "Spitfire",
+            "Cost": 4
+          },
+          {
+            "Key": "bonecrusher",
+            "DisplayName": "Bonecrusher",
+            "Cost": 4
+          },
+          {
+            "Key": "scattergun",
+            "DisplayName": "Scattergun",
+            "Cost": 2
+          },
+          {
+            "Key": "slammer",
+            "DisplayName": "Slammer",
+            "Cost": 5
+          },
+          {
+            "Key": "cleaver",
+            "DisplayName": "Cleaver",
+            "Cost": 2
+          },
+          {
+            "Key": "he grenade",
+            "DisplayName": "HE Grenade",
+            "Cost": 5
+          },
+          {
+            "Key": "freg grenade",
+            "DisplayName": "Freg Grenade",
+            "Cost": 2
+          },
+          {
+            "Key": "longshot",
+            "DisplayName": "Longshot",
+            "Cost": 12
+          },
+          {
+            "Key": "scorcher",
+            "DisplayName": "Scorcher",
+            "Cost": 4
+          },
+          {
+            "Key": "rocket pipe",
+            "DisplayName": "Rocket Pipe",
+            "Cost": 4
+          },
+          {
+            "Key": "buzzsaw",
+            "DisplayName": "Buzzsaw",
+            "Cost": 18
+          },
+          {
+            "Key": "plasma destabiliser",
+            "DisplayName": "Plasma Destabiliser",
+            "Cost": 12
+          },
+          {
+            "Key": "crushing claw",
+            "DisplayName": "Crushing Claw",
+            "Cost": 11
+          },
+          {
+            "Key": "big boss",
+            "DisplayName": "Big Boss",
+            "Cost": 15,
+            "GrantsAbilities": [
+              "Big Boss"
+            ]
+          },
+          {
+            "Key": "slugger pistol 2",
+            "DisplayName": "Slugger Pistol",
+            "Cost": 0,
+            "GrantsWeapons": [
+              "slugger pistol"
+            ]
+          },
+          {
+            "Key": "combat blade 2",
+            "DisplayName": "Combat Blade",
+            "Cost": 0,
+            "GrantsWeapons": [
+              "combat blade"
+            ]
+          },
+          {
+            "Key": "spitfire 2",
+            "DisplayName": "Spitfire",
+            "Cost": 4,
+            "GrantsWeapons": [
+              "spitfire"
+            ]
+          },
+          {
+            "Key": "bonecrusher 2",
+            "DisplayName": "Bonecrusher",
+            "Cost": 4,
+            "GrantsWeapons": [
+              "bonecrusher"
+            ]
+          },
+          {
+            "Key": "scattergun 2",
+            "DisplayName": "Scattergun",
+            "Cost": 2,
+            "GrantsWeapons": [
+              "scattergun"
+            ]
+          },
+          {
+            "Key": "slammer 2",
+            "DisplayName": "Slammer",
+            "Cost": 5,
+            "GrantsWeapons": [
+              "slammer"
+            ]
+          },
+          {
+            "Key": "cleaver 2",
+            "DisplayName": "Cleaver",
+            "Cost": 2,
+            "GrantsWeapons": [
+              "cleaver"
+            ]
+          },
+          {
+            "Key": "longshot 2",
+            "DisplayName": "Longshot",
+            "Cost": 12,
+            "GrantsWeapons": [
+              "longshot"
+            ]
+          },
+          {
+            "Key": "scorcher 2",
+            "DisplayName": "Scorcher",
+            "Cost": 4,
+            "GrantsWeapons": [
+              "scorcher"
+            ]
+          },
+          {
+            "Key": "rocket pipe 2",
+            "DisplayName": "Rocket Pipe",
+            "Cost": 4,
+            "GrantsWeapons": [
+              "rocket pipe"
+            ]
+          },
+          {
+            "Key": "buzzsaw 2",
+            "DisplayName": "Buzzsaw",
+            "Cost": 18,
+            "GrantsWeapons": [
+              "buzzsaw"
+            ]
+          },
+          {
+            "Key": "plasma destabiliser 2",
+            "DisplayName": "Plasma Destabiliser",
+            "Cost": 12,
+            "GrantsWeapons": [
+              "plasma destabiliser"
+            ]
+          },
+          {
+            "Key": "crushing claw 2",
+            "DisplayName": "Crushing Claw",
+            "Cost": 11,
+            "GrantsWeapons": [
+              "crushing claw"
+            ]
+          }
+        ]
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Big Boss",
+          "Text": "Friendly units within 6 inches of this model automatically pass Morale Tests."
+        }
+      ],
+      "Infos": [
+        {
+          "Title": "Unit Composition",
+          "Text": "A Brutes unit consists of 1 Brute or Brute in Juggernaut Armour model. You may only include 1 Brutes unit in your army."
+        },
+        {
+          "Title": "Weapons and Equipment",
+          "Text": "A Brute may select 2 weapons from either the Standard Sidearms, Specialist Sidearms, Standard Weapons or Specialist Weapons lists. A Brute may also select 1 weapon from the Grenades weapon list."
+        },
+        {
+          "Title": "Upgrades",
+          "Text": "This model may take the Big Boss upgrade."
+        }
+      ],
+      "Keywords": [
+        "Command",
+        "Brutes"
+      ],
+      "FactionKeywords": [
+        "Marauders"
+      ],
+      "CoreAbilities": [],
+      "StatLines": [
+        {
+          "StatName": "Brute",
+          "Stats": [
+            {
+              "Id": "Cmd",
+              "Value": "5"
+            },
+            {
+              "Id": "Mov",
+              "Value": "6\""
+            },
+            {
+              "Id": "Skl",
+              "Value": "4+"
+            },
+            {
+              "Id": "Def",
+              "Value": "5+"
+            },
+            {
+              "Id": "Tgh",
+              "Value": "5"
+            },
+            {
+              "Id": "HP",
+              "Value": "6"
+            }
+          ]
+        }
+      ],
+      "Weapons": [
+        {
+          "Id": "STANDARD SIDEARMS",
+          "DisplayName": "Standard Sidearms",
+          "Weapons": [
+            {
+              "Id": "slugger pistol",
+              "DisplayName": "Slugger Pistol",
+              "Stats": [
+                {
+                  "Id": "Rng",
+                  "Value": "6\""
+                },
+                {
+                  "Id": "Att",
+                  "Value": "2"
+                },
+                {
+                  "Id": "Dmg",
+                  "Value": "3"
+                },
+                {
+                  "Id": "Prc",
+                  "Value": "0"
+                }
+              ],
+              "Keywords": "Assault"
+            },
+            {
+              "Id": "combat blade",
+              "DisplayName": "Combat Blade",
+              "Stats": [
+                {
+                  "Id": "Rng",
+                  "Value": "1\""
+                },
+                {
+                  "Id": "Att",
+                  "Value": "2"
+                },
+                {
+                  "Id": "Dmg",
+                  "Value": "4"
+                },
+                {
+                  "Id": "Prc",
+                  "Value": "0"
+                }
+              ],
+              "Keywords": "Assault"
+            }
+          ]
+        },
+        {
+          "Id": "SPECIALIST SIDEARMS",
+          "DisplayName": "Specialist Sidearms",
+          "Weapons": [
+            {
+              "Id": "spitfire",
+              "DisplayName": "Spitfire",
+              "Stats": [
+                {
+                  "Id": "Rng",
+                  "Value": "6\""
+                },
+                {
+                  "Id": "Att",
+                  "Value": "3"
+                },
+                {
+                  "Id": "Dmg",
+                  "Value": "5"
+                },
+                {
+                  "Id": "Prc",
+                  "Value": "1"
+                }
+              ],
+              "Keywords": "Assault, Shred"
+            },
+            {
+              "Id": "bonecrusher",
+              "DisplayName": "Bonecrusher",
+              "Stats": [
+                {
+                  "Id": "Rng",
+                  "Value": "1\""
+                },
+                {
+                  "Id": "Att",
+                  "Value": "3"
+                },
+                {
+                  "Id": "Dmg",
+                  "Value": "4"
+                },
+                {
+                  "Id": "Prc",
+                  "Value": "1"
+                }
+              ],
+              "Keywords": "Assault, Rapid Fire 1"
+            }
+          ]
+        },
+        {
+          "Id": "STANDARD WEAPONS",
+          "DisplayName": "Standard Weapons",
+          "Weapons": [
+            {
+              "Id": "scattergun",
+              "DisplayName": "Scattergun",
+              "Stats": [
+                {
+                  "Id": "Rng",
+                  "Value": "20\""
+                },
+                {
+                  "Id": "Att",
+                  "Value": "4"
+                },
+                {
+                  "Id": "Dmg",
+                  "Value": "3"
+                },
+                {
+                  "Id": "Prc",
+                  "Value": "0"
+                }
+              ]
+            },
+            {
+              "Id": "slammer",
+              "DisplayName": "Slammer",
+              "Stats": [
+                {
+                  "Id": "Rng",
+                  "Value": "10\""
+                },
+                {
+                  "Id": "Att",
+                  "Value": "4"
+                },
+                {
+                  "Id": "Dmg",
+                  "Value": "4"
+                },
+                {
+                  "Id": "Prc",
+                  "Value": "1"
+                }
+              ],
+              "Keywords": "Rending 1, Shred"
+            },
+            {
+              "Id": "cleaver",
+              "DisplayName": "Cleaver",
+              "Stats": [
+                {
+                  "Id": "Rng",
+                  "Value": "1\""
+                },
+                {
+                  "Id": "Att",
+                  "Value": "4"
+                },
+                {
+                  "Id": "Dmg",
+                  "Value": "4"
+                },
+                {
+                  "Id": "Prc",
+                  "Value": "0"
+                }
+              ],
+              "Keywords": "Assault"
+            }
+          ]
+        },
+        {
+          "Id": "GRENADES",
+          "DisplayName": "Grenades",
+          "Weapons": [
+            {
+              "Id": "he grenade",
+              "DisplayName": "HE Grenade",
+              "Stats": [
+                {
+                  "Id": "Rng",
+                  "Value": "8\""
+                },
+                {
+                  "Id": "Att",
+                  "Value": "3"
+                },
+                {
+                  "Id": "Dmg",
+                  "Value": "6"
+                },
+                {
+                  "Id": "Prc",
+                  "Value": "3"
+                }
+              ],
+              "Keywords": "Blast 1, Inaccurate, Grenade"
+            },
+            {
+              "Id": "freg grenade",
+              "DisplayName": "Freg Grenade",
+              "Stats": [
+                {
+                  "Id": "Rng",
+                  "Value": "8\""
+                },
+                {
+                  "Id": "Att",
+                  "Value": "3"
+                },
+                {
+                  "Id": "Dmg",
+                  "Value": "4"
+                },
+                {
+                  "Id": "Prc",
+                  "Value": "1"
+                }
+              ],
+              "Keywords": "Blast 2, Inaccurate, Grenade"
+            }
+          ]
+        },
+        {
+          "Id": "SPECIALIST WEAPONS",
+          "DisplayName": "Specialist Weapons",
+          "Weapons": [
+            {
+              "Id": "longshot",
+              "DisplayName": "Longshot",
+              "Stats": [
+                {
+                  "Id": "Rng",
+                  "Value": "32\""
+                },
+                {
+                  "Id": "Att",
+                  "Value": "2"
+                },
+                {
+                  "Id": "Dmg",
+                  "Value": "5"
+                },
+                {
+                  "Id": "Prc",
+                  "Value": "1"
+                }
+              ],
+              "Keywords": "Accurate, Destructive 2, Heavy"
+            },
+            {
+              "Id": "scorcher",
+              "DisplayName": "Scorcher",
+              "Stats": [
+                {
+                  "Id": "Rng",
+                  "Value": "6\""
+                },
+                {
+                  "Id": "Att",
+                  "Value": "4"
+                },
+                {
+                  "Id": "Dmg",
+                  "Value": "3"
+                },
+                {
+                  "Id": "Prc",
+                  "Value": "1"
+                }
+              ],
+              "Keywords": "Blast 1, Torrent, Rending 2"
+            },
+            {
+              "Id": "rocket pipe",
+              "DisplayName": "Rocket Pipe",
+              "Stats": [
+                {
+                  "Id": "Rng",
+                  "Value": "18\""
+                },
+                {
+                  "Id": "Att",
+                  "Value": "4"
+                },
+                {
+                  "Id": "Dmg",
+                  "Value": "6"
+                },
+                {
+                  "Id": "Prc",
+                  "Value": "2"
+                }
+              ],
+              "Keywords": "Inaccurate, Blast 1"
+            },
+            {
+              "Id": "buzzsaw",
+              "DisplayName": "Buzzsaw",
+              "Stats": [
+                {
+                  "Id": "Rng",
+                  "Value": "1\""
+                },
+                {
+                  "Id": "Att",
+                  "Value": "3"
+                },
+                {
+                  "Id": "Dmg",
+                  "Value": "5"
+                },
+                {
+                  "Id": "Prc",
+                  "Value": "3"
+                }
+              ],
+              "Keywords": "Assault, Rapid Fire 1, Destructive 2"
+            },
+            {
+              "Id": "plasma destabiliser",
+              "DisplayName": "Plasma Destabiliser",
+              "Stats": [
+                {
+                  "Id": "Rng",
+                  "Value": "20\""
+                },
+                {
+                  "Id": "Att",
+                  "Value": "3"
+                },
+                {
+                  "Id": "Dmg",
+                  "Value": "7"
+                },
+                {
+                  "Id": "Prc",
+                  "Value": "2"
+                }
+              ],
+              "Keywords": "Volatile"
+            },
+            {
+              "Id": "crushing claw",
+              "DisplayName": "Crushing Claw",
+              "Stats": [
+                {
+                  "Id": "Rng",
+                  "Value": "1\""
+                },
+                {
+                  "Id": "Att",
+                  "Value": "3"
+                },
+                {
+                  "Id": "Dmg",
+                  "Value": "6"
+                },
+                {
+                  "Id": "Prc",
+                  "Value": "2"
+                }
+              ],
+              "Keywords": "Assault, Destructive 2"
+            }
+          ]
+        }
+      ],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 26
+        }
+      ]
+    },
+    {
+      "Id": "BRUTES (JUGGERNAUT ARMOUR)",
+      "DisplayName": "Brutes (Juggernaut Armour)",
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "ModelName": "Brute in Juggernaut Armour",
+            "Limit": {
+              "Min": 1,
+              "Max": 1
+            },
+            "StatlineRef": "Brute in Juggernaut Armour",
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "combat blade",
+                  "combat blade 2"
+                ],
+                "Options": [
+                  {
+                    "Options": [
+                      {
+                        "Items": [
+                          "slugger pistol"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "spitfire"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "bonecrusher"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "scattergun"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "slammer"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "cleaver"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "longshot"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "scorcher"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "rocket pipe"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "buzzsaw"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "plasma destabiliser"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "crushing claw"
+                        ]
+                      }
+                    ],
+                    "Replaces": [
+                      "combat blade"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      {
+                        "Items": [
+                          "slugger pistol 2"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "spitfire 2"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "bonecrusher 2"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "scattergun 2"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "slammer 2"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "cleaver 2"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "longshot 2"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "scorcher 2"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "rocket pipe 2"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "buzzsaw 2"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "plasma destabiliser 2"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "crushing claw 2"
+                        ]
+                      }
+                    ],
+                    "Replaces": [
+                      "combat blade 2"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      {
+                        "Items": [
+                          "he grenade"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "freg grenade"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "Options": [
+                      {
+                        "Items": [
+                          "big boss"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": [
+          {
+            "Key": "slugger pistol",
+            "DisplayName": "Slugger Pistol",
+            "Cost": 0
+          },
+          {
+            "Key": "combat blade",
+            "DisplayName": "Combat Blade",
+            "Cost": 0
+          },
+          {
+            "Key": "spitfire",
+            "DisplayName": "Spitfire",
+            "Cost": 4
+          },
+          {
+            "Key": "bonecrusher",
+            "DisplayName": "Bonecrusher",
+            "Cost": 4
+          },
+          {
+            "Key": "scattergun",
+            "DisplayName": "Scattergun",
+            "Cost": 2
+          },
+          {
+            "Key": "slammer",
+            "DisplayName": "Slammer",
+            "Cost": 5
+          },
+          {
+            "Key": "cleaver",
+            "DisplayName": "Cleaver",
+            "Cost": 2
+          },
+          {
+            "Key": "he grenade",
+            "DisplayName": "HE Grenade",
+            "Cost": 5
+          },
+          {
+            "Key": "freg grenade",
+            "DisplayName": "Freg Grenade",
+            "Cost": 2
+          },
+          {
+            "Key": "longshot",
+            "DisplayName": "Longshot",
+            "Cost": 12
+          },
+          {
+            "Key": "scorcher",
+            "DisplayName": "Scorcher",
+            "Cost": 4
+          },
+          {
+            "Key": "rocket pipe",
+            "DisplayName": "Rocket Pipe",
+            "Cost": 4
+          },
+          {
+            "Key": "buzzsaw",
+            "DisplayName": "Buzzsaw",
+            "Cost": 18
+          },
+          {
+            "Key": "plasma destabiliser",
+            "DisplayName": "Plasma Destabiliser",
+            "Cost": 12
+          },
+          {
+            "Key": "crushing claw",
+            "DisplayName": "Crushing Claw",
+            "Cost": 11
+          },
+          {
+            "Key": "big boss",
+            "DisplayName": "Big Boss",
+            "Cost": 15,
+            "GrantsAbilities": [
+              "Big Boss"
+            ]
+          },
+          {
+            "Key": "slugger pistol 2",
+            "DisplayName": "Slugger Pistol",
+            "Cost": 0,
+            "GrantsWeapons": [
+              "slugger pistol"
+            ]
+          },
+          {
+            "Key": "combat blade 2",
+            "DisplayName": "Combat Blade",
+            "Cost": 0,
+            "GrantsWeapons": [
+              "combat blade"
+            ]
+          },
+          {
+            "Key": "spitfire 2",
+            "DisplayName": "Spitfire",
+            "Cost": 4,
+            "GrantsWeapons": [
+              "spitfire"
+            ]
+          },
+          {
+            "Key": "bonecrusher 2",
+            "DisplayName": "Bonecrusher",
+            "Cost": 4,
+            "GrantsWeapons": [
+              "bonecrusher"
+            ]
+          },
+          {
+            "Key": "scattergun 2",
+            "DisplayName": "Scattergun",
+            "Cost": 2,
+            "GrantsWeapons": [
+              "scattergun"
+            ]
+          },
+          {
+            "Key": "slammer 2",
+            "DisplayName": "Slammer",
+            "Cost": 5,
+            "GrantsWeapons": [
+              "slammer"
+            ]
+          },
+          {
+            "Key": "cleaver 2",
+            "DisplayName": "Cleaver",
+            "Cost": 2,
+            "GrantsWeapons": [
+              "cleaver"
+            ]
+          },
+          {
+            "Key": "longshot 2",
+            "DisplayName": "Longshot",
+            "Cost": 12,
+            "GrantsWeapons": [
+              "longshot"
+            ]
+          },
+          {
+            "Key": "scorcher 2",
+            "DisplayName": "Scorcher",
+            "Cost": 4,
+            "GrantsWeapons": [
+              "scorcher"
+            ]
+          },
+          {
+            "Key": "rocket pipe 2",
+            "DisplayName": "Rocket Pipe",
+            "Cost": 4,
+            "GrantsWeapons": [
+              "rocket pipe"
+            ]
+          },
+          {
+            "Key": "buzzsaw 2",
+            "DisplayName": "Buzzsaw",
+            "Cost": 18,
+            "GrantsWeapons": [
+              "buzzsaw"
+            ]
+          },
+          {
+            "Key": "plasma destabiliser 2",
+            "DisplayName": "Plasma Destabiliser",
+            "Cost": 12,
+            "GrantsWeapons": [
+              "plasma destabiliser"
+            ]
+          },
+          {
+            "Key": "crushing claw 2",
+            "DisplayName": "Crushing Claw",
+            "Cost": 11,
+            "GrantsWeapons": [
+              "crushing claw"
+            ]
+          }
+        ]
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Big Boss",
+          "Text": "Friendly units within 6 inches of this model automatically pass Morale Tests."
+        }
+      ],
+      "Infos": [
+        {
+          "Title": "Unit Composition",
+          "Text": "A Brutes unit consists of 1 Brute or Brute in Juggernaut Armour model. You may only include 1 Brutes unit in your army."
+        },
+        {
+          "Title": "Weapons and Equipment",
+          "Text": "A Brute may select 2 weapons from either the Standard Sidearms, Specialist Sidearms, Standard Weapons or Specialist Weapons lists. A Brute may also select 1 weapon from the Grenades weapon list."
+        },
+        {
+          "Title": "Upgrades",
+          "Text": "This model may take the Big Boss upgrade."
+        }
+      ],
+      "Keywords": [
+        "Command",
+        "Brutes"
+      ],
+      "FactionKeywords": [
+        "Marauders"
+      ],
+      "CoreAbilities": [
+        "Large",
+        "Platform 1",
+        "Steady"
+      ],
+      "StatLines": [
+        {
+          "StatName": "Brute in Juggernaut Armour",
+          "Stats": [
+            {
+              "Id": "Cmd",
+              "Value": "4"
+            },
+            {
+              "Id": "Mov",
+              "Value": "5\""
+            },
+            {
+              "Id": "Skl",
+              "Value": "4+"
+            },
+            {
+              "Id": "Def",
+              "Value": "2+"
+            },
+            {
+              "Id": "Tgh",
+              "Value": "5"
+            },
+            {
+              "Id": "HP",
+              "Value": "6"
+            }
+          ]
+        }
+      ],
+      "Weapons": [
+        {
+          "Id": "STANDARD SIDEARMS",
+          "DisplayName": "Standard Sidearms",
+          "Weapons": [
+            {
+              "Id": "slugger pistol",
+              "DisplayName": "Slugger Pistol",
+              "Stats": [
+                {
+                  "Id": "Rng",
+                  "Value": "6\""
+                },
+                {
+                  "Id": "Att",
+                  "Value": "2"
+                },
+                {
+                  "Id": "Dmg",
+                  "Value": "3"
+                },
+                {
+                  "Id": "Prc",
+                  "Value": "0"
+                }
+              ],
+              "Keywords": "Assault"
+            },
+            {
+              "Id": "combat blade",
+              "DisplayName": "Combat Blade",
+              "Stats": [
+                {
+                  "Id": "Rng",
+                  "Value": "1\""
+                },
+                {
+                  "Id": "Att",
+                  "Value": "2"
+                },
+                {
+                  "Id": "Dmg",
+                  "Value": "4"
+                },
+                {
+                  "Id": "Prc",
+                  "Value": "0"
+                }
+              ],
+              "Keywords": "Assault"
+            }
+          ]
+        },
+        {
+          "Id": "SPECIALIST SIDEARMS",
+          "DisplayName": "Specialist Sidearms",
+          "Weapons": [
+            {
+              "Id": "spitfire",
+              "DisplayName": "Spitfire",
+              "Stats": [
+                {
+                  "Id": "Rng",
+                  "Value": "6\""
+                },
+                {
+                  "Id": "Att",
+                  "Value": "3"
+                },
+                {
+                  "Id": "Dmg",
+                  "Value": "5"
+                },
+                {
+                  "Id": "Prc",
+                  "Value": "1"
+                }
+              ],
+              "Keywords": "Assault, Shred"
+            },
+            {
+              "Id": "bonecrusher",
+              "DisplayName": "Bonecrusher",
+              "Stats": [
+                {
+                  "Id": "Rng",
+                  "Value": "1\""
+                },
+                {
+                  "Id": "Att",
+                  "Value": "3"
+                },
+                {
+                  "Id": "Dmg",
+                  "Value": "4"
+                },
+                {
+                  "Id": "Prc",
+                  "Value": "1"
+                }
+              ],
+              "Keywords": "Assault, Rapid Fire 1"
+            }
+          ]
+        },
+        {
+          "Id": "STANDARD WEAPONS",
+          "DisplayName": "Standard Weapons",
+          "Weapons": [
+            {
+              "Id": "scattergun",
+              "DisplayName": "Scattergun",
+              "Stats": [
+                {
+                  "Id": "Rng",
+                  "Value": "20\""
+                },
+                {
+                  "Id": "Att",
+                  "Value": "4"
+                },
+                {
+                  "Id": "Dmg",
+                  "Value": "3"
+                },
+                {
+                  "Id": "Prc",
+                  "Value": "0"
+                }
+              ]
+            },
+            {
+              "Id": "slammer",
+              "DisplayName": "Slammer",
+              "Stats": [
+                {
+                  "Id": "Rng",
+                  "Value": "10\""
+                },
+                {
+                  "Id": "Att",
+                  "Value": "4"
+                },
+                {
+                  "Id": "Dmg",
+                  "Value": "4"
+                },
+                {
+                  "Id": "Prc",
+                  "Value": "1"
+                }
+              ],
+              "Keywords": "Rending 1, Shred"
+            },
+            {
+              "Id": "cleaver",
+              "DisplayName": "Cleaver",
+              "Stats": [
+                {
+                  "Id": "Rng",
+                  "Value": "1\""
+                },
+                {
+                  "Id": "Att",
+                  "Value": "4"
+                },
+                {
+                  "Id": "Dmg",
+                  "Value": "4"
+                },
+                {
+                  "Id": "Prc",
+                  "Value": "0"
+                }
+              ],
+              "Keywords": "Assault"
+            }
+          ]
+        },
+        {
+          "Id": "GRENADES",
+          "DisplayName": "Grenades",
+          "Weapons": [
+            {
+              "Id": "he grenade",
+              "DisplayName": "HE Grenade",
+              "Stats": [
+                {
+                  "Id": "Rng",
+                  "Value": "8\""
+                },
+                {
+                  "Id": "Att",
+                  "Value": "3"
+                },
+                {
+                  "Id": "Dmg",
+                  "Value": "6"
+                },
+                {
+                  "Id": "Prc",
+                  "Value": "3"
+                }
+              ],
+              "Keywords": "Blast 1, Inaccurate, Grenade"
+            },
+            {
+              "Id": "freg grenade",
+              "DisplayName": "Freg Grenade",
+              "Stats": [
+                {
+                  "Id": "Rng",
+                  "Value": "8\""
+                },
+                {
+                  "Id": "Att",
+                  "Value": "3"
+                },
+                {
+                  "Id": "Dmg",
+                  "Value": "4"
+                },
+                {
+                  "Id": "Prc",
+                  "Value": "1"
+                }
+              ],
+              "Keywords": "Blast 2, Inaccurate, Grenade"
+            }
+          ]
+        },
+        {
+          "Id": "SPECIALIST WEAPONS",
+          "DisplayName": "Specialist Weapons",
+          "Weapons": [
+            {
+              "Id": "longshot",
+              "DisplayName": "Longshot",
+              "Stats": [
+                {
+                  "Id": "Rng",
+                  "Value": "32\""
+                },
+                {
+                  "Id": "Att",
+                  "Value": "2"
+                },
+                {
+                  "Id": "Dmg",
+                  "Value": "5"
+                },
+                {
+                  "Id": "Prc",
+                  "Value": "1"
+                }
+              ],
+              "Keywords": "Accurate, Destructive 2, Heavy"
+            },
+            {
+              "Id": "scorcher",
+              "DisplayName": "Scorcher",
+              "Stats": [
+                {
+                  "Id": "Rng",
+                  "Value": "6\""
+                },
+                {
+                  "Id": "Att",
+                  "Value": "4"
+                },
+                {
+                  "Id": "Dmg",
+                  "Value": "3"
+                },
+                {
+                  "Id": "Prc",
+                  "Value": "1"
+                }
+              ],
+              "Keywords": "Blast 1, Torrent, Rending 2"
+            },
+            {
+              "Id": "rocket pipe",
+              "DisplayName": "Rocket Pipe",
+              "Stats": [
+                {
+                  "Id": "Rng",
+                  "Value": "18\""
+                },
+                {
+                  "Id": "Att",
+                  "Value": "4"
+                },
+                {
+                  "Id": "Dmg",
+                  "Value": "6"
+                },
+                {
+                  "Id": "Prc",
+                  "Value": "2"
+                }
+              ],
+              "Keywords": "Inaccurate, Blast 1"
+            },
+            {
+              "Id": "buzzsaw",
+              "DisplayName": "Buzzsaw",
+              "Stats": [
+                {
+                  "Id": "Rng",
+                  "Value": "1\""
+                },
+                {
+                  "Id": "Att",
+                  "Value": "3"
+                },
+                {
+                  "Id": "Dmg",
+                  "Value": "5"
+                },
+                {
+                  "Id": "Prc",
+                  "Value": "3"
+                }
+              ],
+              "Keywords": "Assault, Rapid Fire 1, Destructive 2"
+            },
+            {
+              "Id": "plasma destabiliser",
+              "DisplayName": "Plasma Destabiliser",
+              "Stats": [
+                {
+                  "Id": "Rng",
+                  "Value": "20\""
+                },
+                {
+                  "Id": "Att",
+                  "Value": "3"
+                },
+                {
+                  "Id": "Dmg",
+                  "Value": "7"
+                },
+                {
+                  "Id": "Prc",
+                  "Value": "2"
+                }
+              ],
+              "Keywords": "Volatile"
+            },
+            {
+              "Id": "crushing claw",
+              "DisplayName": "Crushing Claw",
+              "Stats": [
+                {
+                  "Id": "Rng",
+                  "Value": "1\""
+                },
+                {
+                  "Id": "Att",
+                  "Value": "3"
+                },
+                {
+                  "Id": "Dmg",
+                  "Value": "6"
+                },
+                {
+                  "Id": "Prc",
+                  "Value": "2"
+                }
+              ],
+              "Keywords": "Assault, Destructive 2"
+            }
+          ]
+        }
+      ],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 70
+        }
+      ]
+    },
+    {
+      "Id": "GRUNTS",
+      "DisplayName": "Grunts",
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "ModelName": "Grunt",
+            "Limit": {
+              "Min": 3,
+              "Max": 8
+            },
+            "StatlineRef": "Grunt",
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "combat blade 2",
+                  "cleaver 2"
+                ],
+                "Options": [
+                  {
+                    "Options": [
+                      {
+                        "Items": [
+                          "slugger pistol 2"
+                        ]
+                      }
+                    ],
+                    "Replaces": [
+                      "combat blade 2"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      {
+                        "Items": [
+                          "scattergun 2"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "slammer 2"
+                        ]
+                      }
+                    ],
+                    "Replaces": [
+                      "cleaver 2"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      {
+                        "Items": [
+                          "he grenade"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "freg grenade"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "Options": [
+                      {
+                        "Items": [
+                          "commandos"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "rocket pack"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "ModelName": "Grunt (weapon specialist)",
+            "Limit": {
+              "Min": 2,
+              "Max": 2
+            },
+            "StatlineRef": "Grunt",
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "combat blade",
+                  "cleaver"
+                ],
+                "Options": [
+                  {
+                    "Options": [
+                      {
+                        "Items": [
+                          "slugger pistol",
+                          "scattergun"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "slugger pistol",
+                          "slammer"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "slugger pistol",
+                          "cleaver"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "combat blade",
+                          "scattergun"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "combat blade",
+                          "slammer"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "spitfire",
+                          "scattergun"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "bonecrusher",
+                          "scattergun"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "longshot",
+                          "scattergun"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "scorcher",
+                          "scattergun"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "rocket pipe",
+                          "scattergun"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "buzzsaw",
+                          "scattergun"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "plasma destabiliser",
+                          "scattergun"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "crushing claw",
+                          "scattergun"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "slugger pistol",
+                          "spitfire"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "slugger pistol",
+                          "bonecrusher"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "slugger pistol",
+                          "longshot"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "slugger pistol",
+                          "scorcher"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "slugger pistol",
+                          "rocket pipe"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "slugger pistol",
+                          "buzzsaw"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "slugger pistol",
+                          "plasma destabiliser"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "slugger pistol",
+                          "crushing claw"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "spitfire",
+                          "slammer"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "bonecrusher",
+                          "slammer"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "longshot",
+                          "slammer"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "scorcher",
+                          "slammer"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "rocket pipe",
+                          "slammer"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "buzzsaw",
+                          "slammer"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "plasma destabiliser",
+                          "slammer"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "crushing claw",
+                          "slammer"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "spitfire",
+                          "cleaver"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "bonecrusher",
+                          "cleaver"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "longshot",
+                          "cleaver"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "scorcher",
+                          "cleaver"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "rocket pipe",
+                          "cleaver"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "buzzsaw",
+                          "cleaver"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "plasma destabiliser",
+                          "cleaver"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "crushing claw",
+                          "cleaver"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "combat blade",
+                          "spitfire"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "combat blade",
+                          "bonecrusher"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "combat blade",
+                          "longshot"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "combat blade",
+                          "scorcher"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "combat blade",
+                          "rocket pipe"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "combat blade",
+                          "buzzsaw"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "combat blade",
+                          "plasma destabiliser"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "combat blade",
+                          "crushing claw"
+                        ]
+                      }
+                    ],
+                    "Replaces": [
+                      "combat blade",
+                      "cleaver"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      {
+                        "Items": [
+                          "he grenade"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "freg grenade"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "Options": [
+                      {
+                        "Items": [
+                          "commandos"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "rocket pack"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": [
+          {
+            "Key": "slugger pistol",
+            "DisplayName": "Slugger Pistol",
+            "Cost": 0
+          },
+          {
+            "Key": "combat blade",
+            "DisplayName": "Combat Blade",
+            "Cost": 0
+          },
+          {
+            "Key": "spitfire",
+            "DisplayName": "Spitfire",
+            "Cost": 4
+          },
+          {
+            "Key": "bonecrusher",
+            "DisplayName": "Bonecrusher",
+            "Cost": 4
+          },
+          {
+            "Key": "scattergun",
+            "DisplayName": "Scattergun",
+            "Cost": 2
+          },
+          {
+            "Key": "slammer",
+            "DisplayName": "Slammer",
+            "Cost": 5
+          },
+          {
+            "Key": "cleaver",
+            "DisplayName": "Cleaver",
+            "Cost": 2
+          },
+          {
+            "Key": "he grenade",
+            "DisplayName": "HE Grenade",
+            "Cost": 5
+          },
+          {
+            "Key": "freg grenade",
+            "DisplayName": "Freg Grenade",
+            "Cost": 2
+          },
+          {
+            "Key": "longshot",
+            "DisplayName": "Longshot",
+            "Cost": 12
+          },
+          {
+            "Key": "scorcher",
+            "DisplayName": "Scorcher",
+            "Cost": 4
+          },
+          {
+            "Key": "rocket pipe",
+            "DisplayName": "Rocket Pipe",
+            "Cost": 4
+          },
+          {
+            "Key": "buzzsaw",
+            "DisplayName": "Buzzsaw",
+            "Cost": 18
+          },
+          {
+            "Key": "plasma destabiliser",
+            "DisplayName": "Plasma Destabiliser",
+            "Cost": 12
+          },
+          {
+            "Key": "crushing claw",
+            "DisplayName": "Crushing Claw",
+            "Cost": 11
+          },
+          {
+            "Key": "commandos",
+            "DisplayName": "Commandos",
+            "Cost": 3,
+            "GrantsAbilities": [
+              "Commandos"
+            ],
+            "StatAdjustments": [
+              {
+                "TargetStatId": "Skl",
+                "Type": "Set",
+                "Scope": "Model",
+                "Value": "4+"
+              }
+            ]
+          },
+          {
+            "Key": "rocket pack",
+            "DisplayName": "Rocket Pack",
+            "Cost": 6,
+            "GrantsAbilities": [
+              "Rocket Pack"
+            ],
+            "DatasheetAdjustments": [
+              {
+                "Target": "CoreAbilities",
+                "Type": "Add",
+                "Scope": "Model",
+                "Values": [
+                  "Flying"
+                ]
+              }
+            ]
+          },
+          {
+            "Key": "slugger pistol 2",
+            "DisplayName": "Slugger Pistol",
+            "Cost": 0,
+            "GrantsWeapons": [
+              "slugger pistol"
+            ]
+          },
+          {
+            "Key": "combat blade 2",
+            "DisplayName": "Combat Blade",
+            "Cost": 0,
+            "GrantsWeapons": [
+              "combat blade"
+            ]
+          },
+          {
+            "Key": "scattergun 2",
+            "DisplayName": "Scattergun",
+            "Cost": 2,
+            "GrantsWeapons": [
+              "scattergun"
+            ]
+          },
+          {
+            "Key": "slammer 2",
+            "DisplayName": "Slammer",
+            "Cost": 5,
+            "GrantsWeapons": [
+              "slammer"
+            ]
+          },
+          {
+            "Key": "cleaver 2",
+            "DisplayName": "Cleaver",
+            "Cost": 2,
+            "GrantsWeapons": [
+              "cleaver"
+            ]
+          }
+        ]
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Commandos",
+          "Text": "This unit has a Skill of 4+ and may be deployed from reserve up to double it's Movement attribute in inches."
+        },
+        {
+          "Title": "Rocket Pack",
+          "Text": "This model doubles it's movement attribute during Advance actions and gains the Flying special rule."
+        }
+      ],
+      "Infos": [
+        {
+          "Title": "Unit Composition",
+          "Text": "A Grunts unit consists of 5-10 Grunt models."
+        },
+        {
+          "Title": "Weapons and Equipment",
+          "Text": "Each Grunt must be equipped with the same weapons, you may select 1 weapon each from the Standard Sidearms, and Standard Weapons lists. 2 Grunts may instead swap 1 weapon with a weapon from either the Specialist Sidearms or Specialist Weapons lists. You may equip all Grunts with the same grenade from the Grenades list."
+        },
+        {
+          "Title": "Upgrades",
+          "Text": "Every Grunt model may be given the Commandos or Rocket Pack upgrade."
+        }
+      ],
+      "Keywords": [
+        "Standard",
+        "Grunts"
+      ],
+      "FactionKeywords": [
+        "Marauders"
+      ],
+      "CoreAbilities": [],
+      "StatLines": [
+        {
+          "StatName": "Grunt",
+          "Stats": [
+            {
+              "Id": "Cmd",
+              "Value": "4"
+            },
+            {
+              "Id": "Mov",
+              "Value": "6\""
+            },
+            {
+              "Id": "Skl",
+              "Value": "5+"
+            },
+            {
+              "Id": "Def",
+              "Value": "5+"
+            },
+            {
+              "Id": "Tgh",
+              "Value": "4"
+            },
+            {
+              "Id": "HP",
+              "Value": "2"
+            }
+          ]
+        }
+      ],
+      "Weapons": [
+        {
+          "Id": "STANDARD SIDEARMS",
+          "DisplayName": "Standard Sidearms",
+          "Weapons": [
+            {
+              "Id": "slugger pistol",
+              "DisplayName": "Slugger Pistol",
+              "Stats": [
+                {
+                  "Id": "Rng",
+                  "Value": "6\""
+                },
+                {
+                  "Id": "Att",
+                  "Value": "2"
+                },
+                {
+                  "Id": "Dmg",
+                  "Value": "3"
+                },
+                {
+                  "Id": "Prc",
+                  "Value": "0"
+                }
+              ],
+              "Keywords": "Assault"
+            },
+            {
+              "Id": "combat blade",
+              "DisplayName": "Combat Blade",
+              "Stats": [
+                {
+                  "Id": "Rng",
+                  "Value": "1\""
+                },
+                {
+                  "Id": "Att",
+                  "Value": "2"
+                },
+                {
+                  "Id": "Dmg",
+                  "Value": "4"
+                },
+                {
+                  "Id": "Prc",
+                  "Value": "0"
+                }
+              ],
+              "Keywords": "Assault"
+            }
+          ]
+        },
+        {
+          "Id": "SPECIALIST SIDEARMS",
+          "DisplayName": "Specialist Sidearms",
+          "Weapons": [
+            {
+              "Id": "spitfire",
+              "DisplayName": "Spitfire",
+              "Stats": [
+                {
+                  "Id": "Rng",
+                  "Value": "6\""
+                },
+                {
+                  "Id": "Att",
+                  "Value": "3"
+                },
+                {
+                  "Id": "Dmg",
+                  "Value": "5"
+                },
+                {
+                  "Id": "Prc",
+                  "Value": "1"
+                }
+              ],
+              "Keywords": "Assault, Shred"
+            },
+            {
+              "Id": "bonecrusher",
+              "DisplayName": "Bonecrusher",
+              "Stats": [
+                {
+                  "Id": "Rng",
+                  "Value": "1\""
+                },
+                {
+                  "Id": "Att",
+                  "Value": "3"
+                },
+                {
+                  "Id": "Dmg",
+                  "Value": "4"
+                },
+                {
+                  "Id": "Prc",
+                  "Value": "1"
+                }
+              ],
+              "Keywords": "Assault, Rapid Fire 1"
+            }
+          ]
+        },
+        {
+          "Id": "STANDARD WEAPONS",
+          "DisplayName": "Standard Weapons",
+          "Weapons": [
+            {
+              "Id": "scattergun",
+              "DisplayName": "Scattergun",
+              "Stats": [
+                {
+                  "Id": "Rng",
+                  "Value": "20\""
+                },
+                {
+                  "Id": "Att",
+                  "Value": "4"
+                },
+                {
+                  "Id": "Dmg",
+                  "Value": "3"
+                },
+                {
+                  "Id": "Prc",
+                  "Value": "0"
+                }
+              ]
+            },
+            {
+              "Id": "slammer",
+              "DisplayName": "Slammer",
+              "Stats": [
+                {
+                  "Id": "Rng",
+                  "Value": "10\""
+                },
+                {
+                  "Id": "Att",
+                  "Value": "4"
+                },
+                {
+                  "Id": "Dmg",
+                  "Value": "4"
+                },
+                {
+                  "Id": "Prc",
+                  "Value": "1"
+                }
+              ],
+              "Keywords": "Rending 1, Shred"
+            },
+            {
+              "Id": "cleaver",
+              "DisplayName": "Cleaver",
+              "Stats": [
+                {
+                  "Id": "Rng",
+                  "Value": "1\""
+                },
+                {
+                  "Id": "Att",
+                  "Value": "4"
+                },
+                {
+                  "Id": "Dmg",
+                  "Value": "4"
+                },
+                {
+                  "Id": "Prc",
+                  "Value": "0"
+                }
+              ],
+              "Keywords": "Assault"
+            }
+          ]
+        },
+        {
+          "Id": "GRENADES",
+          "DisplayName": "Grenades",
+          "Weapons": [
+            {
+              "Id": "he grenade",
+              "DisplayName": "HE Grenade",
+              "Stats": [
+                {
+                  "Id": "Rng",
+                  "Value": "8\""
+                },
+                {
+                  "Id": "Att",
+                  "Value": "3"
+                },
+                {
+                  "Id": "Dmg",
+                  "Value": "6"
+                },
+                {
+                  "Id": "Prc",
+                  "Value": "3"
+                }
+              ],
+              "Keywords": "Blast 1, Inaccurate, Grenade"
+            },
+            {
+              "Id": "freg grenade",
+              "DisplayName": "Freg Grenade",
+              "Stats": [
+                {
+                  "Id": "Rng",
+                  "Value": "8\""
+                },
+                {
+                  "Id": "Att",
+                  "Value": "3"
+                },
+                {
+                  "Id": "Dmg",
+                  "Value": "4"
+                },
+                {
+                  "Id": "Prc",
+                  "Value": "1"
+                }
+              ],
+              "Keywords": "Blast 2, Inaccurate, Grenade"
+            }
+          ]
+        },
+        {
+          "Id": "SPECIALIST WEAPONS",
+          "DisplayName": "Specialist Weapons",
+          "Weapons": [
+            {
+              "Id": "longshot",
+              "DisplayName": "Longshot",
+              "Stats": [
+                {
+                  "Id": "Rng",
+                  "Value": "32\""
+                },
+                {
+                  "Id": "Att",
+                  "Value": "2"
+                },
+                {
+                  "Id": "Dmg",
+                  "Value": "5"
+                },
+                {
+                  "Id": "Prc",
+                  "Value": "1"
+                }
+              ],
+              "Keywords": "Accurate, Destructive 2, Heavy"
+            },
+            {
+              "Id": "scorcher",
+              "DisplayName": "Scorcher",
+              "Stats": [
+                {
+                  "Id": "Rng",
+                  "Value": "6\""
+                },
+                {
+                  "Id": "Att",
+                  "Value": "4"
+                },
+                {
+                  "Id": "Dmg",
+                  "Value": "3"
+                },
+                {
+                  "Id": "Prc",
+                  "Value": "1"
+                }
+              ],
+              "Keywords": "Blast 1, Torrent, Rending 2"
+            },
+            {
+              "Id": "rocket pipe",
+              "DisplayName": "Rocket Pipe",
+              "Stats": [
+                {
+                  "Id": "Rng",
+                  "Value": "18\""
+                },
+                {
+                  "Id": "Att",
+                  "Value": "4"
+                },
+                {
+                  "Id": "Dmg",
+                  "Value": "6"
+                },
+                {
+                  "Id": "Prc",
+                  "Value": "2"
+                }
+              ],
+              "Keywords": "Inaccurate, Blast 1"
+            },
+            {
+              "Id": "buzzsaw",
+              "DisplayName": "Buzzsaw",
+              "Stats": [
+                {
+                  "Id": "Rng",
+                  "Value": "1\""
+                },
+                {
+                  "Id": "Att",
+                  "Value": "3"
+                },
+                {
+                  "Id": "Dmg",
+                  "Value": "5"
+                },
+                {
+                  "Id": "Prc",
+                  "Value": "3"
+                }
+              ],
+              "Keywords": "Assault, Rapid Fire 1, Destructive 2"
+            },
+            {
+              "Id": "plasma destabiliser",
+              "DisplayName": "Plasma Destabiliser",
+              "Stats": [
+                {
+                  "Id": "Rng",
+                  "Value": "20\""
+                },
+                {
+                  "Id": "Att",
+                  "Value": "3"
+                },
+                {
+                  "Id": "Dmg",
+                  "Value": "7"
+                },
+                {
+                  "Id": "Prc",
+                  "Value": "2"
+                }
+              ],
+              "Keywords": "Volatile"
+            },
+            {
+              "Id": "crushing claw",
+              "DisplayName": "Crushing Claw",
+              "Stats": [
+                {
+                  "Id": "Rng",
+                  "Value": "1\""
+                },
+                {
+                  "Id": "Att",
+                  "Value": "3"
+                },
+                {
+                  "Id": "Dmg",
+                  "Value": "6"
+                },
+                {
+                  "Id": "Prc",
+                  "Value": "2"
+                }
+              ],
+              "Keywords": "Assault, Destructive 2"
+            }
+          ]
+        }
+      ],
+      "Points": [
+        {
+          "ModelCount": 5,
+          "Cost": 40
+        },
+        {
+          "ModelCount": 6,
+          "Cost": 48
+        },
+        {
+          "ModelCount": 7,
+          "Cost": 56
+        },
+        {
+          "ModelCount": 8,
+          "Cost": 64
+        },
+        {
+          "ModelCount": 9,
+          "Cost": 72
+        },
+        {
+          "ModelCount": 10,
+          "Cost": 80
+        }
+      ]
+    },
+    {
+      "Id": "HAULER",
+      "DisplayName": "Hauler",
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "ModelName": "Hauler",
+            "Limit": {
+              "Min": 1,
+              "Max": 1
+            },
+            "StatlineRef": "Hauler",
+            "Wargear": [
+              {
+                "InitialWargear": [],
+                "Options": [
+                  {
+                    "Options": [
+                      {
+                        "Items": [
+                          "havoc rockets"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "heavy scorcher"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "heavy scatterguns"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "Options": [
+                      {
+                        "Items": [
+                          "havoc rockets 2"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "heavy scorcher 2"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "heavy scatterguns 2"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": [
+          {
+            "Key": "havoc rockets",
+            "DisplayName": "Havoc Rockets",
+            "Cost": 10
+          },
+          {
+            "Key": "heavy scorcher",
+            "DisplayName": "Heavy Scorcher",
+            "Cost": 10
+          },
+          {
+            "Key": "heavy scatterguns",
+            "DisplayName": "Heavy Scatterguns",
+            "Cost": 4
+          },
+          {
+            "Key": "havoc rockets 2",
+            "DisplayName": "Havoc Rockets",
+            "Cost": 10,
+            "GrantsWeapons": [
+              "havoc rockets"
+            ]
+          },
+          {
+            "Key": "heavy scorcher 2",
+            "DisplayName": "Heavy Scorcher",
+            "Cost": 10,
+            "GrantsWeapons": [
+              "heavy scorcher"
+            ]
+          },
+          {
+            "Key": "heavy scatterguns 2",
+            "DisplayName": "Heavy Scatterguns",
+            "Cost": 4,
+            "GrantsWeapons": [
+              "heavy scatterguns"
+            ]
+          }
+        ]
+      },
+      "UnitAbilities": [],
+      "Infos": [
+        {
+          "Title": "Unit Composition",
+          "Text": "A Hauler unit consists of 1 Hauler. You may include 1 Hauler unit in your army for every Grunts unit."
+        },
+        {
+          "Title": "Weapons and Equipment",
+          "Text": "A Hauler may take 1-2 weapons from the Mounted Secondary Weapons list."
+        }
+      ],
+      "Keywords": [
+        "Standard",
+        "Hauler"
+      ],
+      "FactionKeywords": [
+        "Marauders"
+      ],
+      "CoreAbilities": [
+        "Vehicle",
+        "Transport 10"
+      ],
+      "StatLines": [
+        {
+          "StatName": "Hauler",
+          "Stats": [
+            {
+              "Id": "Cmd",
+              "Value": "4"
+            },
+            {
+              "Id": "Mov",
+              "Value": "9\""
+            },
+            {
+              "Id": "Skl",
+              "Value": "4+"
+            },
+            {
+              "Id": "Def",
+              "Value": "3+"
+            },
+            {
+              "Id": "Tgh",
+              "Value": "6"
+            },
+            {
+              "Id": "HP",
+              "Value": "6"
+            }
+          ]
+        }
+      ],
+      "Weapons": [
+        {
+          "Id": "MOUNTED SECONDARY WEAPONS",
+          "DisplayName": "Mounted Secondary Weapons",
+          "Weapons": [
+            {
+              "Id": "havoc rockets",
+              "DisplayName": "Havoc Rockets",
+              "Stats": [
+                {
+                  "Id": "Rng",
+                  "Value": "16\""
+                },
+                {
+                  "Id": "Att",
+                  "Value": "5"
+                },
+                {
+                  "Id": "Dmg",
+                  "Value": "6"
+                },
+                {
+                  "Id": "Prc",
+                  "Value": "3"
+                }
+              ],
+              "Keywords": "Blast 1"
+            },
+            {
+              "Id": "heavy scorcher",
+              "DisplayName": "Heavy Scorcher",
+              "Stats": [
+                {
+                  "Id": "Rng",
+                  "Value": "8\""
+                },
+                {
+                  "Id": "Att",
+                  "Value": "5"
+                },
+                {
+                  "Id": "Dmg",
+                  "Value": "4"
+                },
+                {
+                  "Id": "Prc",
+                  "Value": "1"
+                }
+              ],
+              "Keywords": "Blast 2, Torrent, Rending 2"
+            },
+            {
+              "Id": "heavy scatterguns",
+              "DisplayName": "Heavy Scatterguns",
+              "Stats": [
+                {
+                  "Id": "Rng",
+                  "Value": "20\""
+                },
+                {
+                  "Id": "Att",
+                  "Value": "6"
+                },
+                {
+                  "Id": "Dmg",
+                  "Value": "3"
+                },
+                {
+                  "Id": "Prc",
+                  "Value": "1"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 90
+        }
+      ]
+    },
+    {
+      "Id": "WRECKERS (WRECKER)",
+      "DisplayName": "Wreckers",
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "ModelName": "Wrecker",
+            "Limit": {
+              "Min": 3,
+              "Max": 5
+            },
+            "StatlineRef": "Wrecker",
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "combat blade",
+                  "combat blade 2"
+                ],
+                "Options": [
+                  {
+                    "Options": [
+                      {
+                        "Items": [
+                          "slugger pistol"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "spitfire"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "bonecrusher"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "longshot"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "scorcher"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "rocket pipe"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "buzzsaw"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "plasma destabiliser"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "crushing claw"
+                        ]
+                      }
+                    ],
+                    "Replaces": [
+                      "combat blade"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      {
+                        "Items": [
+                          "slugger pistol 2"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "spitfire 2"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "bonecrusher 2"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "longshot 2"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "scorcher 2"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "rocket pipe 2"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "buzzsaw 2"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "plasma destabiliser 2"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "crushing claw 2"
+                        ]
+                      }
+                    ],
+                    "Replaces": [
+                      "combat blade 2"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      {
+                        "Items": [
+                          "he grenade"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "freg grenade"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "Options": [
+                      {
+                        "Items": [
+                          "hulking form"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": [
+          {
+            "Key": "slugger pistol",
+            "DisplayName": "Slugger Pistol",
+            "Cost": 0
+          },
+          {
+            "Key": "combat blade",
+            "DisplayName": "Combat Blade",
+            "Cost": 0
+          },
+          {
+            "Key": "spitfire",
+            "DisplayName": "Spitfire",
+            "Cost": 4
+          },
+          {
+            "Key": "bonecrusher",
+            "DisplayName": "Bonecrusher",
+            "Cost": 4
+          },
+          {
+            "Key": "he grenade",
+            "DisplayName": "HE Grenade",
+            "Cost": 5
+          },
+          {
+            "Key": "freg grenade",
+            "DisplayName": "Freg Grenade",
+            "Cost": 2
+          },
+          {
+            "Key": "longshot",
+            "DisplayName": "Longshot",
+            "Cost": 12
+          },
+          {
+            "Key": "scorcher",
+            "DisplayName": "Scorcher",
+            "Cost": 4
+          },
+          {
+            "Key": "rocket pipe",
+            "DisplayName": "Rocket Pipe",
+            "Cost": 4
+          },
+          {
+            "Key": "buzzsaw",
+            "DisplayName": "Buzzsaw",
+            "Cost": 18
+          },
+          {
+            "Key": "plasma destabiliser",
+            "DisplayName": "Plasma Destabiliser",
+            "Cost": 12
+          },
+          {
+            "Key": "crushing claw",
+            "DisplayName": "Crushing Claw",
+            "Cost": 11
+          },
+          {
+            "Key": "hulking form",
+            "DisplayName": "Hulking Form",
+            "Cost": 4,
+            "GrantsAbilities": [
+              "Hulking Form"
+            ],
+            "StatAdjustments": [
+              {
+                "TargetStatId": "Tgh",
+                "Type": "Set",
+                "Scope": "Model",
+                "Value": "5"
+              }
+            ]
+          },
+          {
+            "Key": "slugger pistol 2",
+            "DisplayName": "Slugger Pistol",
+            "Cost": 0,
+            "GrantsWeapons": [
+              "slugger pistol"
+            ]
+          },
+          {
+            "Key": "combat blade 2",
+            "DisplayName": "Combat Blade",
+            "Cost": 0,
+            "GrantsWeapons": [
+              "combat blade"
+            ]
+          },
+          {
+            "Key": "spitfire 2",
+            "DisplayName": "Spitfire",
+            "Cost": 4,
+            "GrantsWeapons": [
+              "spitfire"
+            ]
+          },
+          {
+            "Key": "bonecrusher 2",
+            "DisplayName": "Bonecrusher",
+            "Cost": 4,
+            "GrantsWeapons": [
+              "bonecrusher"
+            ]
+          },
+          {
+            "Key": "longshot 2",
+            "DisplayName": "Longshot",
+            "Cost": 12,
+            "GrantsWeapons": [
+              "longshot"
+            ]
+          },
+          {
+            "Key": "scorcher 2",
+            "DisplayName": "Scorcher",
+            "Cost": 4,
+            "GrantsWeapons": [
+              "scorcher"
+            ]
+          },
+          {
+            "Key": "rocket pipe 2",
+            "DisplayName": "Rocket Pipe",
+            "Cost": 4,
+            "GrantsWeapons": [
+              "rocket pipe"
+            ]
+          },
+          {
+            "Key": "buzzsaw 2",
+            "DisplayName": "Buzzsaw",
+            "Cost": 18,
+            "GrantsWeapons": [
+              "buzzsaw"
+            ]
+          },
+          {
+            "Key": "plasma destabiliser 2",
+            "DisplayName": "Plasma Destabiliser",
+            "Cost": 12,
+            "GrantsWeapons": [
+              "plasma destabiliser"
+            ]
+          },
+          {
+            "Key": "crushing claw 2",
+            "DisplayName": "Crushing Claw",
+            "Cost": 11,
+            "GrantsWeapons": [
+              "crushing claw"
+            ]
+          }
+        ]
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Hulking Form",
+          "Text": "This model has a Toughness of 5."
+        }
+      ],
+      "Infos": [
+        {
+          "Title": "Unit Composition",
+          "Text": "A Wrecker unit consists of 3-5 Wrecker or Wrecker in Juggernaut Armour models."
+        },
+        {
+          "Title": "Weapons and Equipment",
+          "Text": "Each Wrecker must be equipped with the same weapons, you may select 2 weapons from the Standard Sidearms, Specialist Weapons, Specialist Sidearms, or Specialist Weapon lists. You may equip all Specialists with the same grenade from the Grenades list."
+        },
+        {
+          "Title": "Upgrades",
+          "Text": "Every model in this unit can be given the Hulking Form upgrade."
+        }
+      ],
+      "Keywords": [
+        "Specialist",
+        "Wreckers"
+      ],
+      "FactionKeywords": [
+        "Marauders"
+      ],
+      "CoreAbilities": [],
+      "StatLines": [
+        {
+          "StatName": "Wrecker",
+          "Stats": [
+            {
+              "Id": "Cmd",
+              "Value": "4"
+            },
+            {
+              "Id": "Mov",
+              "Value": "6\""
+            },
+            {
+              "Id": "Skl",
+              "Value": "4+"
+            },
+            {
+              "Id": "Def",
+              "Value": "5+"
+            },
+            {
+              "Id": "Tgh",
+              "Value": "4"
+            },
+            {
+              "Id": "HP",
+              "Value": "2"
+            }
+          ]
+        }
+      ],
+      "Weapons": [
+        {
+          "Id": "STANDARD SIDEARMS",
+          "DisplayName": "Standard Sidearms",
+          "Weapons": [
+            {
+              "Id": "slugger pistol",
+              "DisplayName": "Slugger Pistol",
+              "Stats": [
+                {
+                  "Id": "Rng",
+                  "Value": "6\""
+                },
+                {
+                  "Id": "Att",
+                  "Value": "2"
+                },
+                {
+                  "Id": "Dmg",
+                  "Value": "3"
+                },
+                {
+                  "Id": "Prc",
+                  "Value": "0"
+                }
+              ],
+              "Keywords": "Assault"
+            },
+            {
+              "Id": "combat blade",
+              "DisplayName": "Combat Blade",
+              "Stats": [
+                {
+                  "Id": "Rng",
+                  "Value": "1\""
+                },
+                {
+                  "Id": "Att",
+                  "Value": "2"
+                },
+                {
+                  "Id": "Dmg",
+                  "Value": "4"
+                },
+                {
+                  "Id": "Prc",
+                  "Value": "0"
+                }
+              ],
+              "Keywords": "Assault"
+            }
+          ]
+        },
+        {
+          "Id": "SPECIALIST SIDEARMS",
+          "DisplayName": "Specialist Sidearms",
+          "Weapons": [
+            {
+              "Id": "spitfire",
+              "DisplayName": "Spitfire",
+              "Stats": [
+                {
+                  "Id": "Rng",
+                  "Value": "6\""
+                },
+                {
+                  "Id": "Att",
+                  "Value": "3"
+                },
+                {
+                  "Id": "Dmg",
+                  "Value": "5"
+                },
+                {
+                  "Id": "Prc",
+                  "Value": "1"
+                }
+              ],
+              "Keywords": "Assault, Shred"
+            },
+            {
+              "Id": "bonecrusher",
+              "DisplayName": "Bonecrusher",
+              "Stats": [
+                {
+                  "Id": "Rng",
+                  "Value": "1\""
+                },
+                {
+                  "Id": "Att",
+                  "Value": "3"
+                },
+                {
+                  "Id": "Dmg",
+                  "Value": "4"
+                },
+                {
+                  "Id": "Prc",
+                  "Value": "1"
+                }
+              ],
+              "Keywords": "Assault, Rapid Fire 1"
+            }
+          ]
+        },
+        {
+          "Id": "GRENADES",
+          "DisplayName": "Grenades",
+          "Weapons": [
+            {
+              "Id": "he grenade",
+              "DisplayName": "HE Grenade",
+              "Stats": [
+                {
+                  "Id": "Rng",
+                  "Value": "8\""
+                },
+                {
+                  "Id": "Att",
+                  "Value": "3"
+                },
+                {
+                  "Id": "Dmg",
+                  "Value": "6"
+                },
+                {
+                  "Id": "Prc",
+                  "Value": "3"
+                }
+              ],
+              "Keywords": "Blast 1, Inaccurate, Grenade"
+            },
+            {
+              "Id": "freg grenade",
+              "DisplayName": "Freg Grenade",
+              "Stats": [
+                {
+                  "Id": "Rng",
+                  "Value": "8\""
+                },
+                {
+                  "Id": "Att",
+                  "Value": "3"
+                },
+                {
+                  "Id": "Dmg",
+                  "Value": "4"
+                },
+                {
+                  "Id": "Prc",
+                  "Value": "1"
+                }
+              ],
+              "Keywords": "Blast 2, Inaccurate, Grenade"
+            }
+          ]
+        },
+        {
+          "Id": "SPECIALIST WEAPONS",
+          "DisplayName": "Specialist Weapons",
+          "Weapons": [
+            {
+              "Id": "longshot",
+              "DisplayName": "Longshot",
+              "Stats": [
+                {
+                  "Id": "Rng",
+                  "Value": "32\""
+                },
+                {
+                  "Id": "Att",
+                  "Value": "2"
+                },
+                {
+                  "Id": "Dmg",
+                  "Value": "5"
+                },
+                {
+                  "Id": "Prc",
+                  "Value": "1"
+                }
+              ],
+              "Keywords": "Accurate, Destructive 2, Heavy"
+            },
+            {
+              "Id": "scorcher",
+              "DisplayName": "Scorcher",
+              "Stats": [
+                {
+                  "Id": "Rng",
+                  "Value": "6\""
+                },
+                {
+                  "Id": "Att",
+                  "Value": "4"
+                },
+                {
+                  "Id": "Dmg",
+                  "Value": "3"
+                },
+                {
+                  "Id": "Prc",
+                  "Value": "1"
+                }
+              ],
+              "Keywords": "Blast 1, Torrent, Rending 2"
+            },
+            {
+              "Id": "rocket pipe",
+              "DisplayName": "Rocket Pipe",
+              "Stats": [
+                {
+                  "Id": "Rng",
+                  "Value": "18\""
+                },
+                {
+                  "Id": "Att",
+                  "Value": "4"
+                },
+                {
+                  "Id": "Dmg",
+                  "Value": "6"
+                },
+                {
+                  "Id": "Prc",
+                  "Value": "2"
+                }
+              ],
+              "Keywords": "Inaccurate, Blast 1"
+            },
+            {
+              "Id": "buzzsaw",
+              "DisplayName": "Buzzsaw",
+              "Stats": [
+                {
+                  "Id": "Rng",
+                  "Value": "1\""
+                },
+                {
+                  "Id": "Att",
+                  "Value": "3"
+                },
+                {
+                  "Id": "Dmg",
+                  "Value": "5"
+                },
+                {
+                  "Id": "Prc",
+                  "Value": "3"
+                }
+              ],
+              "Keywords": "Assault, Rapid Fire 1, Destructive 2"
+            },
+            {
+              "Id": "plasma destabiliser",
+              "DisplayName": "Plasma Destabiliser",
+              "Stats": [
+                {
+                  "Id": "Rng",
+                  "Value": "20\""
+                },
+                {
+                  "Id": "Att",
+                  "Value": "3"
+                },
+                {
+                  "Id": "Dmg",
+                  "Value": "7"
+                },
+                {
+                  "Id": "Prc",
+                  "Value": "2"
+                }
+              ],
+              "Keywords": "Volatile"
+            },
+            {
+              "Id": "crushing claw",
+              "DisplayName": "Crushing Claw",
+              "Stats": [
+                {
+                  "Id": "Rng",
+                  "Value": "1\""
+                },
+                {
+                  "Id": "Att",
+                  "Value": "3"
+                },
+                {
+                  "Id": "Dmg",
+                  "Value": "6"
+                },
+                {
+                  "Id": "Prc",
+                  "Value": "2"
+                }
+              ],
+              "Keywords": "Assault, Destructive 2"
+            }
+          ]
+        }
+      ],
+      "Points": [
+        {
+          "ModelCount": 3,
+          "Cost": 36
+        },
+        {
+          "ModelCount": 4,
+          "Cost": 48
+        },
+        {
+          "ModelCount": 5,
+          "Cost": 60
+        }
+      ]
+    },
+    {
+      "Id": "WRECKERS (JUGGERNAUT ARMOUR)",
+      "DisplayName": "Wreckers (Juggernaut Armour)",
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "ModelName": "Wrecker in Juggernaut Armour",
+            "Limit": {
+              "Min": 3,
+              "Max": 5
+            },
+            "StatlineRef": "Wrecker in Juggernaut Armour",
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "combat blade",
+                  "combat blade 2"
+                ],
+                "Options": [
+                  {
+                    "Options": [
+                      {
+                        "Items": [
+                          "slugger pistol"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "spitfire"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "bonecrusher"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "longshot"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "scorcher"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "rocket pipe"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "buzzsaw"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "plasma destabiliser"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "crushing claw"
+                        ]
+                      }
+                    ],
+                    "Replaces": [
+                      "combat blade"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      {
+                        "Items": [
+                          "slugger pistol 2"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "spitfire 2"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "bonecrusher 2"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "longshot 2"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "scorcher 2"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "rocket pipe 2"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "buzzsaw 2"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "plasma destabiliser 2"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "crushing claw 2"
+                        ]
+                      }
+                    ],
+                    "Replaces": [
+                      "combat blade 2"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      {
+                        "Items": [
+                          "he grenade"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "freg grenade"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "Options": [
+                      {
+                        "Items": [
+                          "hulking form"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": [
+          {
+            "Key": "slugger pistol",
+            "DisplayName": "Slugger Pistol",
+            "Cost": 0
+          },
+          {
+            "Key": "combat blade",
+            "DisplayName": "Combat Blade",
+            "Cost": 0
+          },
+          {
+            "Key": "spitfire",
+            "DisplayName": "Spitfire",
+            "Cost": 4
+          },
+          {
+            "Key": "bonecrusher",
+            "DisplayName": "Bonecrusher",
+            "Cost": 4
+          },
+          {
+            "Key": "he grenade",
+            "DisplayName": "HE Grenade",
+            "Cost": 5
+          },
+          {
+            "Key": "freg grenade",
+            "DisplayName": "Freg Grenade",
+            "Cost": 2
+          },
+          {
+            "Key": "longshot",
+            "DisplayName": "Longshot",
+            "Cost": 12
+          },
+          {
+            "Key": "scorcher",
+            "DisplayName": "Scorcher",
+            "Cost": 4
+          },
+          {
+            "Key": "rocket pipe",
+            "DisplayName": "Rocket Pipe",
+            "Cost": 4
+          },
+          {
+            "Key": "buzzsaw",
+            "DisplayName": "Buzzsaw",
+            "Cost": 18
+          },
+          {
+            "Key": "plasma destabiliser",
+            "DisplayName": "Plasma Destabiliser",
+            "Cost": 12
+          },
+          {
+            "Key": "crushing claw",
+            "DisplayName": "Crushing Claw",
+            "Cost": 11
+          },
+          {
+            "Key": "hulking form",
+            "DisplayName": "Hulking Form",
+            "Cost": 4,
+            "GrantsAbilities": [
+              "Hulking Form"
+            ],
+            "StatAdjustments": [
+              {
+                "TargetStatId": "Tgh",
+                "Type": "Set",
+                "Scope": "Model",
+                "Value": "5"
+              }
+            ]
+          },
+          {
+            "Key": "slugger pistol 2",
+            "DisplayName": "Slugger Pistol",
+            "Cost": 0,
+            "GrantsWeapons": [
+              "slugger pistol"
+            ]
+          },
+          {
+            "Key": "combat blade 2",
+            "DisplayName": "Combat Blade",
+            "Cost": 0,
+            "GrantsWeapons": [
+              "combat blade"
+            ]
+          },
+          {
+            "Key": "spitfire 2",
+            "DisplayName": "Spitfire",
+            "Cost": 4,
+            "GrantsWeapons": [
+              "spitfire"
+            ]
+          },
+          {
+            "Key": "bonecrusher 2",
+            "DisplayName": "Bonecrusher",
+            "Cost": 4,
+            "GrantsWeapons": [
+              "bonecrusher"
+            ]
+          },
+          {
+            "Key": "longshot 2",
+            "DisplayName": "Longshot",
+            "Cost": 12,
+            "GrantsWeapons": [
+              "longshot"
+            ]
+          },
+          {
+            "Key": "scorcher 2",
+            "DisplayName": "Scorcher",
+            "Cost": 4,
+            "GrantsWeapons": [
+              "scorcher"
+            ]
+          },
+          {
+            "Key": "rocket pipe 2",
+            "DisplayName": "Rocket Pipe",
+            "Cost": 4,
+            "GrantsWeapons": [
+              "rocket pipe"
+            ]
+          },
+          {
+            "Key": "buzzsaw 2",
+            "DisplayName": "Buzzsaw",
+            "Cost": 18,
+            "GrantsWeapons": [
+              "buzzsaw"
+            ]
+          },
+          {
+            "Key": "plasma destabiliser 2",
+            "DisplayName": "Plasma Destabiliser",
+            "Cost": 12,
+            "GrantsWeapons": [
+              "plasma destabiliser"
+            ]
+          },
+          {
+            "Key": "crushing claw 2",
+            "DisplayName": "Crushing Claw",
+            "Cost": 11,
+            "GrantsWeapons": [
+              "crushing claw"
+            ]
+          }
+        ]
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Hulking Form",
+          "Text": "This model has a Toughness of 5."
+        }
+      ],
+      "Infos": [
+        {
+          "Title": "Unit Composition",
+          "Text": "A Wrecker unit consists of 3-5 Wrecker or Wrecker in Juggernaut Armour models."
+        },
+        {
+          "Title": "Weapons and Equipment",
+          "Text": "Each Wrecker must be equipped with the same weapons, you may select 2 weapons from the Standard Sidearms, Specialist Weapons, Specialist Sidearms, or Specialist Weapon lists. You may equip all Specialists with the same grenade from the Grenades list."
+        },
+        {
+          "Title": "Upgrades",
+          "Text": "Every model in this unit can be given the Hulking Form upgrade."
+        }
+      ],
+      "Keywords": [
+        "Specialist",
+        "Wreckers"
+      ],
+      "FactionKeywords": [
+        "Marauders"
+      ],
+      "CoreAbilities": [
+        "Large",
+        "Platform 1",
+        "Steady"
+      ],
+      "StatLines": [
+        {
+          "StatName": "Wrecker in Juggernaut Armour",
+          "Stats": [
+            {
+              "Id": "Cmd",
+              "Value": "4"
+            },
+            {
+              "Id": "Mov",
+              "Value": "5\""
+            },
+            {
+              "Id": "Skl",
+              "Value": "4+"
+            },
+            {
+              "Id": "Def",
+              "Value": "2+"
+            },
+            {
+              "Id": "Tgh",
+              "Value": "4"
+            },
+            {
+              "Id": "HP",
+              "Value": "2"
+            }
+          ]
+        }
+      ],
+      "Weapons": [
+        {
+          "Id": "STANDARD SIDEARMS",
+          "DisplayName": "Standard Sidearms",
+          "Weapons": [
+            {
+              "Id": "slugger pistol",
+              "DisplayName": "Slugger Pistol",
+              "Stats": [
+                {
+                  "Id": "Rng",
+                  "Value": "6\""
+                },
+                {
+                  "Id": "Att",
+                  "Value": "2"
+                },
+                {
+                  "Id": "Dmg",
+                  "Value": "3"
+                },
+                {
+                  "Id": "Prc",
+                  "Value": "0"
+                }
+              ],
+              "Keywords": "Assault"
+            },
+            {
+              "Id": "combat blade",
+              "DisplayName": "Combat Blade",
+              "Stats": [
+                {
+                  "Id": "Rng",
+                  "Value": "1\""
+                },
+                {
+                  "Id": "Att",
+                  "Value": "2"
+                },
+                {
+                  "Id": "Dmg",
+                  "Value": "4"
+                },
+                {
+                  "Id": "Prc",
+                  "Value": "0"
+                }
+              ],
+              "Keywords": "Assault"
+            }
+          ]
+        },
+        {
+          "Id": "SPECIALIST SIDEARMS",
+          "DisplayName": "Specialist Sidearms",
+          "Weapons": [
+            {
+              "Id": "spitfire",
+              "DisplayName": "Spitfire",
+              "Stats": [
+                {
+                  "Id": "Rng",
+                  "Value": "6\""
+                },
+                {
+                  "Id": "Att",
+                  "Value": "3"
+                },
+                {
+                  "Id": "Dmg",
+                  "Value": "5"
+                },
+                {
+                  "Id": "Prc",
+                  "Value": "1"
+                }
+              ],
+              "Keywords": "Assault, Shred"
+            },
+            {
+              "Id": "bonecrusher",
+              "DisplayName": "Bonecrusher",
+              "Stats": [
+                {
+                  "Id": "Rng",
+                  "Value": "1\""
+                },
+                {
+                  "Id": "Att",
+                  "Value": "3"
+                },
+                {
+                  "Id": "Dmg",
+                  "Value": "4"
+                },
+                {
+                  "Id": "Prc",
+                  "Value": "1"
+                }
+              ],
+              "Keywords": "Assault, Rapid Fire 1"
+            }
+          ]
+        },
+        {
+          "Id": "GRENADES",
+          "DisplayName": "Grenades",
+          "Weapons": [
+            {
+              "Id": "he grenade",
+              "DisplayName": "HE Grenade",
+              "Stats": [
+                {
+                  "Id": "Rng",
+                  "Value": "8\""
+                },
+                {
+                  "Id": "Att",
+                  "Value": "3"
+                },
+                {
+                  "Id": "Dmg",
+                  "Value": "6"
+                },
+                {
+                  "Id": "Prc",
+                  "Value": "3"
+                }
+              ],
+              "Keywords": "Blast 1, Inaccurate, Grenade"
+            },
+            {
+              "Id": "freg grenade",
+              "DisplayName": "Freg Grenade",
+              "Stats": [
+                {
+                  "Id": "Rng",
+                  "Value": "8\""
+                },
+                {
+                  "Id": "Att",
+                  "Value": "3"
+                },
+                {
+                  "Id": "Dmg",
+                  "Value": "4"
+                },
+                {
+                  "Id": "Prc",
+                  "Value": "1"
+                }
+              ],
+              "Keywords": "Blast 2, Inaccurate, Grenade"
+            }
+          ]
+        },
+        {
+          "Id": "SPECIALIST WEAPONS",
+          "DisplayName": "Specialist Weapons",
+          "Weapons": [
+            {
+              "Id": "longshot",
+              "DisplayName": "Longshot",
+              "Stats": [
+                {
+                  "Id": "Rng",
+                  "Value": "32\""
+                },
+                {
+                  "Id": "Att",
+                  "Value": "2"
+                },
+                {
+                  "Id": "Dmg",
+                  "Value": "5"
+                },
+                {
+                  "Id": "Prc",
+                  "Value": "1"
+                }
+              ],
+              "Keywords": "Accurate, Destructive 2, Heavy"
+            },
+            {
+              "Id": "scorcher",
+              "DisplayName": "Scorcher",
+              "Stats": [
+                {
+                  "Id": "Rng",
+                  "Value": "6\""
+                },
+                {
+                  "Id": "Att",
+                  "Value": "4"
+                },
+                {
+                  "Id": "Dmg",
+                  "Value": "3"
+                },
+                {
+                  "Id": "Prc",
+                  "Value": "1"
+                }
+              ],
+              "Keywords": "Blast 1, Torrent, Rending 2"
+            },
+            {
+              "Id": "rocket pipe",
+              "DisplayName": "Rocket Pipe",
+              "Stats": [
+                {
+                  "Id": "Rng",
+                  "Value": "18\""
+                },
+                {
+                  "Id": "Att",
+                  "Value": "4"
+                },
+                {
+                  "Id": "Dmg",
+                  "Value": "6"
+                },
+                {
+                  "Id": "Prc",
+                  "Value": "2"
+                }
+              ],
+              "Keywords": "Inaccurate, Blast 1"
+            },
+            {
+              "Id": "buzzsaw",
+              "DisplayName": "Buzzsaw",
+              "Stats": [
+                {
+                  "Id": "Rng",
+                  "Value": "1\""
+                },
+                {
+                  "Id": "Att",
+                  "Value": "3"
+                },
+                {
+                  "Id": "Dmg",
+                  "Value": "5"
+                },
+                {
+                  "Id": "Prc",
+                  "Value": "3"
+                }
+              ],
+              "Keywords": "Assault, Rapid Fire 1, Destructive 2"
+            },
+            {
+              "Id": "plasma destabiliser",
+              "DisplayName": "Plasma Destabiliser",
+              "Stats": [
+                {
+                  "Id": "Rng",
+                  "Value": "20\""
+                },
+                {
+                  "Id": "Att",
+                  "Value": "3"
+                },
+                {
+                  "Id": "Dmg",
+                  "Value": "7"
+                },
+                {
+                  "Id": "Prc",
+                  "Value": "2"
+                }
+              ],
+              "Keywords": "Volatile"
+            },
+            {
+              "Id": "crushing claw",
+              "DisplayName": "Crushing Claw",
+              "Stats": [
+                {
+                  "Id": "Rng",
+                  "Value": "1\""
+                },
+                {
+                  "Id": "Att",
+                  "Value": "3"
+                },
+                {
+                  "Id": "Dmg",
+                  "Value": "6"
+                },
+                {
+                  "Id": "Prc",
+                  "Value": "2"
+                }
+              ],
+              "Keywords": "Assault, Destructive 2"
+            }
+          ]
+        }
+      ],
+      "Points": [
+        {
+          "ModelCount": 3,
+          "Cost": 120
+        },
+        {
+          "ModelCount": 4,
+          "Cost": 160
+        },
+        {
+          "ModelCount": 5,
+          "Cost": 200
+        }
+      ]
+    },
+    {
+      "Id": "BIKERS",
+      "DisplayName": "Bikers",
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "ModelName": "Biker",
+            "Limit": {
+              "Min": 2,
+              "Max": 4
+            },
+            "StatlineRef": "Biker",
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "combat blade",
+                  "heavy scatterguns"
+                ],
+                "Options": [
+                  {
+                    "Options": [
+                      {
+                        "Items": [
+                          "slugger pistol"
+                        ]
+                      }
+                    ],
+                    "Replaces": [
+                      "combat blade"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      {
+                        "Items": [
+                          "havoc rockets"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "heavy scorcher"
+                        ]
+                      }
+                    ],
+                    "Replaces": [
+                      "heavy scatterguns"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "ModelName": "Biker (weapon specialist)",
+            "Limit": {
+              "Min": 1,
+              "Max": 1
+            },
+            "StatlineRef": "Biker",
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "combat blade",
+                  "heavy scatterguns"
+                ],
+                "Options": [
+                  {
+                    "Options": [
+                      {
+                        "Items": [
+                          "slugger pistol"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "spitfire"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "bonecrusher"
+                        ]
+                      }
+                    ],
+                    "Replaces": [
+                      "combat blade"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      {
+                        "Items": [
+                          "havoc rockets"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "heavy scorcher"
+                        ]
+                      }
+                    ],
+                    "Replaces": [
+                      "heavy scatterguns"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": [
+          {
+            "Key": "slugger pistol",
+            "DisplayName": "Slugger Pistol",
+            "Cost": 0
+          },
+          {
+            "Key": "combat blade",
+            "DisplayName": "Combat Blade",
+            "Cost": 0
+          },
+          {
+            "Key": "spitfire",
+            "DisplayName": "Spitfire",
+            "Cost": 4
+          },
+          {
+            "Key": "bonecrusher",
+            "DisplayName": "Bonecrusher",
+            "Cost": 4
+          },
+          {
+            "Key": "havoc rockets",
+            "DisplayName": "Havoc Rockets",
+            "Cost": 10
+          },
+          {
+            "Key": "heavy scorcher",
+            "DisplayName": "Heavy Scorcher",
+            "Cost": 10
+          },
+          {
+            "Key": "heavy scatterguns",
+            "DisplayName": "Heavy Scatterguns",
+            "Cost": 4
+          }
+        ]
+      },
+      "UnitAbilities": [],
+      "Infos": [
+        {
+          "Title": "Unit Composition",
+          "Text": "A Bikers unit consists of 3-5 Biker models."
+        },
+        {
+          "Title": "Weapons and Equipment",
+          "Text": "Each Biker must be equipped with the same weapons, you may select 1 weapon each from the Standard Sidearms and Mounted Secondary Weapons lists. One Biker may replace its Standard Sidearms weapon with a choice from the Specialist Sidearms weapon list."
+        },
+        {
+          "Title": "Upgrades",
+          "Text": "Every Biker model may be given the Fuel Injection upgrade."
+        },
+        {
+          "Title": "Fuel Injection (unpriced in source)",
+          "Text": "One use. When making an Advance action this model gains +6 to its Movement attribute. No points cost is published; this upgrade is not selectable in this dataset."
+        }
+      ],
+      "Keywords": [
+        "Specialist",
+        "Bikers"
+      ],
+      "FactionKeywords": [
+        "Marauders"
+      ],
+      "CoreAbilities": [
+        "Vehicle"
+      ],
+      "StatLines": [
+        {
+          "StatName": "Biker",
+          "Stats": [
+            {
+              "Id": "Cmd",
+              "Value": "4"
+            },
+            {
+              "Id": "Mov",
+              "Value": "9\""
+            },
+            {
+              "Id": "Skl",
+              "Value": "4+"
+            },
+            {
+              "Id": "Def",
+              "Value": "4+"
+            },
+            {
+              "Id": "Tgh",
+              "Value": "4"
+            },
+            {
+              "Id": "HP",
+              "Value": "4"
+            }
+          ]
+        }
+      ],
+      "Weapons": [
+        {
+          "Id": "STANDARD SIDEARMS",
+          "DisplayName": "Standard Sidearms",
+          "Weapons": [
+            {
+              "Id": "slugger pistol",
+              "DisplayName": "Slugger Pistol",
+              "Stats": [
+                {
+                  "Id": "Rng",
+                  "Value": "6\""
+                },
+                {
+                  "Id": "Att",
+                  "Value": "2"
+                },
+                {
+                  "Id": "Dmg",
+                  "Value": "3"
+                },
+                {
+                  "Id": "Prc",
+                  "Value": "0"
+                }
+              ],
+              "Keywords": "Assault"
+            },
+            {
+              "Id": "combat blade",
+              "DisplayName": "Combat Blade",
+              "Stats": [
+                {
+                  "Id": "Rng",
+                  "Value": "1\""
+                },
+                {
+                  "Id": "Att",
+                  "Value": "2"
+                },
+                {
+                  "Id": "Dmg",
+                  "Value": "4"
+                },
+                {
+                  "Id": "Prc",
+                  "Value": "0"
+                }
+              ],
+              "Keywords": "Assault"
+            }
+          ]
+        },
+        {
+          "Id": "SPECIALIST SIDEARMS",
+          "DisplayName": "Specialist Sidearms",
+          "Weapons": [
+            {
+              "Id": "spitfire",
+              "DisplayName": "Spitfire",
+              "Stats": [
+                {
+                  "Id": "Rng",
+                  "Value": "6\""
+                },
+                {
+                  "Id": "Att",
+                  "Value": "3"
+                },
+                {
+                  "Id": "Dmg",
+                  "Value": "5"
+                },
+                {
+                  "Id": "Prc",
+                  "Value": "1"
+                }
+              ],
+              "Keywords": "Assault, Shred"
+            },
+            {
+              "Id": "bonecrusher",
+              "DisplayName": "Bonecrusher",
+              "Stats": [
+                {
+                  "Id": "Rng",
+                  "Value": "1\""
+                },
+                {
+                  "Id": "Att",
+                  "Value": "3"
+                },
+                {
+                  "Id": "Dmg",
+                  "Value": "4"
+                },
+                {
+                  "Id": "Prc",
+                  "Value": "1"
+                }
+              ],
+              "Keywords": "Assault, Rapid Fire 1"
+            }
+          ]
+        },
+        {
+          "Id": "MOUNTED SECONDARY WEAPONS",
+          "DisplayName": "Mounted Secondary Weapons",
+          "Weapons": [
+            {
+              "Id": "havoc rockets",
+              "DisplayName": "Havoc Rockets",
+              "Stats": [
+                {
+                  "Id": "Rng",
+                  "Value": "16\""
+                },
+                {
+                  "Id": "Att",
+                  "Value": "5"
+                },
+                {
+                  "Id": "Dmg",
+                  "Value": "6"
+                },
+                {
+                  "Id": "Prc",
+                  "Value": "3"
+                }
+              ],
+              "Keywords": "Blast 1"
+            },
+            {
+              "Id": "heavy scorcher",
+              "DisplayName": "Heavy Scorcher",
+              "Stats": [
+                {
+                  "Id": "Rng",
+                  "Value": "8\""
+                },
+                {
+                  "Id": "Att",
+                  "Value": "5"
+                },
+                {
+                  "Id": "Dmg",
+                  "Value": "4"
+                },
+                {
+                  "Id": "Prc",
+                  "Value": "1"
+                }
+              ],
+              "Keywords": "Blast 2, Torrent, Rending 2"
+            },
+            {
+              "Id": "heavy scatterguns",
+              "DisplayName": "Heavy Scatterguns",
+              "Stats": [
+                {
+                  "Id": "Rng",
+                  "Value": "20\""
+                },
+                {
+                  "Id": "Att",
+                  "Value": "6"
+                },
+                {
+                  "Id": "Dmg",
+                  "Value": "3"
+                },
+                {
+                  "Id": "Prc",
+                  "Value": "1"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "Points": [
+        {
+          "ModelCount": 3,
+          "Cost": 105
+        },
+        {
+          "ModelCount": 4,
+          "Cost": 140
+        },
+        {
+          "ModelCount": 5,
+          "Cost": 175
+        }
+      ]
+    },
+    {
+      "Id": "SCRAPPER TANK",
+      "DisplayName": "Scrapper Tank",
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "ModelName": "Scrapper Tank",
+            "Limit": {
+              "Min": 1,
+              "Max": 1
+            },
+            "StatlineRef": "Scrapper Tank",
+            "Wargear": [
+              {
+                "InitialWargear": [],
+                "Options": [
+                  {
+                    "Options": [
+                      {
+                        "Items": [
+                          "earthshaker"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "blitz cannon"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "cyclone cannon"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "Options": [
+                      {
+                        "Items": [
+                          "havoc rockets"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "heavy scorcher"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "heavy scatterguns"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "Options": [
+                      {
+                        "Items": [
+                          "havoc rockets 2"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "heavy scorcher 2"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "heavy scatterguns 2"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": [
+          {
+            "Key": "earthshaker",
+            "DisplayName": "Earthshaker",
+            "Cost": 40
+          },
+          {
+            "Key": "blitz cannon",
+            "DisplayName": "Blitz Cannon",
+            "Cost": 30
+          },
+          {
+            "Key": "cyclone cannon",
+            "DisplayName": "Cyclone Cannon",
+            "Cost": 24
+          },
+          {
+            "Key": "havoc rockets",
+            "DisplayName": "Havoc Rockets",
+            "Cost": 10
+          },
+          {
+            "Key": "heavy scorcher",
+            "DisplayName": "Heavy Scorcher",
+            "Cost": 10
+          },
+          {
+            "Key": "heavy scatterguns",
+            "DisplayName": "Heavy Scatterguns",
+            "Cost": 4
+          },
+          {
+            "Key": "havoc rockets 2",
+            "DisplayName": "Havoc Rockets",
+            "Cost": 10,
+            "GrantsWeapons": [
+              "havoc rockets"
+            ]
+          },
+          {
+            "Key": "heavy scorcher 2",
+            "DisplayName": "Heavy Scorcher",
+            "Cost": 10,
+            "GrantsWeapons": [
+              "heavy scorcher"
+            ]
+          },
+          {
+            "Key": "heavy scatterguns 2",
+            "DisplayName": "Heavy Scatterguns",
+            "Cost": 4,
+            "GrantsWeapons": [
+              "heavy scatterguns"
+            ]
+          }
+        ]
+      },
+      "UnitAbilities": [],
+      "Infos": [
+        {
+          "Title": "Unit Composition",
+          "Text": "A Scrapper Tank unit consists of 1 Hauler. You may include 1 Hauler unit in your army for every Grunts unit."
+        },
+        {
+          "Title": "Weapons and Equipment",
+          "Text": "A Scrapper Tank may take 1 weapon from the Mounted Primary Weapons list and up to 2 weapons from the Mounted Secondary Weapons list."
+        }
+      ],
+      "Keywords": [
+        "Specialist",
+        "Scrapper Tank"
+      ],
+      "FactionKeywords": [
+        "Marauders"
+      ],
+      "CoreAbilities": [
+        "Vehicle",
+        "Heavy Armour 1"
+      ],
+      "StatLines": [
+        {
+          "StatName": "Scrapper Tank",
+          "Stats": [
+            {
+              "Id": "Cmd",
+              "Value": "4"
+            },
+            {
+              "Id": "Mov",
+              "Value": "8\""
+            },
+            {
+              "Id": "Skl",
+              "Value": "4+"
+            },
+            {
+              "Id": "Def",
+              "Value": "3+"
+            },
+            {
+              "Id": "Tgh",
+              "Value": "7"
+            },
+            {
+              "Id": "HP",
+              "Value": "6"
+            }
+          ]
+        }
+      ],
+      "Weapons": [
+        {
+          "Id": "MOUNTED PRIMARY WEAPONS",
+          "DisplayName": "Mounted Primary Weapons",
+          "Weapons": [
+            {
+              "Id": "earthshaker",
+              "DisplayName": "Earthshaker",
+              "Stats": [
+                {
+                  "Id": "Rng",
+                  "Value": "30\""
+                },
+                {
+                  "Id": "Att",
+                  "Value": "2"
+                },
+                {
+                  "Id": "Dmg",
+                  "Value": "8"
+                },
+                {
+                  "Id": "Prc",
+                  "Value": "3"
+                }
+              ],
+              "Keywords": "Destructive 3, Blast 1, Heavy"
+            },
+            {
+              "Id": "blitz cannon",
+              "DisplayName": "Blitz Cannon",
+              "Stats": [
+                {
+                  "Id": "Rng",
+                  "Value": "30\""
+                },
+                {
+                  "Id": "Att",
+                  "Value": "5"
+                },
+                {
+                  "Id": "Dmg",
+                  "Value": "6"
+                },
+                {
+                  "Id": "Prc",
+                  "Value": "2"
+                }
+              ],
+              "Keywords": "Rending 2, Heavy"
+            },
+            {
+              "Id": "cyclone cannon",
+              "DisplayName": "Cyclone Cannon",
+              "Stats": [
+                {
+                  "Id": "Rng",
+                  "Value": "24\""
+                },
+                {
+                  "Id": "Att",
+                  "Value": "4"
+                },
+                {
+                  "Id": "Dmg",
+                  "Value": "4"
+                },
+                {
+                  "Id": "Prc",
+                  "Value": "0"
+                }
+              ],
+              "Keywords": "Rending 2, Rapid Fire 3"
+            }
+          ]
+        },
+        {
+          "Id": "MOUNTED SECONDARY WEAPONS",
+          "DisplayName": "Mounted Secondary Weapons",
+          "Weapons": [
+            {
+              "Id": "havoc rockets",
+              "DisplayName": "Havoc Rockets",
+              "Stats": [
+                {
+                  "Id": "Rng",
+                  "Value": "16\""
+                },
+                {
+                  "Id": "Att",
+                  "Value": "5"
+                },
+                {
+                  "Id": "Dmg",
+                  "Value": "6"
+                },
+                {
+                  "Id": "Prc",
+                  "Value": "3"
+                }
+              ],
+              "Keywords": "Blast 1"
+            },
+            {
+              "Id": "heavy scorcher",
+              "DisplayName": "Heavy Scorcher",
+              "Stats": [
+                {
+                  "Id": "Rng",
+                  "Value": "8\""
+                },
+                {
+                  "Id": "Att",
+                  "Value": "5"
+                },
+                {
+                  "Id": "Dmg",
+                  "Value": "4"
+                },
+                {
+                  "Id": "Prc",
+                  "Value": "1"
+                }
+              ],
+              "Keywords": "Blast 2, Torrent, Rending 2"
+            },
+            {
+              "Id": "heavy scatterguns",
+              "DisplayName": "Heavy Scatterguns",
+              "Stats": [
+                {
+                  "Id": "Rng",
+                  "Value": "20\""
+                },
+                {
+                  "Id": "Att",
+                  "Value": "6"
+                },
+                {
+                  "Id": "Dmg",
+                  "Value": "3"
+                },
+                {
+                  "Id": "Prc",
+                  "Value": "1"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 170
+        }
+      ]
+    }
+  ],
+  "ArmyRules": [
+    {
+      "Title": "About Marauders",
+      "Text": "Marauders are disorganised and crude hordes. They may not have the best weapons, armour, or training... or discipline, but they make up for it in numbers and a sheer willingness for a good fight."
+    },
+    {
+      "Title": "Building an Army",
+      "Text": "Building your army for Fracture is simple, players agree a maximum number of points then choose their units from a suitable army list, ensuring the total points cost for their models, weapons, and equipment don't exceed that maximum. Each army list is designed to reflect a certain type of faction rather than one single entity, choose the one that best suits your chosen miniatures and play style.\n\nIn addition to the maximum points each player can spend there are also 3 categories of unit; Command, Standard, and Specialist. An army must be at least 25% (by points) Standard models, no more than 25% Command models, and no more than 50% Specialist models.\n\nRecommended points for games of Fracture are 500-1000 points for smaller games which can be played on a 3ft by 4ft battlefield and up to 2000 for larger games with a larger battlefield."
+    },
+    {
+      "Title": "Roster Restrictions",
+      "Text": "Check the source Unit Composition and Weapons and Equipment notes when building an army. Army category percentages, one-per-army limits across variants, transport ratios, unique weapons, and matching equipment or upgrades across squad models require manual checking."
+    },
+    {
+      "Title": "Attribution",
+      "Text": "Fracture and the Cadence Wargame System by Open Source Tabletop (https://cadence.games; https://github.com/open-source-tabletop/fracture), licensed under Creative Commons Attribution 4.0 (https://creativecommons.org/licenses/by/4.0/)."
+    }
+  ]
+}

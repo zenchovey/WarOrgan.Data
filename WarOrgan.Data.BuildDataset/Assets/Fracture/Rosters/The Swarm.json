@@ -1,0 +1,3379 @@
+{
+  "Name": "The Swarm",
+  "Units": [
+    {
+      "Id": "TYRANT CLADE",
+      "DisplayName": "Tyrant Clade",
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "ModelName": "Tyrant",
+            "Limit": {
+              "Min": 1,
+              "Max": 1
+            },
+            "StatlineRef": "Tyrant",
+            "Wargear": [
+              {
+                "InitialWargear": [],
+                "Options": [
+                  {
+                    "Options": [
+                      {
+                        "Items": [
+                          "barbed tentacle"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "bio-plasma cannon"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "gaping maw"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "monstrous claws"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "neural blast"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "spike cannon"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "acid spitter"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "razor claws"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "spiker"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "venom bite"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "acidic barrage"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "boneblades"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "Options": [
+                      {
+                        "Items": [
+                          "acid spitter 2"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "razor claws 2"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "spiker 2"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "venom bite 2"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "acidic barrage 2"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "boneblades 2"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "Options": [
+                      {
+                        "Items": [
+                          "acid spitter 3"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "razor claws 3"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "spiker 3"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "venom bite 3"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "acidic barrage 3"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "boneblades 3"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "Options": [
+                      {
+                        "Items": [
+                          "large wings adaptation"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "thick carapace adaptation"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": [
+          {
+            "Key": "acid spitter",
+            "DisplayName": "Acid Spitter",
+            "Cost": 3
+          },
+          {
+            "Key": "razor claws",
+            "DisplayName": "Razor Claws",
+            "Cost": 4
+          },
+          {
+            "Key": "spiker",
+            "DisplayName": "Spiker",
+            "Cost": 4
+          },
+          {
+            "Key": "venom bite",
+            "DisplayName": "Venom Bite",
+            "Cost": 1
+          },
+          {
+            "Key": "acidic barrage",
+            "DisplayName": "Acidic Barrage",
+            "Cost": 10
+          },
+          {
+            "Key": "boneblades",
+            "DisplayName": "Boneblades",
+            "Cost": 8
+          },
+          {
+            "Key": "barbed tentacle",
+            "DisplayName": "Barbed Tentacle",
+            "Cost": 10
+          },
+          {
+            "Key": "bio-plasma cannon",
+            "DisplayName": "Bio-plasma Cannon",
+            "Cost": 32
+          },
+          {
+            "Key": "gaping maw",
+            "DisplayName": "Gaping Maw",
+            "Cost": 23
+          },
+          {
+            "Key": "monstrous claws",
+            "DisplayName": "Monstrous Claws",
+            "Cost": 16
+          },
+          {
+            "Key": "neural blast",
+            "DisplayName": "Neural Blast",
+            "Cost": 30
+          },
+          {
+            "Key": "spike cannon",
+            "DisplayName": "Spike Cannon",
+            "Cost": 18
+          },
+          {
+            "Key": "large wings adaptation",
+            "DisplayName": "Large Wings Adaptation",
+            "Cost": 15,
+            "GrantsAbilities": [
+              "Large Wings Adaptation"
+            ],
+            "DatasheetAdjustments": [
+              {
+                "Target": "CoreAbilities",
+                "Type": "Add",
+                "Scope": "Model",
+                "Values": [
+                  "Flying"
+                ]
+              }
+            ]
+          },
+          {
+            "Key": "thick carapace adaptation",
+            "DisplayName": "Thick Carapace Adaptation",
+            "Cost": 20,
+            "GrantsAbilities": [
+              "Thick Carapace Adaptation"
+            ],
+            "StatAdjustments": [
+              {
+                "TargetStatId": "Def",
+                "Type": "Set",
+                "Scope": "Model",
+                "Value": "2+"
+              }
+            ]
+          },
+          {
+            "Key": "acid spitter 2",
+            "DisplayName": "Acid Spitter",
+            "Cost": 3,
+            "GrantsWeapons": [
+              "acid spitter"
+            ]
+          },
+          {
+            "Key": "razor claws 2",
+            "DisplayName": "Razor Claws",
+            "Cost": 4,
+            "GrantsWeapons": [
+              "razor claws"
+            ]
+          },
+          {
+            "Key": "spiker 2",
+            "DisplayName": "Spiker",
+            "Cost": 4,
+            "GrantsWeapons": [
+              "spiker"
+            ]
+          },
+          {
+            "Key": "venom bite 2",
+            "DisplayName": "Venom Bite",
+            "Cost": 1,
+            "GrantsWeapons": [
+              "venom bite"
+            ]
+          },
+          {
+            "Key": "acidic barrage 2",
+            "DisplayName": "Acidic Barrage",
+            "Cost": 10,
+            "GrantsWeapons": [
+              "acidic barrage"
+            ]
+          },
+          {
+            "Key": "boneblades 2",
+            "DisplayName": "Boneblades",
+            "Cost": 8,
+            "GrantsWeapons": [
+              "boneblades"
+            ]
+          },
+          {
+            "Key": "acid spitter 3",
+            "DisplayName": "Acid Spitter",
+            "Cost": 3,
+            "GrantsWeapons": [
+              "acid spitter"
+            ]
+          },
+          {
+            "Key": "razor claws 3",
+            "DisplayName": "Razor Claws",
+            "Cost": 4,
+            "GrantsWeapons": [
+              "razor claws"
+            ]
+          },
+          {
+            "Key": "spiker 3",
+            "DisplayName": "Spiker",
+            "Cost": 4,
+            "GrantsWeapons": [
+              "spiker"
+            ]
+          },
+          {
+            "Key": "venom bite 3",
+            "DisplayName": "Venom Bite",
+            "Cost": 1,
+            "GrantsWeapons": [
+              "venom bite"
+            ]
+          },
+          {
+            "Key": "acidic barrage 3",
+            "DisplayName": "Acidic Barrage",
+            "Cost": 10,
+            "GrantsWeapons": [
+              "acidic barrage"
+            ]
+          },
+          {
+            "Key": "boneblades 3",
+            "DisplayName": "Boneblades",
+            "Cost": 8,
+            "GrantsWeapons": [
+              "boneblades"
+            ]
+          }
+        ]
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Large Wings Adaptation",
+          "Text": "This model gains the Flying special rule."
+        },
+        {
+          "Title": "Thick Carapace Adaptation",
+          "Text": "This model has a Defence of 2+"
+        }
+      ],
+      "Infos": [
+        {
+          "Title": "Unit Composition",
+          "Text": "A Tyrant Clade unit consists of 1 Tyrant model. You may only include 1 Tyrant Clade unit in your army."
+        },
+        {
+          "Title": "Weapons and Equipment",
+          "Text": "A Tyrant may be equipped with up to 3 weapons: Up to 1 from the Heavy Weapons list and up to 3 from the Standard Weapons or Specialist Weapons lists."
+        },
+        {
+          "Title": "Upgrades",
+          "Text": "A Tyrant may take either the Large Wings Adaptation or Thick Carapace Adaption upgrade."
+        }
+      ],
+      "Keywords": [
+        "Command",
+        "Tyrant Clade"
+      ],
+      "FactionKeywords": [
+        "The Swarm"
+      ],
+      "CoreAbilities": [
+        "Platform 1",
+        "Steady",
+        "Swarm Leader"
+      ],
+      "StatLines": [
+        {
+          "StatName": "Tyrant",
+          "Stats": [
+            {
+              "Id": "Cmd",
+              "Value": "6"
+            },
+            {
+              "Id": "Mov",
+              "Value": "8\""
+            },
+            {
+              "Id": "Skl",
+              "Value": "3+"
+            },
+            {
+              "Id": "Def",
+              "Value": "4+"
+            },
+            {
+              "Id": "Tgh",
+              "Value": "6"
+            },
+            {
+              "Id": "HP",
+              "Value": "8"
+            }
+          ]
+        }
+      ],
+      "Weapons": [
+        {
+          "Id": "STANDARD WEAPONS",
+          "DisplayName": "Standard Weapons",
+          "Weapons": [
+            {
+              "Id": "acid spitter",
+              "DisplayName": "Acid Spitter",
+              "Stats": [
+                {
+                  "Id": "Rng",
+                  "Value": "6\""
+                },
+                {
+                  "Id": "Att",
+                  "Value": "4"
+                },
+                {
+                  "Id": "Dmg",
+                  "Value": "3"
+                },
+                {
+                  "Id": "Prc",
+                  "Value": "2"
+                }
+              ],
+              "Keywords": "Assault"
+            },
+            {
+              "Id": "razor claws",
+              "DisplayName": "Razor Claws",
+              "Stats": [
+                {
+                  "Id": "Rng",
+                  "Value": "1\""
+                },
+                {
+                  "Id": "Att",
+                  "Value": "3"
+                },
+                {
+                  "Id": "Dmg",
+                  "Value": "4"
+                },
+                {
+                  "Id": "Prc",
+                  "Value": "1"
+                }
+              ],
+              "Keywords": "Assault, Rapid Fire 1"
+            },
+            {
+              "Id": "spiker",
+              "DisplayName": "Spiker",
+              "Stats": [
+                {
+                  "Id": "Rng",
+                  "Value": "16\""
+                },
+                {
+                  "Id": "Att",
+                  "Value": "2"
+                },
+                {
+                  "Id": "Dmg",
+                  "Value": "5"
+                },
+                {
+                  "Id": "Prc",
+                  "Value": "1"
+                }
+              ],
+              "Keywords": "Destructive 2"
+            },
+            {
+              "Id": "venom bite",
+              "DisplayName": "Venom Bite",
+              "Stats": [
+                {
+                  "Id": "Rng",
+                  "Value": "1\""
+                },
+                {
+                  "Id": "Att",
+                  "Value": "3"
+                },
+                {
+                  "Id": "Dmg",
+                  "Value": "4"
+                },
+                {
+                  "Id": "Prc",
+                  "Value": "0"
+                }
+              ],
+              "Keywords": "Assault, Shred"
+            }
+          ]
+        },
+        {
+          "Id": "SPECIALIST WEAPONS",
+          "DisplayName": "Specialist Weapons",
+          "Weapons": [
+            {
+              "Id": "acidic barrage",
+              "DisplayName": "Acidic Barrage",
+              "Stats": [
+                {
+                  "Id": "Rng",
+                  "Value": "12\""
+                },
+                {
+                  "Id": "Att",
+                  "Value": "4"
+                },
+                {
+                  "Id": "Dmg",
+                  "Value": "4"
+                },
+                {
+                  "Id": "Prc",
+                  "Value": "2"
+                }
+              ],
+              "Keywords": "Blast 2, Destructive 2"
+            },
+            {
+              "Id": "boneblades",
+              "DisplayName": "Boneblades",
+              "Stats": [
+                {
+                  "Id": "Rng",
+                  "Value": "1\""
+                },
+                {
+                  "Id": "Att",
+                  "Value": "4"
+                },
+                {
+                  "Id": "Dmg",
+                  "Value": "4"
+                },
+                {
+                  "Id": "Prc",
+                  "Value": "2"
+                }
+              ],
+              "Keywords": "Assault, Rapid Fire 1, Shred"
+            }
+          ]
+        },
+        {
+          "Id": "HEAVY WEAPONS",
+          "DisplayName": "Heavy Weapons",
+          "Weapons": [
+            {
+              "Id": "barbed tentacle",
+              "DisplayName": "Barbed Tentacle",
+              "Stats": [
+                {
+                  "Id": "Rng",
+                  "Value": "2\""
+                },
+                {
+                  "Id": "Att",
+                  "Value": "4"
+                },
+                {
+                  "Id": "Dmg",
+                  "Value": "5"
+                },
+                {
+                  "Id": "Prc",
+                  "Value": "2"
+                }
+              ],
+              "Keywords": "Assault, Destructive 2"
+            },
+            {
+              "Id": "bio-plasma cannon",
+              "DisplayName": "Bio-plasma Cannon",
+              "Stats": [
+                {
+                  "Id": "Rng",
+                  "Value": "24\""
+                },
+                {
+                  "Id": "Att",
+                  "Value": "5"
+                },
+                {
+                  "Id": "Dmg",
+                  "Value": "6"
+                },
+                {
+                  "Id": "Prc",
+                  "Value": "3"
+                }
+              ],
+              "Keywords": "Blast 2, Destructive 2, Indirect, Heavy"
+            },
+            {
+              "Id": "gaping maw",
+              "DisplayName": "Gaping Maw",
+              "Stats": [
+                {
+                  "Id": "Rng",
+                  "Value": "1\""
+                },
+                {
+                  "Id": "Att",
+                  "Value": "3"
+                },
+                {
+                  "Id": "Dmg",
+                  "Value": "8"
+                },
+                {
+                  "Id": "Prc",
+                  "Value": "3"
+                }
+              ],
+              "Keywords": "Assault, Destructive 3, Shred"
+            },
+            {
+              "Id": "monstrous claws",
+              "DisplayName": "Monstrous Claws",
+              "Stats": [
+                {
+                  "Id": "Rng",
+                  "Value": "1\""
+                },
+                {
+                  "Id": "Att",
+                  "Value": "3"
+                },
+                {
+                  "Id": "Dmg",
+                  "Value": "7"
+                },
+                {
+                  "Id": "Prc",
+                  "Value": "3"
+                }
+              ],
+              "Keywords": "Assault, Destructive 3"
+            },
+            {
+              "Id": "neural blast",
+              "DisplayName": "Neural Blast",
+              "Stats": [
+                {
+                  "Id": "Rng",
+                  "Value": "3\""
+                },
+                {
+                  "Id": "Att",
+                  "Value": "6"
+                },
+                {
+                  "Id": "Dmg",
+                  "Value": "4"
+                },
+                {
+                  "Id": "Prc",
+                  "Value": "4"
+                }
+              ],
+              "Keywords": "Assault, Shred, Heavy"
+            },
+            {
+              "Id": "spike cannon",
+              "DisplayName": "Spike Cannon",
+              "Stats": [
+                {
+                  "Id": "Rng",
+                  "Value": "12\""
+                },
+                {
+                  "Id": "Att",
+                  "Value": "3"
+                },
+                {
+                  "Id": "Dmg",
+                  "Value": "6"
+                },
+                {
+                  "Id": "Prc",
+                  "Value": "3"
+                }
+              ],
+              "Keywords": "Heavy"
+            }
+          ]
+        }
+      ],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 100
+        }
+      ]
+    },
+    {
+      "Id": "PSIONIC QUEEN",
+      "DisplayName": "Psionic Queen",
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "ModelName": "Psionic Queen",
+            "Limit": {
+              "Min": 1,
+              "Max": 1
+            },
+            "StatlineRef": "Psionic Queen",
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "razor claws",
+                  "neural blast",
+                  "regeneration adaptation",
+                  "thick carapace adaptation"
+                ],
+                "Options": [
+                  {
+                    "Options": [
+                      {
+                        "Items": [
+                          "psionic blast"
+                        ]
+                      }
+                    ],
+                    "Replaces": [
+                      "neural blast"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      {
+                        "Items": [
+                          "regeneration adaptation",
+                          "psionic urging"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "regeneration adaptation",
+                          "psionic fury"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "regeneration adaptation",
+                          "psionic regeneration"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "thick carapace adaptation",
+                          "psionic urging"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "thick carapace adaptation",
+                          "psionic fury"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "thick carapace adaptation",
+                          "psionic regeneration"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "psionic urging",
+                          "psionic fury"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "psionic urging",
+                          "psionic regeneration"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "psionic fury",
+                          "psionic regeneration"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "regeneration adaptation",
+                          "thick carapace adaptation",
+                          "psionic urging"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "regeneration adaptation",
+                          "thick carapace adaptation",
+                          "psionic fury"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "regeneration adaptation",
+                          "thick carapace adaptation",
+                          "psionic regeneration"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "regeneration adaptation",
+                          "psionic urging",
+                          "psionic fury"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "regeneration adaptation",
+                          "psionic urging",
+                          "psionic regeneration"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "regeneration adaptation",
+                          "psionic fury",
+                          "psionic regeneration"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "thick carapace adaptation",
+                          "psionic urging",
+                          "psionic fury"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "thick carapace adaptation",
+                          "psionic urging",
+                          "psionic regeneration"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "thick carapace adaptation",
+                          "psionic fury",
+                          "psionic regeneration"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "psionic urging",
+                          "psionic fury",
+                          "psionic regeneration"
+                        ]
+                      }
+                    ],
+                    "Replaces": [
+                      "regeneration adaptation",
+                      "thick carapace adaptation"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": [
+          {
+            "Key": "razor claws",
+            "DisplayName": "Razor Claws",
+            "Cost": 4
+          },
+          {
+            "Key": "neural blast",
+            "DisplayName": "Neural Blast",
+            "Cost": 30
+          },
+          {
+            "Key": "psionic blast",
+            "DisplayName": "Psionic Blast",
+            "Cost": 40
+          },
+          {
+            "Key": "regeneration adaptation",
+            "DisplayName": "Regeneration Adaptation",
+            "Cost": 20,
+            "GrantsAbilities": [
+              "Regeneration Adaptation"
+            ]
+          },
+          {
+            "Key": "thick carapace adaptation",
+            "DisplayName": "Thick Carapace Adaptation",
+            "Cost": 20,
+            "GrantsAbilities": [
+              "Thick Carapace Adaptation"
+            ],
+            "StatAdjustments": [
+              {
+                "TargetStatId": "Def",
+                "Type": "Set",
+                "Scope": "Model",
+                "Value": "2+"
+              }
+            ]
+          },
+          {
+            "Key": "psionic urging",
+            "DisplayName": "Psionic Urging",
+            "Cost": 40,
+            "GrantsAbilities": [
+              "Psionic Urging"
+            ]
+          },
+          {
+            "Key": "psionic fury",
+            "DisplayName": "Psionic Fury",
+            "Cost": 30,
+            "GrantsAbilities": [
+              "Psionic Fury"
+            ]
+          },
+          {
+            "Key": "psionic regeneration",
+            "DisplayName": "Psionic Regeneration",
+            "Cost": 35,
+            "GrantsAbilities": [
+              "Psionic Regeneration"
+            ]
+          }
+        ]
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Regeneration Adaptation",
+          "Text": "At the start of every round, roll a d6 for this model. On a roll of 3+ it regenerates 1 lost hit point."
+        },
+        {
+          "Title": "Thick Carapace Adaptation",
+          "Text": "This model has a Defence of 2+"
+        },
+        {
+          "Title": "Psionic Urging",
+          "Text": "Ability (1 Command Point): This model targets a friendly unit within 6 inches. That unit gains +1 Command Point, this may not take it's Command Points above it's initial value."
+        },
+        {
+          "Title": "Psionic Fury",
+          "Text": "Ability (1 Command Point): This model targets a friendly unit within 6 inches. At the end of this models activation the targeted unit may make a free Attack action, however any weapon used gains the Volatile special rule for that attack."
+        },
+        {
+          "Title": "Psionic Regeneration",
+          "Text": "Friendly models within 6 inches of this model gain +1 to their Counter rolls and may never have their Defence Rolls lowered below a 6+."
+        }
+      ],
+      "Infos": [
+        {
+          "Title": "Unit Composition",
+          "Text": "A Psionic Queen unit consists of 1 Psionic Queen models. You may only include 1 Psionic Queen in you army."
+        },
+        {
+          "Title": "Weapons and Equipment",
+          "Text": "A Psionic Queen must be equipped with a Neural Blast or a Psionic Blast and must also take Razor Claws."
+        },
+        {
+          "Title": "Upgrades",
+          "Text": "A Psionic Queen must choose 2 or 3 of the following upgrades: Regeneration Adaptation, Thick Carapace Adaptation, Psionic Urging, Psionic Fury, or Psionic Regeneration."
+        }
+      ],
+      "Keywords": [
+        "Command",
+        "Psionic Queen"
+      ],
+      "FactionKeywords": [
+        "The Swarm"
+      ],
+      "CoreAbilities": [
+        "Psionic Field",
+        "Steady",
+        "Swarm Leader"
+      ],
+      "StatLines": [
+        {
+          "StatName": "Psionic Queen",
+          "Stats": [
+            {
+              "Id": "Cmd",
+              "Value": "6"
+            },
+            {
+              "Id": "Mov",
+              "Value": "6\""
+            },
+            {
+              "Id": "Skl",
+              "Value": "3+"
+            },
+            {
+              "Id": "Def",
+              "Value": "5+"
+            },
+            {
+              "Id": "Tgh",
+              "Value": "5"
+            },
+            {
+              "Id": "HP",
+              "Value": "6"
+            }
+          ]
+        }
+      ],
+      "Weapons": [
+        {
+          "Id": "STANDARD WEAPONS",
+          "DisplayName": "Standard Weapons",
+          "Weapons": [
+            {
+              "Id": "razor claws",
+              "DisplayName": "Razor Claws",
+              "Stats": [
+                {
+                  "Id": "Rng",
+                  "Value": "1\""
+                },
+                {
+                  "Id": "Att",
+                  "Value": "3"
+                },
+                {
+                  "Id": "Dmg",
+                  "Value": "4"
+                },
+                {
+                  "Id": "Prc",
+                  "Value": "1"
+                }
+              ],
+              "Keywords": "Assault, Rapid Fire 1"
+            }
+          ]
+        },
+        {
+          "Id": "HEAVY WEAPONS",
+          "DisplayName": "Heavy Weapons",
+          "Weapons": [
+            {
+              "Id": "neural blast",
+              "DisplayName": "Neural Blast",
+              "Stats": [
+                {
+                  "Id": "Rng",
+                  "Value": "3\""
+                },
+                {
+                  "Id": "Att",
+                  "Value": "6"
+                },
+                {
+                  "Id": "Dmg",
+                  "Value": "4"
+                },
+                {
+                  "Id": "Prc",
+                  "Value": "4"
+                }
+              ],
+              "Keywords": "Assault, Shred, Heavy"
+            }
+          ]
+        },
+        {
+          "Id": "OTHER WEAPONS",
+          "DisplayName": "Other Weapons",
+          "Weapons": [
+            {
+              "Id": "psionic blast",
+              "DisplayName": "Psionic Blast",
+              "Stats": [
+                {
+                  "Id": "Rng",
+                  "Value": "9\""
+                },
+                {
+                  "Id": "Att",
+                  "Value": "6"
+                },
+                {
+                  "Id": "Dmg",
+                  "Value": "4"
+                },
+                {
+                  "Id": "Prc",
+                  "Value": "4"
+                }
+              ],
+              "Keywords": "Shred, Blast 3"
+            }
+          ]
+        }
+      ],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 35
+        }
+      ]
+    },
+    {
+      "Id": "DRONE CLADE",
+      "DisplayName": "Drone Clade",
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "ModelName": "Drone",
+            "Limit": {
+              "Min": 8,
+              "Max": 16
+            },
+            "StatlineRef": "Drone",
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "venom bite"
+                ],
+                "Options": [
+                  {
+                    "Options": [
+                      {
+                        "Items": [
+                          "acid spitter"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "razor claws"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "spiker"
+                        ]
+                      }
+                    ],
+                    "Replaces": [
+                      "venom bite"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      {
+                        "Items": [
+                          "acid spitter 2"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "razor claws 2"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "spiker 2"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "venom bite 2"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "Options": [
+                      {
+                        "Items": [
+                          "swift adaptation"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "stealth adaptation"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": [
+          {
+            "Key": "acid spitter",
+            "DisplayName": "Acid Spitter",
+            "Cost": 3
+          },
+          {
+            "Key": "razor claws",
+            "DisplayName": "Razor Claws",
+            "Cost": 4
+          },
+          {
+            "Key": "spiker",
+            "DisplayName": "Spiker",
+            "Cost": 4
+          },
+          {
+            "Key": "venom bite",
+            "DisplayName": "Venom Bite",
+            "Cost": 1
+          },
+          {
+            "Key": "swift adaptation",
+            "DisplayName": "Swift Adaptation",
+            "Cost": 2,
+            "GrantsAbilities": [
+              "Swift Adaptation"
+            ],
+            "StatAdjustments": [
+              {
+                "TargetStatId": "Mov",
+                "Type": "Add",
+                "Scope": "Model",
+                "Value": "3"
+              }
+            ]
+          },
+          {
+            "Key": "stealth adaptation",
+            "DisplayName": "Stealth Adaptation",
+            "Cost": 2,
+            "GrantsAbilities": [
+              "Stealth Adaptation"
+            ],
+            "DatasheetAdjustments": [
+              {
+                "Target": "CoreAbilities",
+                "Type": "Add",
+                "Scope": "Model",
+                "Values": [
+                  "Stealth 12"
+                ]
+              }
+            ]
+          },
+          {
+            "Key": "acid spitter 2",
+            "DisplayName": "Acid Spitter",
+            "Cost": 3,
+            "GrantsWeapons": [
+              "acid spitter"
+            ]
+          },
+          {
+            "Key": "razor claws 2",
+            "DisplayName": "Razor Claws",
+            "Cost": 4,
+            "GrantsWeapons": [
+              "razor claws"
+            ]
+          },
+          {
+            "Key": "spiker 2",
+            "DisplayName": "Spiker",
+            "Cost": 4,
+            "GrantsWeapons": [
+              "spiker"
+            ]
+          },
+          {
+            "Key": "venom bite 2",
+            "DisplayName": "Venom Bite",
+            "Cost": 1,
+            "GrantsWeapons": [
+              "venom bite"
+            ]
+          }
+        ]
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Swift Adaptation",
+          "Text": "This model gains +3 to it's Movement attribute."
+        },
+        {
+          "Title": "Stealth Adaptation",
+          "Text": "This model gains the Stealth 12 special rule."
+        }
+      ],
+      "Infos": [
+        {
+          "Title": "Unit Composition",
+          "Text": "A Drone Clade unit consists of 8-16 Drone models."
+        },
+        {
+          "Title": "Weapons and Equipment",
+          "Text": "Each Drone must be equipped with the same weapon. Drones may be equipped with 1 or 2 weapons from the Standard Weapons list."
+        },
+        {
+          "Title": "Upgrades",
+          "Text": "Every Drone may be upgraded with the Swift Adaptation or the Stealth Adaptation."
+        }
+      ],
+      "Keywords": [
+        "Standard",
+        "Drone Clade"
+      ],
+      "FactionKeywords": [
+        "The Swarm"
+      ],
+      "CoreAbilities": [],
+      "StatLines": [
+        {
+          "StatName": "Drone",
+          "Stats": [
+            {
+              "Id": "Cmd",
+              "Value": "3"
+            },
+            {
+              "Id": "Mov",
+              "Value": "7\""
+            },
+            {
+              "Id": "Skl",
+              "Value": "4+"
+            },
+            {
+              "Id": "Def",
+              "Value": "5+"
+            },
+            {
+              "Id": "Tgh",
+              "Value": "3"
+            },
+            {
+              "Id": "HP",
+              "Value": "1"
+            }
+          ]
+        }
+      ],
+      "Weapons": [
+        {
+          "Id": "STANDARD WEAPONS",
+          "DisplayName": "Standard Weapons",
+          "Weapons": [
+            {
+              "Id": "acid spitter",
+              "DisplayName": "Acid Spitter",
+              "Stats": [
+                {
+                  "Id": "Rng",
+                  "Value": "6\""
+                },
+                {
+                  "Id": "Att",
+                  "Value": "4"
+                },
+                {
+                  "Id": "Dmg",
+                  "Value": "3"
+                },
+                {
+                  "Id": "Prc",
+                  "Value": "2"
+                }
+              ],
+              "Keywords": "Assault"
+            },
+            {
+              "Id": "razor claws",
+              "DisplayName": "Razor Claws",
+              "Stats": [
+                {
+                  "Id": "Rng",
+                  "Value": "1\""
+                },
+                {
+                  "Id": "Att",
+                  "Value": "3"
+                },
+                {
+                  "Id": "Dmg",
+                  "Value": "4"
+                },
+                {
+                  "Id": "Prc",
+                  "Value": "1"
+                }
+              ],
+              "Keywords": "Assault, Rapid Fire 1"
+            },
+            {
+              "Id": "spiker",
+              "DisplayName": "Spiker",
+              "Stats": [
+                {
+                  "Id": "Rng",
+                  "Value": "16\""
+                },
+                {
+                  "Id": "Att",
+                  "Value": "2"
+                },
+                {
+                  "Id": "Dmg",
+                  "Value": "5"
+                },
+                {
+                  "Id": "Prc",
+                  "Value": "1"
+                }
+              ],
+              "Keywords": "Destructive 2"
+            },
+            {
+              "Id": "venom bite",
+              "DisplayName": "Venom Bite",
+              "Stats": [
+                {
+                  "Id": "Rng",
+                  "Value": "1\""
+                },
+                {
+                  "Id": "Att",
+                  "Value": "3"
+                },
+                {
+                  "Id": "Dmg",
+                  "Value": "4"
+                },
+                {
+                  "Id": "Prc",
+                  "Value": "0"
+                }
+              ],
+              "Keywords": "Assault, Shred"
+            }
+          ]
+        }
+      ],
+      "Points": [
+        {
+          "ModelCount": 8,
+          "Cost": 32
+        },
+        {
+          "ModelCount": 9,
+          "Cost": 36
+        },
+        {
+          "ModelCount": 10,
+          "Cost": 40
+        },
+        {
+          "ModelCount": 11,
+          "Cost": 44
+        },
+        {
+          "ModelCount": 12,
+          "Cost": 48
+        },
+        {
+          "ModelCount": 13,
+          "Cost": 52
+        },
+        {
+          "ModelCount": 14,
+          "Cost": 56
+        },
+        {
+          "ModelCount": 15,
+          "Cost": 60
+        },
+        {
+          "ModelCount": 16,
+          "Cost": 64
+        }
+      ]
+    },
+    {
+      "Id": "WARRIOR CLADE",
+      "DisplayName": "Warrior Clade",
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "ModelName": "Warrior",
+            "Limit": {
+              "Min": 2,
+              "Max": 5
+            },
+            "StatlineRef": "Warrior",
+            "Wargear": [
+              {
+                "InitialWargear": [],
+                "Options": [
+                  {
+                    "Options": [
+                      {
+                        "Items": [
+                          "acid spitter"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "razor claws"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "spiker"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "venom bite"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "acidic barrage"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "boneblades"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "Options": [
+                      {
+                        "Items": [
+                          "acid spitter 2"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "razor claws 2"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "spiker 2"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "venom bite 2"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "acidic barrage 2"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "boneblades 2"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "Options": [
+                      {
+                        "Items": [
+                          "ferocity adaptation"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "ModelName": "Warrior (weapon specialist)",
+            "Limit": {
+              "Min": 1,
+              "Max": 1
+            },
+            "StatlineRef": "Warrior",
+            "Wargear": [
+              {
+                "InitialWargear": [],
+                "Options": [
+                  {
+                    "Options": [
+                      {
+                        "Items": [
+                          "acid spitter"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "razor claws"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "spiker"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "venom bite"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "acidic barrage"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "boneblades"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "barbed tentacle"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "bio-plasma cannon"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "gaping maw"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "monstrous claws"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "neural blast"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "spike cannon"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "Options": [
+                      {
+                        "Items": [
+                          "acid spitter 2"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "razor claws 2"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "spiker 2"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "venom bite 2"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "acidic barrage 2"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "boneblades 2"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "Options": [
+                      {
+                        "Items": [
+                          "ferocity adaptation"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": [
+          {
+            "Key": "acid spitter",
+            "DisplayName": "Acid Spitter",
+            "Cost": 3
+          },
+          {
+            "Key": "razor claws",
+            "DisplayName": "Razor Claws",
+            "Cost": 4
+          },
+          {
+            "Key": "spiker",
+            "DisplayName": "Spiker",
+            "Cost": 4
+          },
+          {
+            "Key": "venom bite",
+            "DisplayName": "Venom Bite",
+            "Cost": 1
+          },
+          {
+            "Key": "acidic barrage",
+            "DisplayName": "Acidic Barrage",
+            "Cost": 10
+          },
+          {
+            "Key": "boneblades",
+            "DisplayName": "Boneblades",
+            "Cost": 8
+          },
+          {
+            "Key": "barbed tentacle",
+            "DisplayName": "Barbed Tentacle",
+            "Cost": 10
+          },
+          {
+            "Key": "bio-plasma cannon",
+            "DisplayName": "Bio-plasma Cannon",
+            "Cost": 32
+          },
+          {
+            "Key": "gaping maw",
+            "DisplayName": "Gaping Maw",
+            "Cost": 23
+          },
+          {
+            "Key": "monstrous claws",
+            "DisplayName": "Monstrous Claws",
+            "Cost": 16
+          },
+          {
+            "Key": "neural blast",
+            "DisplayName": "Neural Blast",
+            "Cost": 30
+          },
+          {
+            "Key": "spike cannon",
+            "DisplayName": "Spike Cannon",
+            "Cost": 18
+          },
+          {
+            "Key": "ferocity adaptation",
+            "DisplayName": "Ferocity Adaptation",
+            "Cost": 5,
+            "GrantsAbilities": [
+              "Ferocity Adaptation"
+            ],
+            "DatasheetAdjustments": [
+              {
+                "Target": "CoreAbilities",
+                "Type": "Add",
+                "Scope": "Model",
+                "Values": [
+                  "Skilled"
+                ]
+              }
+            ]
+          },
+          {
+            "Key": "acid spitter 2",
+            "DisplayName": "Acid Spitter",
+            "Cost": 3,
+            "GrantsWeapons": [
+              "acid spitter"
+            ]
+          },
+          {
+            "Key": "razor claws 2",
+            "DisplayName": "Razor Claws",
+            "Cost": 4,
+            "GrantsWeapons": [
+              "razor claws"
+            ]
+          },
+          {
+            "Key": "spiker 2",
+            "DisplayName": "Spiker",
+            "Cost": 4,
+            "GrantsWeapons": [
+              "spiker"
+            ]
+          },
+          {
+            "Key": "venom bite 2",
+            "DisplayName": "Venom Bite",
+            "Cost": 1,
+            "GrantsWeapons": [
+              "venom bite"
+            ]
+          },
+          {
+            "Key": "acidic barrage 2",
+            "DisplayName": "Acidic Barrage",
+            "Cost": 10,
+            "GrantsWeapons": [
+              "acidic barrage"
+            ]
+          },
+          {
+            "Key": "boneblades 2",
+            "DisplayName": "Boneblades",
+            "Cost": 8,
+            "GrantsWeapons": [
+              "boneblades"
+            ]
+          }
+        ]
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Ferocity Adaptation",
+          "Text": "This model gains the Skilled special rule."
+        }
+      ],
+      "Infos": [
+        {
+          "Title": "Unit Composition",
+          "Text": "A Warrior Clade unit consists of between 3 and 6 Warrior models. You may include 1 Warrior Clade unit for every Drone Clade unit in your army."
+        },
+        {
+          "Title": "Weapons and Equipment",
+          "Text": "Each Warrior model must be equipped with the same weapons. You may select up to 2 weapons from the Standard Weapons and Specialist Weapons. 1 Warrior may instead select one of its weapons from the Heavy Weapons list."
+        },
+        {
+          "Title": "Upgrades",
+          "Text": "Every Warrior model may be given the Ferocity Adaptation upgrade."
+        }
+      ],
+      "Keywords": [
+        "Standard",
+        "Warrior Clade"
+      ],
+      "FactionKeywords": [
+        "The Swarm"
+      ],
+      "CoreAbilities": [
+        "Swarm Leader",
+        "Unbreakable"
+      ],
+      "StatLines": [
+        {
+          "StatName": "Warrior",
+          "Stats": [
+            {
+              "Id": "Cmd",
+              "Value": "5"
+            },
+            {
+              "Id": "Mov",
+              "Value": "6\""
+            },
+            {
+              "Id": "Skl",
+              "Value": "4+"
+            },
+            {
+              "Id": "Def",
+              "Value": "4+"
+            },
+            {
+              "Id": "Tgh",
+              "Value": "4"
+            },
+            {
+              "Id": "HP",
+              "Value": "3"
+            }
+          ]
+        }
+      ],
+      "Weapons": [
+        {
+          "Id": "STANDARD WEAPONS",
+          "DisplayName": "Standard Weapons",
+          "Weapons": [
+            {
+              "Id": "acid spitter",
+              "DisplayName": "Acid Spitter",
+              "Stats": [
+                {
+                  "Id": "Rng",
+                  "Value": "6\""
+                },
+                {
+                  "Id": "Att",
+                  "Value": "4"
+                },
+                {
+                  "Id": "Dmg",
+                  "Value": "3"
+                },
+                {
+                  "Id": "Prc",
+                  "Value": "2"
+                }
+              ],
+              "Keywords": "Assault"
+            },
+            {
+              "Id": "razor claws",
+              "DisplayName": "Razor Claws",
+              "Stats": [
+                {
+                  "Id": "Rng",
+                  "Value": "1\""
+                },
+                {
+                  "Id": "Att",
+                  "Value": "3"
+                },
+                {
+                  "Id": "Dmg",
+                  "Value": "4"
+                },
+                {
+                  "Id": "Prc",
+                  "Value": "1"
+                }
+              ],
+              "Keywords": "Assault, Rapid Fire 1"
+            },
+            {
+              "Id": "spiker",
+              "DisplayName": "Spiker",
+              "Stats": [
+                {
+                  "Id": "Rng",
+                  "Value": "16\""
+                },
+                {
+                  "Id": "Att",
+                  "Value": "2"
+                },
+                {
+                  "Id": "Dmg",
+                  "Value": "5"
+                },
+                {
+                  "Id": "Prc",
+                  "Value": "1"
+                }
+              ],
+              "Keywords": "Destructive 2"
+            },
+            {
+              "Id": "venom bite",
+              "DisplayName": "Venom Bite",
+              "Stats": [
+                {
+                  "Id": "Rng",
+                  "Value": "1\""
+                },
+                {
+                  "Id": "Att",
+                  "Value": "3"
+                },
+                {
+                  "Id": "Dmg",
+                  "Value": "4"
+                },
+                {
+                  "Id": "Prc",
+                  "Value": "0"
+                }
+              ],
+              "Keywords": "Assault, Shred"
+            }
+          ]
+        },
+        {
+          "Id": "SPECIALIST WEAPONS",
+          "DisplayName": "Specialist Weapons",
+          "Weapons": [
+            {
+              "Id": "acidic barrage",
+              "DisplayName": "Acidic Barrage",
+              "Stats": [
+                {
+                  "Id": "Rng",
+                  "Value": "12\""
+                },
+                {
+                  "Id": "Att",
+                  "Value": "4"
+                },
+                {
+                  "Id": "Dmg",
+                  "Value": "4"
+                },
+                {
+                  "Id": "Prc",
+                  "Value": "2"
+                }
+              ],
+              "Keywords": "Blast 2, Destructive 2"
+            },
+            {
+              "Id": "boneblades",
+              "DisplayName": "Boneblades",
+              "Stats": [
+                {
+                  "Id": "Rng",
+                  "Value": "1\""
+                },
+                {
+                  "Id": "Att",
+                  "Value": "4"
+                },
+                {
+                  "Id": "Dmg",
+                  "Value": "4"
+                },
+                {
+                  "Id": "Prc",
+                  "Value": "2"
+                }
+              ],
+              "Keywords": "Assault, Rapid Fire 1, Shred"
+            }
+          ]
+        },
+        {
+          "Id": "HEAVY WEAPONS",
+          "DisplayName": "Heavy Weapons",
+          "Weapons": [
+            {
+              "Id": "barbed tentacle",
+              "DisplayName": "Barbed Tentacle",
+              "Stats": [
+                {
+                  "Id": "Rng",
+                  "Value": "2\""
+                },
+                {
+                  "Id": "Att",
+                  "Value": "4"
+                },
+                {
+                  "Id": "Dmg",
+                  "Value": "5"
+                },
+                {
+                  "Id": "Prc",
+                  "Value": "2"
+                }
+              ],
+              "Keywords": "Assault, Destructive 2"
+            },
+            {
+              "Id": "bio-plasma cannon",
+              "DisplayName": "Bio-plasma Cannon",
+              "Stats": [
+                {
+                  "Id": "Rng",
+                  "Value": "24\""
+                },
+                {
+                  "Id": "Att",
+                  "Value": "5"
+                },
+                {
+                  "Id": "Dmg",
+                  "Value": "6"
+                },
+                {
+                  "Id": "Prc",
+                  "Value": "3"
+                }
+              ],
+              "Keywords": "Blast 2, Destructive 2, Indirect, Heavy"
+            },
+            {
+              "Id": "gaping maw",
+              "DisplayName": "Gaping Maw",
+              "Stats": [
+                {
+                  "Id": "Rng",
+                  "Value": "1\""
+                },
+                {
+                  "Id": "Att",
+                  "Value": "3"
+                },
+                {
+                  "Id": "Dmg",
+                  "Value": "8"
+                },
+                {
+                  "Id": "Prc",
+                  "Value": "3"
+                }
+              ],
+              "Keywords": "Assault, Destructive 3, Shred"
+            },
+            {
+              "Id": "monstrous claws",
+              "DisplayName": "Monstrous Claws",
+              "Stats": [
+                {
+                  "Id": "Rng",
+                  "Value": "1\""
+                },
+                {
+                  "Id": "Att",
+                  "Value": "3"
+                },
+                {
+                  "Id": "Dmg",
+                  "Value": "7"
+                },
+                {
+                  "Id": "Prc",
+                  "Value": "3"
+                }
+              ],
+              "Keywords": "Assault, Destructive 3"
+            },
+            {
+              "Id": "neural blast",
+              "DisplayName": "Neural Blast",
+              "Stats": [
+                {
+                  "Id": "Rng",
+                  "Value": "3\""
+                },
+                {
+                  "Id": "Att",
+                  "Value": "6"
+                },
+                {
+                  "Id": "Dmg",
+                  "Value": "4"
+                },
+                {
+                  "Id": "Prc",
+                  "Value": "4"
+                }
+              ],
+              "Keywords": "Assault, Shred, Heavy"
+            },
+            {
+              "Id": "spike cannon",
+              "DisplayName": "Spike Cannon",
+              "Stats": [
+                {
+                  "Id": "Rng",
+                  "Value": "12\""
+                },
+                {
+                  "Id": "Att",
+                  "Value": "3"
+                },
+                {
+                  "Id": "Dmg",
+                  "Value": "6"
+                },
+                {
+                  "Id": "Prc",
+                  "Value": "3"
+                }
+              ],
+              "Keywords": "Heavy"
+            }
+          ]
+        }
+      ],
+      "Points": [
+        {
+          "ModelCount": 3,
+          "Cost": 60
+        },
+        {
+          "ModelCount": 4,
+          "Cost": 80
+        },
+        {
+          "ModelCount": 5,
+          "Cost": 100
+        },
+        {
+          "ModelCount": 6,
+          "Cost": 120
+        }
+      ]
+    },
+    {
+      "Id": "ADAPTIVE DRONE CLADE",
+      "DisplayName": "Adaptive Drone Clade",
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "ModelName": "Adaptive Drone",
+            "Limit": {
+              "Min": 8,
+              "Max": 16
+            },
+            "StatlineRef": "Adaptive Drone",
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "venom bite"
+                ],
+                "Options": [
+                  {
+                    "Options": [
+                      {
+                        "Items": [
+                          "acid spitter"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "razor claws"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "spiker"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "acidic barrage"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "boneblades"
+                        ]
+                      }
+                    ],
+                    "Replaces": [
+                      "venom bite"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      {
+                        "Items": [
+                          "acid spitter 2"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "razor claws 2"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "spiker 2"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "venom bite 2"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "acidic barrage 2"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "boneblades 2"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "Options": [
+                      {
+                        "Items": [
+                          "swift adaptation"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "stealth adaptation"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "armour adaptation"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": [
+          {
+            "Key": "acid spitter",
+            "DisplayName": "Acid Spitter",
+            "Cost": 3
+          },
+          {
+            "Key": "razor claws",
+            "DisplayName": "Razor Claws",
+            "Cost": 4
+          },
+          {
+            "Key": "spiker",
+            "DisplayName": "Spiker",
+            "Cost": 4
+          },
+          {
+            "Key": "venom bite",
+            "DisplayName": "Venom Bite",
+            "Cost": 1
+          },
+          {
+            "Key": "acidic barrage",
+            "DisplayName": "Acidic Barrage",
+            "Cost": 10
+          },
+          {
+            "Key": "boneblades",
+            "DisplayName": "Boneblades",
+            "Cost": 8
+          },
+          {
+            "Key": "swift adaptation",
+            "DisplayName": "Swift Adaptation",
+            "Cost": 2,
+            "GrantsAbilities": [
+              "Swift Adaptation"
+            ],
+            "StatAdjustments": [
+              {
+                "TargetStatId": "Mov",
+                "Type": "Add",
+                "Scope": "Model",
+                "Value": "3"
+              }
+            ]
+          },
+          {
+            "Key": "stealth adaptation",
+            "DisplayName": "Stealth Adaptation",
+            "Cost": 2,
+            "GrantsAbilities": [
+              "Stealth Adaptation"
+            ],
+            "DatasheetAdjustments": [
+              {
+                "Target": "CoreAbilities",
+                "Type": "Add",
+                "Scope": "Model",
+                "Values": [
+                  "Stealth 12"
+                ]
+              }
+            ]
+          },
+          {
+            "Key": "armour adaptation",
+            "DisplayName": "Armour Adaptation",
+            "Cost": 3,
+            "GrantsAbilities": [
+              "Armour Adaptation"
+            ],
+            "DatasheetAdjustments": [
+              {
+                "Target": "CoreAbilities",
+                "Type": "Add",
+                "Scope": "Model",
+                "Values": [
+                  "Resilient"
+                ]
+              }
+            ]
+          },
+          {
+            "Key": "acid spitter 2",
+            "DisplayName": "Acid Spitter",
+            "Cost": 3,
+            "GrantsWeapons": [
+              "acid spitter"
+            ]
+          },
+          {
+            "Key": "razor claws 2",
+            "DisplayName": "Razor Claws",
+            "Cost": 4,
+            "GrantsWeapons": [
+              "razor claws"
+            ]
+          },
+          {
+            "Key": "spiker 2",
+            "DisplayName": "Spiker",
+            "Cost": 4,
+            "GrantsWeapons": [
+              "spiker"
+            ]
+          },
+          {
+            "Key": "venom bite 2",
+            "DisplayName": "Venom Bite",
+            "Cost": 1,
+            "GrantsWeapons": [
+              "venom bite"
+            ]
+          },
+          {
+            "Key": "acidic barrage 2",
+            "DisplayName": "Acidic Barrage",
+            "Cost": 10,
+            "GrantsWeapons": [
+              "acidic barrage"
+            ]
+          },
+          {
+            "Key": "boneblades 2",
+            "DisplayName": "Boneblades",
+            "Cost": 8,
+            "GrantsWeapons": [
+              "boneblades"
+            ]
+          }
+        ]
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Swift Adaptation",
+          "Text": "This model gains +3 to it's Movement attribute."
+        },
+        {
+          "Title": "Stealth Adaptation",
+          "Text": "This model gains the Stealth 12 special rule."
+        },
+        {
+          "Title": "Armour Adaptation",
+          "Text": "This model gains the Resilient special rule."
+        }
+      ],
+      "Infos": [
+        {
+          "Title": "Unit Composition",
+          "Text": "An Adaptive Drone Clade unit consists of 8-16 Adaptive Drone models."
+        },
+        {
+          "Title": "Weapons and Equipment",
+          "Text": "Each Adaptive Drone must be equipped with the same weapon. Adaptive Drones may be equipped with 1 or 2 weapons from the Standard Weapons or Specialist Weapons lists."
+        },
+        {
+          "Title": "Upgrades",
+          "Text": "Every Adaptive Drone may be upgraded with the Swift Adaptation, Stealth Adaptation, or Armour Adaptation upgrade."
+        }
+      ],
+      "Keywords": [
+        "Specialist",
+        "Adaptive Drone Clade"
+      ],
+      "FactionKeywords": [
+        "The Swarm"
+      ],
+      "CoreAbilities": [],
+      "StatLines": [
+        {
+          "StatName": "Adaptive Drone",
+          "Stats": [
+            {
+              "Id": "Cmd",
+              "Value": "4"
+            },
+            {
+              "Id": "Mov",
+              "Value": "6\""
+            },
+            {
+              "Id": "Skl",
+              "Value": "3+"
+            },
+            {
+              "Id": "Def",
+              "Value": "4+"
+            },
+            {
+              "Id": "Tgh",
+              "Value": "4"
+            },
+            {
+              "Id": "HP",
+              "Value": "1"
+            }
+          ]
+        }
+      ],
+      "Weapons": [
+        {
+          "Id": "STANDARD WEAPONS",
+          "DisplayName": "Standard Weapons",
+          "Weapons": [
+            {
+              "Id": "acid spitter",
+              "DisplayName": "Acid Spitter",
+              "Stats": [
+                {
+                  "Id": "Rng",
+                  "Value": "6\""
+                },
+                {
+                  "Id": "Att",
+                  "Value": "4"
+                },
+                {
+                  "Id": "Dmg",
+                  "Value": "3"
+                },
+                {
+                  "Id": "Prc",
+                  "Value": "2"
+                }
+              ],
+              "Keywords": "Assault"
+            },
+            {
+              "Id": "razor claws",
+              "DisplayName": "Razor Claws",
+              "Stats": [
+                {
+                  "Id": "Rng",
+                  "Value": "1\""
+                },
+                {
+                  "Id": "Att",
+                  "Value": "3"
+                },
+                {
+                  "Id": "Dmg",
+                  "Value": "4"
+                },
+                {
+                  "Id": "Prc",
+                  "Value": "1"
+                }
+              ],
+              "Keywords": "Assault, Rapid Fire 1"
+            },
+            {
+              "Id": "spiker",
+              "DisplayName": "Spiker",
+              "Stats": [
+                {
+                  "Id": "Rng",
+                  "Value": "16\""
+                },
+                {
+                  "Id": "Att",
+                  "Value": "2"
+                },
+                {
+                  "Id": "Dmg",
+                  "Value": "5"
+                },
+                {
+                  "Id": "Prc",
+                  "Value": "1"
+                }
+              ],
+              "Keywords": "Destructive 2"
+            },
+            {
+              "Id": "venom bite",
+              "DisplayName": "Venom Bite",
+              "Stats": [
+                {
+                  "Id": "Rng",
+                  "Value": "1\""
+                },
+                {
+                  "Id": "Att",
+                  "Value": "3"
+                },
+                {
+                  "Id": "Dmg",
+                  "Value": "4"
+                },
+                {
+                  "Id": "Prc",
+                  "Value": "0"
+                }
+              ],
+              "Keywords": "Assault, Shred"
+            }
+          ]
+        },
+        {
+          "Id": "SPECIALIST WEAPONS",
+          "DisplayName": "Specialist Weapons",
+          "Weapons": [
+            {
+              "Id": "acidic barrage",
+              "DisplayName": "Acidic Barrage",
+              "Stats": [
+                {
+                  "Id": "Rng",
+                  "Value": "12\""
+                },
+                {
+                  "Id": "Att",
+                  "Value": "4"
+                },
+                {
+                  "Id": "Dmg",
+                  "Value": "4"
+                },
+                {
+                  "Id": "Prc",
+                  "Value": "2"
+                }
+              ],
+              "Keywords": "Blast 2, Destructive 2"
+            },
+            {
+              "Id": "boneblades",
+              "DisplayName": "Boneblades",
+              "Stats": [
+                {
+                  "Id": "Rng",
+                  "Value": "1\""
+                },
+                {
+                  "Id": "Att",
+                  "Value": "4"
+                },
+                {
+                  "Id": "Dmg",
+                  "Value": "4"
+                },
+                {
+                  "Id": "Prc",
+                  "Value": "2"
+                }
+              ],
+              "Keywords": "Assault, Rapid Fire 1, Shred"
+            }
+          ]
+        }
+      ],
+      "Points": [
+        {
+          "ModelCount": 8,
+          "Cost": 72
+        },
+        {
+          "ModelCount": 9,
+          "Cost": 81
+        },
+        {
+          "ModelCount": 10,
+          "Cost": 90
+        },
+        {
+          "ModelCount": 11,
+          "Cost": 99
+        },
+        {
+          "ModelCount": 12,
+          "Cost": 108
+        },
+        {
+          "ModelCount": 13,
+          "Cost": 117
+        },
+        {
+          "ModelCount": 14,
+          "Cost": 126
+        },
+        {
+          "ModelCount": 15,
+          "Cost": 135
+        },
+        {
+          "ModelCount": 16,
+          "Cost": 144
+        }
+      ]
+    },
+    {
+      "Id": "BRUTE CLADE",
+      "DisplayName": "Brute Clade",
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "ModelName": "Brute",
+            "Limit": {
+              "Min": 1,
+              "Max": 1
+            },
+            "StatlineRef": "Brute",
+            "Wargear": [
+              {
+                "InitialWargear": [],
+                "Options": [
+                  {
+                    "Options": [
+                      {
+                        "Items": [
+                          "barbed tentacle"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "bio-plasma cannon"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "gaping maw"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "monstrous claws"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "neural blast"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "spike cannon"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "Options": [
+                      {
+                        "Items": [
+                          "acid spitter"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "razor claws"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "spiker"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "venom bite"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "acidic barrage"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "boneblades"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "Options": [
+                      {
+                        "Items": [
+                          "acid spitter 2"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "razor claws 2"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "spiker 2"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "venom bite 2"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "acidic barrage 2"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "boneblades 2"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "Options": [
+                      {
+                        "Items": [
+                          "regeneration adaptation"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": [
+          {
+            "Key": "acid spitter",
+            "DisplayName": "Acid Spitter",
+            "Cost": 3
+          },
+          {
+            "Key": "razor claws",
+            "DisplayName": "Razor Claws",
+            "Cost": 4
+          },
+          {
+            "Key": "spiker",
+            "DisplayName": "Spiker",
+            "Cost": 4
+          },
+          {
+            "Key": "venom bite",
+            "DisplayName": "Venom Bite",
+            "Cost": 1
+          },
+          {
+            "Key": "acidic barrage",
+            "DisplayName": "Acidic Barrage",
+            "Cost": 10
+          },
+          {
+            "Key": "boneblades",
+            "DisplayName": "Boneblades",
+            "Cost": 8
+          },
+          {
+            "Key": "barbed tentacle",
+            "DisplayName": "Barbed Tentacle",
+            "Cost": 10
+          },
+          {
+            "Key": "bio-plasma cannon",
+            "DisplayName": "Bio-plasma Cannon",
+            "Cost": 32
+          },
+          {
+            "Key": "gaping maw",
+            "DisplayName": "Gaping Maw",
+            "Cost": 23
+          },
+          {
+            "Key": "monstrous claws",
+            "DisplayName": "Monstrous Claws",
+            "Cost": 16
+          },
+          {
+            "Key": "neural blast",
+            "DisplayName": "Neural Blast",
+            "Cost": 30
+          },
+          {
+            "Key": "spike cannon",
+            "DisplayName": "Spike Cannon",
+            "Cost": 18
+          },
+          {
+            "Key": "regeneration adaptation",
+            "DisplayName": "Regeneration Adaptation",
+            "Cost": 20,
+            "GrantsAbilities": [
+              "Regeneration Adaptation"
+            ]
+          },
+          {
+            "Key": "acid spitter 2",
+            "DisplayName": "Acid Spitter",
+            "Cost": 3,
+            "GrantsWeapons": [
+              "acid spitter"
+            ]
+          },
+          {
+            "Key": "razor claws 2",
+            "DisplayName": "Razor Claws",
+            "Cost": 4,
+            "GrantsWeapons": [
+              "razor claws"
+            ]
+          },
+          {
+            "Key": "spiker 2",
+            "DisplayName": "Spiker",
+            "Cost": 4,
+            "GrantsWeapons": [
+              "spiker"
+            ]
+          },
+          {
+            "Key": "venom bite 2",
+            "DisplayName": "Venom Bite",
+            "Cost": 1,
+            "GrantsWeapons": [
+              "venom bite"
+            ]
+          },
+          {
+            "Key": "acidic barrage 2",
+            "DisplayName": "Acidic Barrage",
+            "Cost": 10,
+            "GrantsWeapons": [
+              "acidic barrage"
+            ]
+          },
+          {
+            "Key": "boneblades 2",
+            "DisplayName": "Boneblades",
+            "Cost": 8,
+            "GrantsWeapons": [
+              "boneblades"
+            ]
+          }
+        ]
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Regeneration Adaptation",
+          "Text": "At the start of every round, roll a d6 for this model. On a roll of 3+ it regenerates 1 lost hit point."
+        }
+      ],
+      "Infos": [
+        {
+          "Title": "Unit Composition",
+          "Text": "A Brute Clade unit consists of 1 Brute model."
+        },
+        {
+          "Title": "Weapons and Equipment",
+          "Text": "A Brute may select 1 weapon from the Heavy Weapons list and up to 2 weapons from the Standard Weapons and Specialist Weapons lists."
+        },
+        {
+          "Title": "Upgrades",
+          "Text": "This model may take the Regenerative Adaptation upgrade."
+        }
+      ],
+      "Keywords": [
+        "Specialist",
+        "Brute Clade"
+      ],
+      "FactionKeywords": [
+        "The Swarm"
+      ],
+      "CoreAbilities": [
+        "Platform 1",
+        "Steady"
+      ],
+      "StatLines": [
+        {
+          "StatName": "Brute",
+          "Stats": [
+            {
+              "Id": "Cmd",
+              "Value": "6"
+            },
+            {
+              "Id": "Mov",
+              "Value": "6\""
+            },
+            {
+              "Id": "Skl",
+              "Value": "3+"
+            },
+            {
+              "Id": "Def",
+              "Value": "2+"
+            },
+            {
+              "Id": "Tgh",
+              "Value": "7"
+            },
+            {
+              "Id": "HP",
+              "Value": "8"
+            }
+          ]
+        }
+      ],
+      "Weapons": [
+        {
+          "Id": "STANDARD WEAPONS",
+          "DisplayName": "Standard Weapons",
+          "Weapons": [
+            {
+              "Id": "acid spitter",
+              "DisplayName": "Acid Spitter",
+              "Stats": [
+                {
+                  "Id": "Rng",
+                  "Value": "6\""
+                },
+                {
+                  "Id": "Att",
+                  "Value": "4"
+                },
+                {
+                  "Id": "Dmg",
+                  "Value": "3"
+                },
+                {
+                  "Id": "Prc",
+                  "Value": "2"
+                }
+              ],
+              "Keywords": "Assault"
+            },
+            {
+              "Id": "razor claws",
+              "DisplayName": "Razor Claws",
+              "Stats": [
+                {
+                  "Id": "Rng",
+                  "Value": "1\""
+                },
+                {
+                  "Id": "Att",
+                  "Value": "3"
+                },
+                {
+                  "Id": "Dmg",
+                  "Value": "4"
+                },
+                {
+                  "Id": "Prc",
+                  "Value": "1"
+                }
+              ],
+              "Keywords": "Assault, Rapid Fire 1"
+            },
+            {
+              "Id": "spiker",
+              "DisplayName": "Spiker",
+              "Stats": [
+                {
+                  "Id": "Rng",
+                  "Value": "16\""
+                },
+                {
+                  "Id": "Att",
+                  "Value": "2"
+                },
+                {
+                  "Id": "Dmg",
+                  "Value": "5"
+                },
+                {
+                  "Id": "Prc",
+                  "Value": "1"
+                }
+              ],
+              "Keywords": "Destructive 2"
+            },
+            {
+              "Id": "venom bite",
+              "DisplayName": "Venom Bite",
+              "Stats": [
+                {
+                  "Id": "Rng",
+                  "Value": "1\""
+                },
+                {
+                  "Id": "Att",
+                  "Value": "3"
+                },
+                {
+                  "Id": "Dmg",
+                  "Value": "4"
+                },
+                {
+                  "Id": "Prc",
+                  "Value": "0"
+                }
+              ],
+              "Keywords": "Assault, Shred"
+            }
+          ]
+        },
+        {
+          "Id": "SPECIALIST WEAPONS",
+          "DisplayName": "Specialist Weapons",
+          "Weapons": [
+            {
+              "Id": "acidic barrage",
+              "DisplayName": "Acidic Barrage",
+              "Stats": [
+                {
+                  "Id": "Rng",
+                  "Value": "12\""
+                },
+                {
+                  "Id": "Att",
+                  "Value": "4"
+                },
+                {
+                  "Id": "Dmg",
+                  "Value": "4"
+                },
+                {
+                  "Id": "Prc",
+                  "Value": "2"
+                }
+              ],
+              "Keywords": "Blast 2, Destructive 2"
+            },
+            {
+              "Id": "boneblades",
+              "DisplayName": "Boneblades",
+              "Stats": [
+                {
+                  "Id": "Rng",
+                  "Value": "1\""
+                },
+                {
+                  "Id": "Att",
+                  "Value": "4"
+                },
+                {
+                  "Id": "Dmg",
+                  "Value": "4"
+                },
+                {
+                  "Id": "Prc",
+                  "Value": "2"
+                }
+              ],
+              "Keywords": "Assault, Rapid Fire 1, Shred"
+            }
+          ]
+        },
+        {
+          "Id": "HEAVY WEAPONS",
+          "DisplayName": "Heavy Weapons",
+          "Weapons": [
+            {
+              "Id": "barbed tentacle",
+              "DisplayName": "Barbed Tentacle",
+              "Stats": [
+                {
+                  "Id": "Rng",
+                  "Value": "2\""
+                },
+                {
+                  "Id": "Att",
+                  "Value": "4"
+                },
+                {
+                  "Id": "Dmg",
+                  "Value": "5"
+                },
+                {
+                  "Id": "Prc",
+                  "Value": "2"
+                }
+              ],
+              "Keywords": "Assault, Destructive 2"
+            },
+            {
+              "Id": "bio-plasma cannon",
+              "DisplayName": "Bio-plasma Cannon",
+              "Stats": [
+                {
+                  "Id": "Rng",
+                  "Value": "24\""
+                },
+                {
+                  "Id": "Att",
+                  "Value": "5"
+                },
+                {
+                  "Id": "Dmg",
+                  "Value": "6"
+                },
+                {
+                  "Id": "Prc",
+                  "Value": "3"
+                }
+              ],
+              "Keywords": "Blast 2, Destructive 2, Indirect, Heavy"
+            },
+            {
+              "Id": "gaping maw",
+              "DisplayName": "Gaping Maw",
+              "Stats": [
+                {
+                  "Id": "Rng",
+                  "Value": "1\""
+                },
+                {
+                  "Id": "Att",
+                  "Value": "3"
+                },
+                {
+                  "Id": "Dmg",
+                  "Value": "8"
+                },
+                {
+                  "Id": "Prc",
+                  "Value": "3"
+                }
+              ],
+              "Keywords": "Assault, Destructive 3, Shred"
+            },
+            {
+              "Id": "monstrous claws",
+              "DisplayName": "Monstrous Claws",
+              "Stats": [
+                {
+                  "Id": "Rng",
+                  "Value": "1\""
+                },
+                {
+                  "Id": "Att",
+                  "Value": "3"
+                },
+                {
+                  "Id": "Dmg",
+                  "Value": "7"
+                },
+                {
+                  "Id": "Prc",
+                  "Value": "3"
+                }
+              ],
+              "Keywords": "Assault, Destructive 3"
+            },
+            {
+              "Id": "neural blast",
+              "DisplayName": "Neural Blast",
+              "Stats": [
+                {
+                  "Id": "Rng",
+                  "Value": "3\""
+                },
+                {
+                  "Id": "Att",
+                  "Value": "6"
+                },
+                {
+                  "Id": "Dmg",
+                  "Value": "4"
+                },
+                {
+                  "Id": "Prc",
+                  "Value": "4"
+                }
+              ],
+              "Keywords": "Assault, Shred, Heavy"
+            },
+            {
+              "Id": "spike cannon",
+              "DisplayName": "Spike Cannon",
+              "Stats": [
+                {
+                  "Id": "Rng",
+                  "Value": "12\""
+                },
+                {
+                  "Id": "Att",
+                  "Value": "3"
+                },
+                {
+                  "Id": "Dmg",
+                  "Value": "6"
+                },
+                {
+                  "Id": "Prc",
+                  "Value": "3"
+                }
+              ],
+              "Keywords": "Heavy"
+            }
+          ]
+        }
+      ],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 140
+        }
+      ]
+    }
+  ],
+  "ArmyRules": [
+    {
+      "Title": "About The Swarm",
+      "Text": "Driven by an unknowable intelligence to expand their territory and eradicate all other life, the creatures of the Swarm are an ever present threat."
+    },
+    {
+      "Title": "Building an Army",
+      "Text": "Building your army for Fracture is simple, players agree a maximum number of points then choose their units from a suitable army list, ensuring the total points cost for their models, weapons, and equipment don't exceed that maximum. Each army list is designed to reflect a certain type of faction rather than one single entity, choose the one that best suits your chosen miniatures and play style.\n\nIn addition to the maximum points each player can spend there are also 3 categories of unit; Command, Standard, and Specialist. An army must be at least 25% (by points) Standard models, no more than 25% Command models, and no more than 50% Specialist models.\n\nRecommended points for games of Fracture are 500-1000 points for smaller games which can be played on a 3ft by 4ft battlefield and up to 2000 for larger games with a larger battlefield."
+    },
+    {
+      "Title": "Roster Restrictions",
+      "Text": "Check the source Unit Composition and Weapons and Equipment notes when building an army. Army category percentages, one-per-army limits across variants, transport ratios, unique weapons, and matching equipment or upgrades across squad models require manual checking."
+    },
+    {
+      "Title": "Attribution",
+      "Text": "Fracture and the Cadence Wargame System by Open Source Tabletop (https://cadence.games; https://github.com/open-source-tabletop/fracture), licensed under Creative Commons Attribution 4.0 (https://creativecommons.org/licenses/by/4.0/)."
+    }
+  ]
+}
